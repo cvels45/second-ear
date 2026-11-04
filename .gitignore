@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+uv.lock.bak
+# models, audio, and third-party data live outside the repo (../data); never commit them
+*.wav
+*.mp3
+*.onnx
+*.bin
+*.safetensors
+tts/models/
+tts/.venv/
+tts_parler/.venv/

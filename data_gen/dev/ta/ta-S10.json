@@ -1,0 +1,187 @@
+{
+ "dialogue_id": "ta-S10",
+ "lang": "ta",
+ "scenario_id": "S10",
+ "slots": {
+  "NAME": "Sivakumar Rasiah",
+  "CITY": "Trincomalee",
+  "GROUP": "Karuppu Padai"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "ta:m2",
+  "I": {
+   "ta": "ta:f2",
+   "en": "ta:f2"
+  }
+ },
+ "lines": {
+  "1": {
+   "q": "பதிவுக்காக உங்கள் பெயரைச் சொல்லுங்கள்.",
+   "a": "என் பெயர் சிவகுமார் இராசையா."
+  },
+  "2": {
+   "q": "நீங்கள் என்ன வேலை செய்தீர்கள்?",
+   "a": "நான் திருகோணமலையில் ஒரு பேருந்து நிறுவனத்தில் ஆறு ஆண்டுகள் ஓட்டுநராக இருந்தேன்."
+  },
+  "3": {
+   "q": "முதல் அழைப்பு எப்போது வந்தது?",
+   "a": "இரண்டாயிரத்து இருபத்திரண்டு மே மூன்றாம் தேதி, இரவு சுமார் பதினொரு மணிக்கு."
+  },
+  "4": {
+   "q": "அழைத்தவர் என்ன சொன்னார்?",
+   "a": [
+    "நான் ஆயிரம் டாலர் போர் வரி கட்ட வேண்டும் என்றார்.",
+    "கட்டாவிட்டால், என்னையும் சேர்த்து என் பேருந்தை எரித்துவிடுவோம் என்றார்."
+   ]
+  },
+  "5": {
+   "q": "உங்களுக்கு எத்தனை அழைப்புகள் வந்தன?",
+   "a": "மொத்தம் ஐந்து அழைப்புகள், இரண்டு மாதங்களில். கடைசி அழைப்பு ஜூலையில் வந்தது."
+  },
+  "6": {
+   "q": "ஜூலை ஒன்பதாம் தேதி இரவு என்ன நடந்தது?",
+   "a": [
+    "இரண்டாவது முறையாக என் பேருந்தை நிறுத்தினார்கள். துப்பாக்கிகளுடன் இரண்டு ஆட்கள் ஏறினார்கள்.",
+    "பயணிகளிடமிருந்து பணத்தை எடுத்துக்கொண்டு, துப்பாக்கியால் என் முகத்தில் அடித்தார்கள்."
+   ]
+  },
+  "7": {
+   "q": "அவர்கள் உங்கள் பேருந்தை நிறுத்தியதாக முன்பு சொன்னீர்கள். அதுதான் முதல் முறையா?",
+   "a": "இல்லை, அது இரண்டாவது முறை. முதல் முறை ஜூனில், ஆனால் அந்த முறை மிரட்டினார்கள் மட்டுமே."
+  },
+  "8": {
+   "q": "அந்த ஆட்களை அடையாளம் கண்டீர்களா?",
+   "a": "அவர்களுடைய பெயர்கள் எனக்குத் தெரியாது, ஆனால் அவர்கள் கருப்புப் படையைச் சேர்ந்தவர்கள் என்று நினைக்கிறேன். அவர்களிடம் ஒரே மாதிரியான பச்சை குத்தல்கள் இருந்தன."
+  },
+  "9": {
+   "q": "உங்கள் முதலாளி ஏதாவது செய்தாரா?",
+   "a": "நிறுவனம் ஏற்கனவே அந்தக் கும்பலுக்குப் பணம் கொடுக்கிறது என்றும், நான் பிரச்சினை செய்யக்கூடாது என்றும் என் முதலாளி சொன்னார்."
+  },
+  "10": {
+   "q": "நீங்கள் உங்கள் நாட்டை விட்டு எப்போது வெளியேறினீர்கள்?",
+   "a": "இரண்டாவது தாக்குதலுக்கு மூன்று வாரங்கள் கழித்து, இரண்டாயிரத்து இருபத்திரண்டு ஆகஸ்ட் தொடக்கத்தில்."
+  }
+ },
+ "plants": [
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "Two times they stopped my bus. Two men got on with guns.",
+   "src_span": "இரண்டாவது முறையாக",
+   "say_span": "Two times",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "yes_no_reversal",
+   "say": "Yes, that was the first time. In June they only threatened me.",
+   "src_span": "இல்லை, அது இரண்டாவது முறை",
+   "say_span": "Yes, that was the first time",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "He said that I had to pay a war tax of ten thousand dollars.",
+   "src_span": "ஆயிரம் டாலர்",
+   "say_span": "ten thousand dollars",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "On the thirteenth of May 2022, at about eleven at night.",
+   "src_span": "மூன்றாம் தேதி",
+   "say_span": "thirteenth",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "I did not know their names, but they were from the Karuppu Padai. They had the same tattoos.",
+   "src_span": "என்று நினைக்கிறேன்",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "omission",
+   "say": "My boss said that I should not make problems.",
+   "src_span": "நிறுவனம் ஏற்கனவே அந்தக் கும்பலுக்குப் பணம் கொடுக்கிறது",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "நீங்கள் எங்கே வேலை செய்தீர்கள்?",
+   "src_span": "What did you do for work?",
+   "say_span": "எங்கே",
+   "severity": "minor",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Five calls altogether, over two months. The last one came in July.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Three weeks after the second attack, early in August 2022.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 1,
+   "type": "acceptable",
+   "say": "They took the passengers' money and struck me in the face with a gun.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that the bus was stopped two times and that the July stop was the first. His testimony about the number and order of the attacks is inconsistent.",
+  "cites_x": [
+   6,
+   7
+  ]
+ }
+}

@@ -1,0 +1,58 @@
+[project]
+name = "second-ear"
+version = "0.1.0"
+description = "AI check interpreter: flags meaning-level interpreting errors in hearing recordings"
+readme = "README.md"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+    "openai>=2.30",
+    "httpx>=0.28",
+    "websockets>=15.0",
+    "pydantic>=2.11",
+    "python-dotenv>=1.1",
+    "numpy>=2.3",
+    "soundfile>=0.13",
+    "huggingface-hub>=1.0",
+    "rich>=14.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4",
+    "ruff>=0.14",
+]
+# Local GPU models (Omnilingual port, LaBSE). Install with: uv sync --group gpu
+gpu = [
+    "torch>=2.14",
+    "transformers>=4.57",
+]
+
+# Live mode microphone input and speaker playback (scripts/live.py --mic / --play)
+live = [
+    "sounddevice>=0.5",
+]
+
+[tool.uv]
+default-groups = ["dev", "gpu", "live"]  # torch + transformers for LaBSE pairing; sounddevice for live mode
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu130", marker = "sys_platform != 'darwin'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/second_ear"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py314"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

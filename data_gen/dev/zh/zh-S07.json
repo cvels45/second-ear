@@ -1,0 +1,185 @@
+{
+ "dialogue_id": "zh-S07",
+ "lang": "zh",
+ "scenario_id": "S07",
+ "slots": {
+  "NAME": "Huang Zhiqiang",
+  "BORDER_TOWN": "Ciudad Juárez",
+  "US_CITY": "New York",
+  "COUNTRY": "China"
+ },
+ "voices": {
+  "J": "am_michael",
+  "D": "am_fenrir",
+  "R": "af_bella",
+  "A": "zh:m1",
+  "I": {
+   "zh": "zh:f1",
+   "en": "zf_xiaoxiao"
+  }
+ },
+ "lines": {
+  "1": {
+   "q": "请说出您的全名。",
+   "a": "我叫黄志强。"
+  },
+  "2": {
+   "q": "这是您第一次来美国吗？",
+   "a": "不是。这是我第二次来。第一次是二〇一五年。"
+  },
+  "3": {
+   "q": "二〇一五年您是怎么入境的？",
+   "a": "我在华雷斯城附近过了河。两天以后移民局抓到了我。"
+  },
+  "4": {
+   "q": "那次您被遣返了吗？",
+   "a": "是的，二〇一五年八月我被遣返了，大概是被抓以后三个星期。"
+  },
+  "5": {
+   "q": "您是什么时候再次入境的？",
+   "a": "二〇二二年十一月。我入境的时候没有被抓到，然后去纽约跟我舅舅一起住。"
+  },
+  "6": {
+   "q": "您在美国有没有被逮捕过？",
+   "a": [
+    "有一次，二〇二三年，因为无照驾驶。",
+    "我交了罚款，法官就结案了。"
+   ]
+  },
+  "7": {
+   "q": "您有工作吗？",
+   "a": "有，我在建筑工地工作，一个星期五天。一个星期大概挣八百美元。"
+  },
+  "8": {
+   "q": "有谁靠您养活？",
+   "a": "我妻子和我三个孩子，他们在中国。我每个月给他们寄钱。"
+  },
+  "9": {
+   "q": "如果您被释放，您会住在哪里？",
+   "a": "住在纽约我舅舅家。他是永久居民，他会陪我参加每一次听证。"
+  },
+  "10": {
+   "q": "您明白如果您错过一次听证，法院可以下令把您遣返吗？",
+   "a": "明白。我会参加每一次听证。"
+  }
+ },
+ "plants": [
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "yes_no_reversal",
+   "say": "Yes. This is my second time. The first time was in 2015.",
+   "src_span": "不是",
+   "say_span": "Yes",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "Yes, I was deported in August 2015, about three months after they caught me.",
+   "src_span": "三个星期",
+   "say_span": "three months",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "legal_term",
+   "say": "Once, in 2023, I was charged with a crime for driving without a license.",
+   "src_span": "因为无照驾驶",
+   "say_span": "charged with a crime",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "My wife and my two children in China. I send them money every month.",
+   "src_span": "三个孩子",
+   "say_span": "two children",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "name",
+   "say": "At my uncle's house in New Jersey. He is a permanent resident, and he will come to every hearing with me.",
+   "src_span": "纽约",
+   "say_span": "New Jersey",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "omission",
+   "say": "In November 2022. I went to live with my uncle in New York.",
+   "src_span": "我入境的时候没有被抓到",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "您明白如果您错过一次听证，就会被罚款吗？",
+   "src_span": "ordered removed",
+   "say_span": "被罚款",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "I crossed the river near Ciudad Juárez, and immigration caught me two days later.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Yes, in construction, five days a week. I make around eight hundred dollars weekly.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "谁需要靠您生活？",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "decision": {
+  "text": "The respondent first answered that this is his first time in the United States, then described a prior entry. His account of his history is inconsistent, and the court finds that he has not shown he is not a flight risk.",
+  "cites_x": [
+   2,
+   4
+  ]
+ }
+}

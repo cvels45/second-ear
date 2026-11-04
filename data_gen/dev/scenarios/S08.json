@@ -1,0 +1,80 @@
+{
+ "scenario_id": "S08",
+ "setting": "merits_hearing",
+ "title": "Farmland, a fire, and a witness",
+ "speakers": {
+  "J": "judge",
+  "R": "respondent_attorney",
+  "D": "dhs_attorney",
+  "A": "applicant",
+  "I": "interpreter"
+ },
+ "exchanges": [
+  {
+   "x": 1,
+   "q_by": "J",
+   "q": "Your name, please.",
+   "a": "My name is {NAME}."
+  },
+  {
+   "x": 2,
+   "q_by": "R",
+   "q": "Where is your village?",
+   "a": "My village is {VILLAGE}. It is about forty kilometers from {CITY}."
+  },
+  {
+   "x": 3,
+   "q_by": "R",
+   "q": "What did your family own?",
+   "a": "We had farmland, about five acres, where we grew rice and vegetables."
+  },
+  {
+   "x": 4,
+   "q_by": "R",
+   "q": "Who tried to take your land?",
+   "a": [
+    "Men who work for a local leader, {LEADER}.",
+    "They wanted the land for a factory. They offered a very low price, and my father refused."
+   ]
+  },
+  {
+   "x": 5,
+   "q_by": "R",
+   "q": "What happened after your father refused?",
+   "a": "In April 2021 they burned our house at night. My father and I got out, but my uncle was injured."
+  },
+  {
+   "x": 6,
+   "q_by": "R",
+   "q": "Did you see who burned the house?",
+   "a": "I saw three men running toward the road. I recognized one of them; he was the driver of {LEADER}."
+  },
+  {
+   "x": 7,
+   "q_by": "D",
+   "q": "How long did you stay in the village after the fire?",
+   "a": "Only one week. Then we went to my aunt's house in another district for six months."
+  },
+  {
+   "x": 8,
+   "q_by": "D",
+   "q": "Why didn't you stay at your aunt's house?",
+   "a": "Because the same men came there and asked the neighbors about us. My aunt was afraid."
+  },
+  {
+   "x": 9,
+   "q_by": "D",
+   "q": "Did you go to the police about the fire?",
+   "a": [
+    "My father went the next day.",
+    "The police said that it was an accident and closed the case without investigating."
+   ]
+  },
+  {
+   "x": 10,
+   "q_by": "J",
+   "q": "What do you think would happen if you returned?",
+   "a": "I think they would hurt me, maybe kill me, because I am the one who saw the driver."
+  }
+ ]
+}

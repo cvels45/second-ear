@@ -1,0 +1,194 @@
+{
+ "dialogue_id": "es-S01",
+ "lang": "es",
+ "scenario_id": "S01",
+ "slots": {
+  "NAME": "Mario Ríos Lemus",
+  "CITY": "Masaya",
+  "COUNTRY": "Nicaragua",
+  "PARTY": "Civic Popular Movement",
+  "BROTHER": "Julio"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "em_alex",
+  "I": "ef_dora"
+ },
+ "lines": {
+  "1": {
+   "q": "Por favor, diga su nombre completo para que conste en el acta.",
+   "a": "Me llamo Mario Ríos Lemus."
+  },
+  "2": {
+   "q": "¿Dónde vivía antes de venir a los Estados Unidos?",
+   "a": "Vivía en Masaya, con mi esposa y nuestras dos hijas."
+  },
+  "3": {
+   "q": "¿A qué organización pertenecía?",
+   "a": "Era miembro del Movimiento Cívico Popular. Me uní en 2016, y organizaba reuniones en mi barrio."
+  },
+  "4": {
+   "q": "¿Qué pasó el día de la marcha?",
+   "a": [
+    "El doce de marzo de 2021 marchamos hacia la alcaldía. La policía llegó como a mediodía.",
+    "Nos arrestaron a mí y a mi hermano Julio. Nos tuvieron tres días sin comida."
+   ]
+  },
+  "5": {
+   "q": "¿Cuántas veces lo arrestaron en total?",
+   "a": "Tres veces. La segunda vez fue en junio de 2021, y la tercera en enero de 2022."
+  },
+  "6": {
+   "q": "¿Qué pasó durante el tercer arresto?",
+   "a": [
+    "Dos policías me llevaron a la estación de noche. Me golpearon con palos y me dijeron que me matarían si seguía organizando.",
+    "Creo que había cinco o seis presos más ahí, pero no estoy seguro."
+   ]
+  },
+  "7": {
+   "q": "¿Denunció alguno de estos arrestos ante alguien?",
+   "a": "No. No los denuncié, porque los que me arrestaron eran los policías."
+  },
+  "8": {
+   "q": "¿Alguien de su familia recibió amenazas después de que usted se fue?",
+   "a": "Sí. Mi esposa recibió dos cartas en nuestra casa. Una decía que me estaban buscando."
+  },
+  "9": {
+   "q": "¿Cuándo salió de Nicaragua?",
+   "a": "Salí el cinco de febrero de 2022, unas dos semanas después del tercer arresto."
+  },
+  "10": {
+   "q": "¿Por qué cree que le harían daño si regresa?",
+   "a": "Porque conocen mi nombre y mi cara. Mi hermano sigue escondido, y el año pasado fueron a la casa de mi mamá."
+  }
+ },
+ "plants": [
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "Two times. The second time was in June 2021, and the last time was in January 2022.",
+   "src_span": "Tres veces",
+   "say_span": "Two times",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 1,
+   "type": "omission",
+   "say": "They arrested me. They held me for three days without food.",
+   "src_span": "y a mi hermano Julio",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false,
+   "note": "also shifts us -> me"
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "softening",
+   "say": "Two officers took me to the station at night. They pushed me around and told me they would kill me if I kept organizing.",
+   "src_span": "Me golpearon con palos",
+   "say_span": "They pushed me around",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 1,
+   "type": "hedge",
+   "say": "There were five or six other prisoners there.",
+   "src_span": "Creo que ... pero no estoy seguro",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "¿Usted recibió amenazas después de irse?",
+   "src_span": "anyone in your family",
+   "say_span": "¿Usted recibió amenazas",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "I left on the fifth of January 2022, about two weeks after the third arrest.",
+   "src_span": "el cinco de febrero",
+   "say_span": "the fifth of January",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "I was living in Masaya with my wife and our two girls.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "¿De qué organización era miembro?",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Because they know who I am and what I look like. My brother is still hiding, and last year they went to my mom's house.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "extras": [
+  {
+   "after_x": 6,
+   "kind": "interpreter_meta",
+   "turns": [
+    {
+     "by": "I",
+     "lang": "en",
+     "text": "Your Honor, the interpreter needs to ask the witness to repeat the last part."
+    },
+    {
+     "by": "I",
+     "lang": "es",
+     "text": "Señor, ¿puede repetir la última parte, por favor?"
+    }
+   ]
+  }
+ ],
+ "decision": {
+  "text": "The court has concerns about the respondent's credibility. He testified today that he was arrested two times, but his declaration describes three arrests. He also testified that he left Nicaragua on the fifth of January 2022, which is before the date he gives for his last arrest.",
+  "cites_x": [
+   5,
+   9
+  ]
+ }
+}

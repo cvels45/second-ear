@@ -1,0 +1,70 @@
+{
+ "features": [
+  "bias",
+  "holistic_flag",
+  "base_max_share",
+  "judge_max_share",
+  "judge_max_major",
+  "judge_says_major",
+  "typed_check",
+  "n_families"
+ ],
+ "weights": [
+  -1.95366,
+  1.11431,
+  0.67344,
+  1.23639,
+  0.80939,
+  -0.36226,
+  0.79007,
+  0.24089
+ ],
+ "threshold": 0.5,
+ "trained_on": [
+  "dev",
+  "t1-calib"
+ ],
+ "runs": [
+  "dev/20261102-100741-96afbc",
+  "t1-calib/20261102-101028-a76e62"
+ ],
+ "n": 448,
+ "n_errors": 180,
+ "target_precision": 0.6,
+ "prevalence": 0.1,
+ "l2": 1.0,
+ "oof_at_threshold": {
+  "threshold": 0.5,
+  "tp": 133,
+  "fp": 21,
+  "fn": 47,
+  "tn": 247,
+  "precision": 0.8636363636363636,
+  "recall": 0.7388888888888889,
+  "fpr": 0.07835820895522388
+ },
+ "threshold_rule": "p50",
+ "prevalence_rule_threshold": 0.901,
+ "oof_per_set": {
+  "dev": {
+   "threshold": 0.5,
+   "tp": 74,
+   "fp": 2,
+   "fn": 2,
+   "tn": 162,
+   "precision": 0.9736842105263158,
+   "recall": 0.9736842105263158,
+   "fpr": 0.012195121951219513
+  },
+  "t1-calib": {
+   "threshold": 0.5,
+   "tp": 59,
+   "fp": 19,
+   "fn": 45,
+   "tn": 85,
+   "precision": 0.7564102564102564,
+   "recall": 0.5673076923076923,
+   "fpr": 0.18269230769230768
+  }
+ }
+}

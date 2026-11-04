@@ -1,0 +1,78 @@
+{
+ "scenario_id": "S03",
+ "setting": "prep_session",
+ "title": "Domestic violence: preparing the declaration",
+ "speakers": {
+  "R": "attorney",
+  "A": "client",
+  "I": "interpreter"
+ },
+ "exchanges": [
+  {
+   "x": 1,
+   "q_by": "R",
+   "q": "Thank you for coming. Before we start, do you agree that we record this session?",
+   "a": "Yes, I agree."
+  },
+  {
+   "x": 2,
+   "q_by": "R",
+   "q": "How long were you married to {ABUSER}?",
+   "a": "We were married for eleven years. We lived together in {TOWN} until 2023."
+  },
+  {
+   "x": 3,
+   "q_by": "R",
+   "q": "When did the problems start?",
+   "a": "About two years after the wedding. At first he only shouted, but later he started to hit me."
+  },
+  {
+   "x": 4,
+   "q_by": "R",
+   "q": "Did you ever ask the police for help?",
+   "a": [
+    "Yes, two times. The first time they told me it was a family matter.",
+    "The second time they wrote a report, but nobody came to the house."
+   ]
+  },
+  {
+   "x": 5,
+   "q_by": "R",
+   "q": "Do you have a copy of that report?",
+   "a": "No, I don't have it. Maybe my mother can ask for it at the station."
+  },
+  {
+   "x": 6,
+   "q_by": "R",
+   "q": "Did he ever threaten you with a weapon?",
+   "a": "Once, in December 2022. He held a knife and said he would kill me if I left him."
+  },
+  {
+   "x": 7,
+   "q_by": "R",
+   "q": "Who else knew what was happening?",
+   "a": "My neighbor knew, and my sister {SISTER}. I think my sister told our parents, but I'm not sure."
+  },
+  {
+   "x": 8,
+   "q_by": "R",
+   "q": "Why did you decide to leave the country and not only the town?",
+   "a": [
+    "Because his cousin is a police officer.",
+    "Wherever I went, he could find me through his cousin."
+   ]
+  },
+  {
+   "x": 9,
+   "q_by": "R",
+   "q": "In your declaration you wrote that you left in March. Is that correct?",
+   "a": "No, it was April. I left on the second of April 2023. The declaration has a mistake."
+  },
+  {
+   "x": 10,
+   "q_by": "R",
+   "q": "What do you fear would happen if you go back?",
+   "a": "I am afraid that he will kill me. He told my mother that I will pay for leaving."
+  }
+ ]
+}

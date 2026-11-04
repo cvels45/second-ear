@@ -1,0 +1,178 @@
+{
+ "dialogue_id": "ta-S03",
+ "lang": "ta",
+ "scenario_id": "S03",
+ "slots": {
+  "ABUSER": "Ravi",
+  "TOWN": "Batticaloa",
+  "SISTER": "Lakshmi"
+ },
+ "voices": {
+  "R": "af_bella",
+  "A": "ta:f2",
+  "I": {
+   "ta": "ta:f1",
+   "en": "ta:f1"
+  }
+ },
+ "lines": {
+  "1": {
+   "q": "வந்ததற்கு நன்றி. தொடங்குவதற்கு முன், இந்த அமர்வைப் பதிவு செய்ய நீங்கள் சம்மதிக்கிறீர்களா?",
+   "a": "ஆம், சம்மதிக்கிறேன்."
+  },
+  "2": {
+   "q": "ரவியுடன் நீங்கள் எவ்வளவு காலம் திருமணமாகி இருந்தீர்கள்?",
+   "a": "நாங்கள் பதினொரு ஆண்டுகள் திருமணமாகி இருந்தோம். இரண்டாயிரத்து இருபத்துமூன்று வரை மட்டக்களப்பில் சேர்ந்து வாழ்ந்தோம்."
+  },
+  "3": {
+   "q": "பிரச்சினைகள் எப்போது தொடங்கின?",
+   "a": "திருமணமாகி சுமார் இரண்டு ஆண்டுகளுக்குப் பிறகு. முதலில் அவர் கத்துவார், ஆனால் பிறகு என்னை அடிக்கத் தொடங்கினார்."
+  },
+  "4": {
+   "q": "நீங்கள் எப்போதாவது போலீஸிடம் உதவி கேட்டீர்களா?",
+   "a": [
+    "ஆம், இரண்டு முறை. முதல் முறை இது குடும்ப விஷயம் என்று சொன்னார்கள்.",
+    "இரண்டாவது முறை அறிக்கை எழுதினார்கள், ஆனால் யாரும் வீட்டுக்கு வரவில்லை."
+   ]
+  },
+  "5": {
+   "q": "அந்த அறிக்கையின் நகல் உங்களிடம் இருக்கிறதா?",
+   "a": "இல்லை, என்னிடம் இல்லை. ஒருவேளை என் அம்மா நிலையத்தில் கேட்டு வாங்கலாம்."
+  },
+  "6": {
+   "q": "அவர் எப்போதாவது ஆயுதத்தால் உங்களை மிரட்டினாரா?",
+   "a": "ஒரு முறை, இரண்டாயிரத்து இருபத்திரண்டு டிசம்பரில். கத்தியைப் பிடித்துக்கொண்டு, நான் அவரை விட்டுப் போனால் என்னைக் கொன்றுவிடுவேன் என்றார்."
+  },
+  "7": {
+   "q": "நடப்பது வேறு யாருக்குத் தெரியும்?",
+   "a": "என் பக்கத்து வீட்டுக்காரிக்குத் தெரியும், என் அக்கா லட்சுமிக்கும் தெரியும். என் அக்கா எங்கள் பெற்றோரிடம் சொன்னதாக நினைக்கிறேன், ஆனால் உறுதியாகத் தெரியாது."
+  },
+  "8": {
+   "q": "ஊரை மட்டுமல்லாமல் நாட்டையே விட்டு வெளியேற ஏன் முடிவு செய்தீர்கள்?",
+   "a": [
+    "ஏனென்றால் அவருடைய ஒன்றுவிட்ட சகோதரர் ஒரு போலீஸ் அதிகாரி.",
+    "நான் எங்கே போனாலும், அவர் தன் ஒன்றுவிட்ட சகோதரர் மூலம் என்னைக் கண்டுபிடிக்க முடியும்."
+   ]
+  },
+  "9": {
+   "q": "உங்கள் வாக்குமூலத்தில் நீங்கள் மார்ச்சில் வெளியேறியதாக எழுதியிருக்கிறீர்கள். அது சரியா?",
+   "a": "இல்லை, அது ஏப்ரல். இரண்டாயிரத்து இருபத்துமூன்று ஏப்ரல் இரண்டாம் தேதி வெளியேறினேன். வாக்குமூலத்தில் தவறு இருக்கிறது."
+  },
+  "10": {
+   "q": "நீங்கள் திரும்பிச் சென்றால் என்ன நடக்கும் என்று பயப்படுகிறீர்கள்?",
+   "a": "அவர் என்னைக் கொன்றுவிடுவார் என்று பயப்படுகிறேன். விட்டுப் போனதற்கு நான் விலை கொடுப்பேன் என்று என் அம்மாவிடம் சொன்னார்."
+  }
+ },
+ "plants": [
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "yes_no_reversal",
+   "say": "Yes, I have it. Maybe my mother can ask for it at the station.",
+   "src_span": "இல்லை, என்னிடம் இல்லை",
+   "say_span": "Yes, I have it",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "Once, in December 2020. He held a knife and said he would kill me if I left him.",
+   "src_span": "இரண்டாயிரத்து இருபத்திரண்டு",
+   "say_span": "2020",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "softening",
+   "say": "About two years after the wedding. At first he only shouted, but later he started to push me.",
+   "src_span": "அடிக்கத் தொடங்கினார்",
+   "say_span": "push me",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "name",
+   "say": "My neighbor knew, and my sister Latha. I think my sister told our parents, but I'm not sure.",
+   "src_span": "லட்சுமி",
+   "say_span": "Latha",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 1,
+   "type": "omission",
+   "say": "Wherever I went, he could find me.",
+   "src_span": "தன் ஒன்றுவிட்ட சகோதரர் மூலம்",
+   "say_span": "",
+   "severity": "minor",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "Maybe he will kill me. He told my mother that I will pay for leaving.",
+   "src_span": "",
+   "say_span": "Maybe",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "ரவியுடன் நீங்கள் எவ்வளவு காலம் சேர்ந்து வாழ்ந்தீர்கள்?",
+   "src_span": "married",
+   "say_span": "சேர்ந்து வாழ்ந்தீர்கள்",
+   "severity": "minor",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 1,
+   "type": "acceptable",
+   "say": "The second time they made a report, but no one came to the house.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "No, April. I left on the second of April 2023. The declaration is wrong.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "வந்ததற்கு நன்றி. தொடங்கும் முன், இந்த அமர்வைப் பதிவு செய்ய உங்களுக்குச் சம்மதமா?",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ]
+}

@@ -1,0 +1,204 @@
+{
+ "dialogue_id": "pt-S08",
+ "lang": "pt",
+ "scenario_id": "S08",
+ "slots": {
+  "NAME": "José Ribamar Costa",
+  "VILLAGE": "Boa Esperança",
+  "CITY": "Marabá",
+  "LEADER": "Valdir Prado"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "pm_alex",
+  "I": "pf_dora"
+ },
+ "lines": {
+  "1": {
+   "q": "O seu nome, por favor.",
+   "a": "Meu nome é José Ribamar Costa."
+  },
+  "2": {
+   "q": "Onde fica a sua vila?",
+   "a": "A minha vila é Boa Esperança. Fica a uns quarenta quilômetros de Marabá."
+  },
+  "3": {
+   "q": "O que a sua família tinha?",
+   "a": "Nós tínhamos terra de plantio, uns cinco acres, onde plantávamos arroz e verduras."
+  },
+  "4": {
+   "q": "Quem tentou tomar a terra de vocês?",
+   "a": [
+    "Homens que trabalham para um chefe local, Valdir Prado.",
+    "Eles queriam a terra para uma fábrica. Ofereceram um preço muito baixo, e o meu pai recusou."
+   ]
+  },
+  "5": {
+   "q": "O que aconteceu depois que o seu pai recusou?",
+   "a": "Em abril de 2021 eles queimaram a nossa casa à noite. O meu pai e eu conseguimos sair, mas o meu tio ficou ferido."
+  },
+  "6": {
+   "q": "O senhor viu quem queimou a casa?",
+   "a": "Eu vi três homens correndo para a estrada. Reconheci um deles; era o motorista do Valdir Prado."
+  },
+  "7": {
+   "q": "Quanto tempo vocês ficaram na vila depois do incêndio?",
+   "a": "Só uma semana. Depois fomos para a casa da minha tia em outro município, por seis meses."
+  },
+  "8": {
+   "q": "Por que vocês não ficaram na casa da sua tia?",
+   "a": "Porque os mesmos homens foram lá e perguntaram aos vizinhos sobre nós. A minha tia ficou com medo."
+  },
+  "9": {
+   "q": "Vocês foram à polícia por causa do incêndio?",
+   "a": [
+    "O meu pai foi no dia seguinte.",
+    "A polícia disse que foi um acidente e encerrou o caso sem investigar."
+   ]
+  },
+  "10": {
+   "q": "O que o senhor acha que aconteceria se voltasse?",
+   "a": "Acho que eles iam me machucar, talvez me matar, porque eu sou quem viu o motorista."
+  }
+ },
+ "plants": [
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "referent_unit",
+   "say": "My village is Boa Esperança. It is about forty miles from Marabá.",
+   "src_span": "quarenta quilômetros",
+   "say_span": "forty miles",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "distortion",
+   "say": "In April 2021 they burned our house at night. My father and I got out, but my uncle died.",
+   "src_span": "ficou ferido",
+   "say_span": "died",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "I saw two men running toward the road. I recognized one of them; he was the driver of Valdir Prado.",
+   "src_span": "três homens",
+   "say_span": "two men",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "Only one week. Then we went to my aunt's house in another district for six weeks.",
+   "src_span": "seis meses",
+   "say_span": "six weeks",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 1,
+   "type": "omission",
+   "say": "The police said that it was an accident.",
+   "src_span": "e encerrou o caso sem investigar",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "They would hurt me, maybe kill me, because I am the one who saw the driver.",
+   "src_span": "Acho que",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "Quem tentou comprar a terra de vocês?",
+   "src_span": "take",
+   "say_span": "comprar",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "We had about five acres of farmland, where we grew rice and vegetables.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Because the same men showed up there asking the neighbors about us, and my aunt got scared.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Por quanto tempo vocês ficaram na vila depois do incêndio?",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "extras": [
+  {
+   "after_x": 6,
+   "kind": "uninterpreted",
+   "turns": [
+    {
+     "by": "I",
+     "lang": "pt",
+     "text": "O senhor tem certeza de que era o motorista?"
+    },
+    {
+     "by": "A",
+     "lang": "pt",
+     "text": "Tenho, sim."
+    }
+   ],
+   "note": "The interpreter asks her own question and does not interpret the exchange."
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that his uncle died in the fire and that he saw two men, but his declaration says his uncle was injured and that three men ran away.",
+  "cites_x": [
+   5,
+   6
+  ]
+ }
+}

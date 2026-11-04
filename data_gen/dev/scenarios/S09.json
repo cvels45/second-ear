@@ -1,0 +1,75 @@
+{
+ "scenario_id": "S09",
+ "setting": "prep_session",
+ "title": "Reviewing the declaration line by line",
+ "speakers": {
+  "R": "attorney",
+  "A": "client",
+  "I": "interpreter"
+ },
+ "exchanges": [
+  {
+   "x": 1,
+   "q_by": "R",
+   "q": "Today we will review your declaration line by line. Is that okay?",
+   "a": "Yes, that's fine."
+  },
+  {
+   "x": 2,
+   "q_by": "R",
+   "q": "Paragraph three says you were detained for two days. Is that right?",
+   "a": "No, it was four days. Two days at the police station and two days at another place."
+  },
+  {
+   "x": 3,
+   "q_by": "R",
+   "q": "Paragraph five says your brother was a witness. Is that correct?",
+   "a": "Yes. My brother {BROTHER} saw everything from the window."
+  },
+  {
+   "x": 4,
+   "q_by": "R",
+   "q": "You wrote that you applied for a visa in 2019. What kind of visa?",
+   "a": "A tourist visa. They denied it at the interview."
+  },
+  {
+   "x": 5,
+   "q_by": "R",
+   "q": "Have you ever applied for asylum in another country?",
+   "a": "No, never. I only passed through {TRANSIT_COUNTRY} for three days."
+  },
+  {
+   "x": 6,
+   "q_by": "R",
+   "q": "The declaration says the threats started in 2020. When did they start exactly?",
+   "a": [
+    "The first threat was in December 2019, by phone.",
+    "The threats in person started in February 2020."
+   ]
+  },
+  {
+   "x": 7,
+   "q_by": "R",
+   "q": "Who wrote the letter from the doctor?",
+   "a": "Doctor {DOCTOR}, at the clinic in {CITY}. He treated my ribs after the attack."
+  },
+  {
+   "x": 8,
+   "q_by": "R",
+   "q": "Are you sure the attack was in June?",
+   "a": "I think it was June, but it could be the beginning of July. It was right after my birthday."
+  },
+  {
+   "x": 9,
+   "q_by": "R",
+   "q": "Did you sign anything at the police station?",
+   "a": "Yes, they made me sign a statement, but they did not let me read it."
+  },
+  {
+   "x": 10,
+   "q_by": "R",
+   "q": "Is there anything in the declaration you want to change?",
+   "a": "Only the number of days I was detained, and that the threats started in December."
+  }
+ ]
+}

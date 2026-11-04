@@ -1,0 +1,77 @@
+{
+ "scenario_id": "S02",
+ "setting": "merits_hearing",
+ "title": "Extortion of a small business",
+ "speakers": {
+  "J": "judge",
+  "R": "respondent_attorney",
+  "D": "dhs_attorney",
+  "A": "applicant",
+  "I": "interpreter"
+ },
+ "exchanges": [
+  {
+   "x": 1,
+   "q_by": "J",
+   "q": "Please state your name.",
+   "a": "My name is {NAME}."
+  },
+  {
+   "x": 2,
+   "q_by": "R",
+   "q": "What did you do for work in {COUNTRY}?",
+   "a": "I had a small bakery in {TOWN}. I worked there with my son for eight years."
+  },
+  {
+   "x": 3,
+   "q_by": "R",
+   "q": "Who demanded money from you?",
+   "a": "Members of the {GROUP}. They came to the bakery every Friday."
+  },
+  {
+   "x": 4,
+   "q_by": "R",
+   "q": "How much did they demand?",
+   "a": [
+    "At first they asked for fifty dollars a week.",
+    "After six months they raised it to two hundred dollars a week, and I could not pay."
+   ]
+  },
+  {
+   "x": 5,
+   "q_by": "R",
+   "q": "What happened when you could not pay?",
+   "a": "In September 2020 they kidnapped my son for two days. They released him after I paid one thousand five hundred dollars."
+  },
+  {
+   "x": 6,
+   "q_by": "D",
+   "q": "Did you go to the police?",
+   "a": "I went once, to the station in {TOWN}. The officer said he could not help me and told me to pay."
+  },
+  {
+   "x": 7,
+   "q_by": "D",
+   "q": "Did the gang members ever hurt you physically?",
+   "a": "Not me. They broke the windows of the bakery, and they hit my son."
+  },
+  {
+   "x": 8,
+   "q_by": "D",
+   "q": "Why didn't you move to another city?",
+   "a": "We moved to my sister's house in {CITY} for four months, but they found us there."
+  },
+  {
+   "x": 9,
+   "q_by": "J",
+   "q": "How do you know it was the same group?",
+   "a": "I think so, because one of them was the same man who came to the bakery. He had a tattoo on his neck."
+  },
+  {
+   "x": 10,
+   "q_by": "J",
+   "q": "Is there anything else you want the court to know?",
+   "a": "Only that my son is still afraid. He was seventeen years old when they took him."
+  }
+ ]
+}

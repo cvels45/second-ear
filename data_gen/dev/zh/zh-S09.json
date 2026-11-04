@@ -1,0 +1,177 @@
+{
+ "dialogue_id": "zh-S09",
+ "lang": "zh",
+ "scenario_id": "S09",
+ "slots": {
+  "BROTHER": "Xiaodong",
+  "TRANSIT_COUNTRY": "Ecuador",
+  "DOCTOR": "Liu",
+  "CITY": "Chengdu"
+ },
+ "voices": {
+  "R": "af_bella",
+  "A": "zh:f2",
+  "I": {
+   "zh": "zh:m2",
+   "en": "zm_yunxi"
+  }
+ },
+ "lines": {
+  "1": {
+   "q": "今天我们会逐行检查您的声明。可以吗？",
+   "a": "可以，没问题。"
+  },
+  "2": {
+   "q": "第三段说您被拘留了两天。对吗？",
+   "a": "不对，是四天。在派出所两天，在另一个地方两天。"
+  },
+  "3": {
+   "q": "第五段说您哥哥是证人。对吗？",
+   "a": "对。我哥哥小东从窗户里看到了一切。"
+  },
+  "4": {
+   "q": "您写了您在二〇一九年申请过签证。是什么签证？",
+   "a": "旅游签证。面签的时候被拒了。"
+  },
+  "5": {
+   "q": "您有没有在其他国家申请过庇护？",
+   "a": "没有，从来没有。我只是在厄瓜多尔过境了三天。"
+  },
+  "6": {
+   "q": "声明里说威胁是从二〇二〇年开始的。具体是什么时候开始的？",
+   "a": [
+    "第一次威胁是二〇一九年十二月，是打电话来的。",
+    "当面威胁是从二〇二〇年二月开始的。"
+   ]
+  },
+  "7": {
+   "q": "医生的信是谁写的？",
+   "a": "成都诊所的刘医生。袭击以后他给我治疗了肋骨。"
+  },
+  "8": {
+   "q": "您确定袭击是在六月吗？",
+   "a": "我觉得是六月，但也可能是七月初。就在我生日后不久。"
+  },
+  "9": {
+   "q": "您在派出所有没有签过什么东西？",
+   "a": "签过，他们逼我签了一份笔录，但是不让我看。"
+  },
+  "10": {
+   "q": "声明里有没有您想修改的地方？",
+   "a": "只有我被拘留的天数，还有威胁是从十二月开始的。"
+  }
+ },
+ "plants": [
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "No, it was ten days. Two days at the police station and two days at another place.",
+   "src_span": "四天",
+   "say_span": "ten days",
+   "severity": "major",
+   "dispositive": false,
+   "note": "si/shi confusion"
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 0,
+   "type": "legal_term",
+   "say": "A student visa. They denied it at the interview.",
+   "src_span": "旅游签证",
+   "say_span": "student visa",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 1,
+   "type": "date_duration_age",
+   "say": "The threats in person started in February 2021.",
+   "src_span": "二〇二〇年二月",
+   "say_span": "February 2021",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "您确定袭击是在七月吗？",
+   "src_span": "in June",
+   "say_span": "七月",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "omission",
+   "say": "Yes, they made me sign a statement.",
+   "src_span": "但是不让我看",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "name",
+   "say": "Doctor Liu, at the clinic in Chongqing. He treated my ribs after the attack.",
+   "src_span": "成都",
+   "say_span": "Chongqing",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "addition",
+   "say": "Yes. My brother Xiaodong and my mother saw everything from the window.",
+   "src_span": "",
+   "say_span": "and my mother",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Yes, no problem.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "The first threat came by phone, in December 2019.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "那封医生的信是谁写的？",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "dialogue_id": "ar-S04",
+ "lang": "ar",
+ "scenario_id": "S04",
+ "slots": {
+  "NAME": "Mina Girgis",
+  "CHURCH": "St. Mark",
+  "PASTOR": "Boulos",
+  "GROUP": "Jund al-Haqq group"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "ar:m2",
+  "I": {
+   "ar": "ar:f1",
+   "en": "ar:f1"
+  }
+ },
+ "lines": {
+  "1": {
+   "q": "اذكر اسمك من فضلك.",
+   "a": "اسمي مينا جرجس."
+  },
+  "2": {
+   "q": "ما هي ديانتك؟",
+   "a": "أنا مسيحي. تعمدت في عام ألفين وأربعة عشر في كنيسة مار مرقس."
+  },
+  "3": {
+   "q": "ماذا كان دورك في الكنيسة؟",
+   "a": "كنت أعلّم الأطفال الكتاب المقدس أيام الأحد، وكنت أساعد القس بولس في الاجتماعات في بيوت الناس."
+  },
+  "4": {
+   "q": "ماذا حدث في أكتوبر ألفين وتسعة عشر؟",
+   "a": [
+    "خلال قداس يوم الأحد، دخل رجال من جماعة جند الحق إلى الكنيسة.",
+    "أخذوا القس وثلاثة شبان. لم نرَ القس بعد ذلك أبدًا."
+   ]
+  },
+  "5": {
+   "q": "هل كنت هناك في ذلك اليوم؟",
+   "a": "نعم، كنت هناك. اختبأت في الغرفة الخلفية مع الأطفال."
+  },
+  "6": {
+   "q": "ماذا حدث لك بعد ذلك؟",
+   "a": "بعد أسبوعين احتجزوني في مكان عملي. أبقوني تسعة أيام وسألوني عن أسماء الأعضاء الآخرين."
+  },
+  "7": {
+   "q": "هل وُجهت إليك أي تهمة جنائية في أي وقت؟",
+   "a": "لا، لم يوجهوا إلي أي تهمة. أطلقوا سراحي عندما وقّعت على ورقة لم أستطع قراءتها."
+  },
+  "8": {
+   "q": "ماذا كانت تقول الورقة؟",
+   "a": "لا أعرف بالضبط. أظن أنها كانت تقول إنني سأتوقف عن الذهاب إلى الكنيسة."
+  },
+  "9": {
+   "q": "هل واصلت ممارسة دينك بعد الإفراج عنك؟",
+   "a": "نعم، لكن فقط سرًا، في بيتي، مع زوجتي وأمي."
+  },
+  "10": {
+   "q": "متى وصلت إلى الولايات المتحدة؟",
+   "a": "وصلت في العشرين من يوليو ألفين وعشرين. طلبت اللجوء على الحدود."
+  }
+ },
+ "plants": [
+  {
+   "x": 4,
+   "side": "a",
+   "part": 0,
+   "type": "name",
+   "say": "During a Sunday service, men from the police came into the church.",
+   "src_span": "جماعة جند الحق",
+   "say_span": "the police",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "Two weeks later they detained me at my workplace. They kept me for nine months and asked me for the names of the other members.",
+   "src_span": "تسعة أيام",
+   "say_span": "nine months",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "addition",
+   "say": "I don't know exactly. I think it said that I would stop going to the church and leave the city.",
+   "src_span": "",
+   "say_span": "and leave the city",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "legal_term",
+   "say": "I arrived on the twentieth of July 2020. I asked for residency at the border.",
+   "src_span": "طلبت اللجوء",
+   "say_span": "residency",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "yes_no_reversal",
+   "say": "No, I was not there. I hid in the back room with the children.",
+   "src_span": "نعم، كنت هناك",
+   "say_span": "No, I was not there",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "هل واصلت الذهاب إلى العمل بعد الإفراج عنك؟",
+   "src_span": "practice your religion",
+   "say_span": "الذهاب إلى العمل",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "self_corrected",
+   "say": "I taught the Bible to adults... correction, to children on Sundays, and I helped Pastor Boulos with the meetings in people's homes.",
+   "src_span": "الأطفال",
+   "say_span": "adults",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "I'm a Christian. I was baptized at St. Mark church in 2014.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "No, I was never charged. They let me go once I signed a paper I couldn't read.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "ماذا جرى لك بعد ذلك؟",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that the police entered the church and that he was held for nine months. His declaration describes an armed group and a detention of days, not months.",
+  "cites_x": [
+   4,
+   6
+  ]
+ }
+}

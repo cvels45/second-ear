@@ -1,0 +1,162 @@
+{
+ "dialogue_id": "es-S05",
+ "lang": "es",
+ "scenario_id": "S05",
+ "slots": {
+  "NAME": "Luis Alberto Cano",
+  "CITY": "Houston",
+  "COMPANY": "Gulf Coast Storage",
+  "COWORKER": "Ramón"
+ },
+ "voices": {
+  "Q": "am_michael",
+  "A": "em_alex",
+  "I": "ef_dora"
+ },
+ "lines": {
+  "1": {
+   "q": "¿Puede decir su nombre completo para el acta, por favor?",
+   "a": "Me llamo Luis Alberto Cano."
+  },
+  "2": {
+   "q": "¿Dónde trabajaba en mayo de 2024?",
+   "a": "En un almacén en Houston, para la compañía Gulf Coast Storage. Yo cargaba camiones."
+  },
+  "3": {
+   "q": "¿Cuántas horas trabajaba por semana?",
+   "a": "Normalmente cincuenta horas. En mayo eran más, unas sesenta, por los días festivos."
+  },
+  "4": {
+   "q": "Describa lo que pasó el 14 de mayo.",
+   "a": [
+    "Estaba en una escalera, como a ocho pies de altura, sacando cajas de un estante.",
+    "La escalera se movió y me caí de espaldas. Mi brazo izquierdo pegó contra el piso."
+   ]
+  },
+  "5": {
+   "q": "¿Había recibido alguna capacitación sobre esa escalera?",
+   "a": "No. Nadie me capacitó. Mi supervisor solo me enseñó dónde estaban las escaleras."
+  },
+  "6": {
+   "q": "¿Le dijo a su supervisor que la escalera estaba rota?",
+   "a": "Sí, le dije dos días antes. Me dijo que iba a pedir una nueva."
+  },
+  "7": {
+   "q": "¿Qué lesiones tuvo?",
+   "a": "Me fracturé la muñeca izquierda y me lastimé la parte baja de la espalda. Todavía me duele cuando levanto más de diez libras."
+  },
+  "8": {
+   "q": "¿Cuánto tiempo no pudo trabajar?",
+   "a": "Cuatro meses. Regresé en septiembre, pero solo medio tiempo."
+  },
+  "9": {
+   "q": "¿Alguien lo vio caerse?",
+   "a": "Mi compañero Ramón lo vio. Él llamó al gerente, y el gerente llamó a una ambulancia."
+  },
+  "10": {
+   "q": "¿Alguna vez se había lastimado en el trabajo antes?",
+   "a": "Una vez, en 2019, me corté la mano, pero no fue grave. No falté al trabajo."
+  }
+ },
+ "plants": [
+  {
+   "x": 4,
+   "side": "a",
+   "part": 0,
+   "type": "referent_unit",
+   "say": "I was on a ladder, about eight meters high, taking boxes from a shelf.",
+   "src_span": "ocho pies",
+   "say_span": "eight meters",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "distortion",
+   "say": "I broke my right wrist, and I hurt my lower back. I still have pain when I lift more than ten pounds.",
+   "src_span": "muñeca izquierda",
+   "say_span": "right wrist",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "yes_no_reversal",
+   "say": "No, I didn't tell him before. He said that he would order a new one.",
+   "src_span": "Sí, le dije",
+   "say_span": "No, I didn't tell him",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "¿Había recibido alguna capacitación?",
+   "src_span": "on that ladder",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "Four weeks. I returned in September, but only part-time.",
+   "src_span": "Cuatro meses",
+   "say_span": "Four weeks",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "Usually fifty hours. In May it was more, sixty, because of the holidays.",
+   "src_span": "unas sesenta",
+   "say_span": "sixty",
+   "severity": "minor",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "At a warehouse in Houston, with Gulf Coast Storage. My job was loading trucks.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Ramón, my coworker, saw it. He called the manager, who called an ambulance.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "One time, in 2019. I cut my hand, but it wasn't serious, and I didn't miss work.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ]
+}

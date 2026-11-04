@@ -1,0 +1,15 @@
+[project]
+name = "second-ear-tts"
+version = "0.1.0"
+description = "Speech synthesis for Second Ear's scripted dev dialogues and voiced test pairs"
+# kokoro-onnx 0.6.1 supports Python 3.10-3.13; misaki (Mandarin G2P) wants < 3.13
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "kokoro-onnx==0.6.1",   # MIT; Kokoro-82M weights are Apache 2.0
+    "misaki-fork[zh]",      # Mandarin G2P for the Kokoro v1.1-zh model
+    "soundfile>=0.13",
+    "numpy>=2.0",
+]
+
+[tool.uv]
+package = false

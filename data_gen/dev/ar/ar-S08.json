@@ -1,0 +1,207 @@
+{
+ "dialogue_id": "ar-S08",
+ "lang": "ar",
+ "scenario_id": "S08",
+ "slots": {
+  "NAME": "Adam Ishaq",
+  "VILLAGE": "Um Sidir",
+  "CITY": "Nyala",
+  "LEADER": "Sheikh Mahjoub"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "ar:m2",
+  "I": {
+   "ar": "ar:f1",
+   "en": "ar:f1"
+  }
+ },
+ "lines": {
+  "1": {
+   "q": "اسمك من فضلك.",
+   "a": "اسمي آدم إسحاق."
+  },
+  "2": {
+   "q": "أين تقع قريتك؟",
+   "a": "قريتي هي أم سدير. تبعد نحو أربعين كيلومترًا عن نيالا."
+  },
+  "3": {
+   "q": "ماذا كانت تملك عائلتك؟",
+   "a": "كانت لدينا أرض زراعية، نحو خمسة أفدنة، نزرع فيها الأرز والخضروات."
+  },
+  "4": {
+   "q": "من حاول أخذ أرضكم؟",
+   "a": [
+    "رجال يعملون لدى زعيم محلي، الشيخ محجوب.",
+    "أرادوا الأرض لبناء مصنع. عرضوا سعرًا منخفضًا جدًا، ورفض أبي."
+   ]
+  },
+  "5": {
+   "q": "ماذا حدث بعد أن رفض والدك؟",
+   "a": "في أبريل ألفين وواحد وعشرين أحرقوا بيتنا في الليل. خرجت أنا وأبي، لكن عمي أصيب."
+  },
+  "6": {
+   "q": "هل رأيت من أحرق البيت؟",
+   "a": "رأيت ثلاثة رجال يركضون نحو الطريق. تعرفت على واحد منهم؛ كان سائق الشيخ محجوب."
+  },
+  "7": {
+   "q": "كم بقيتم في القرية بعد الحريق؟",
+   "a": "أسبوعًا واحدًا فقط. ثم ذهبنا إلى بيت خالتي في منطقة أخرى لمدة ستة أشهر."
+  },
+  "8": {
+   "q": "لماذا لم تبقوا في بيت خالتك؟",
+   "a": "لأن نفس الرجال جاؤوا إلى هناك وسألوا الجيران عنا. خافت خالتي."
+  },
+  "9": {
+   "q": "هل ذهبتم إلى الشرطة بشأن الحريق؟",
+   "a": [
+    "ذهب أبي في اليوم التالي.",
+    "قالت الشرطة إنه كان حادثًا وأغلقت القضية دون تحقيق."
+   ]
+  },
+  "10": {
+   "q": "ماذا تظن أنه سيحدث إذا عدت؟",
+   "a": "أظن أنهم سيؤذونني، وربما يقتلونني، لأنني أنا من رأى السائق."
+  }
+ },
+ "plants": [
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "My village is Um Sidir. It is about fourteen kilometers from Nyala.",
+   "src_span": "أربعين",
+   "say_span": "fourteen",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "distortion",
+   "say": "In April 2021 they burned our house at night. My father got out, but my uncle and I were injured.",
+   "src_span": "خرجت أنا وأبي، لكن عمي أصيب",
+   "say_span": "my uncle and I were injured",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "I think I saw three men running toward the road. I recognized one of them; he was the driver of Sheikh Mahjoub.",
+   "src_span": "",
+   "say_span": "I think",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "omission",
+   "say": "Only one week. Then we went to my aunt's house in another district.",
+   "src_span": "لمدة ستة أشهر",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "softening",
+   "say": "I think they would make problems for me, because I am the one who saw the driver.",
+   "src_span": "سيؤذونني، وربما يقتلونني",
+   "say_span": "make problems for me",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "لماذا لم تبقَ خالتك في بيتها؟",
+   "src_span": "Why didn't you stay at your aunt's house?",
+   "say_span": "خالتك في بيتها",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 0,
+   "type": "name",
+   "say": "Men who work for a local leader, Sheikh Mahmoud.",
+   "src_span": "الشيخ محجوب",
+   "say_span": "Sheikh Mahmoud",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "We had farmland, roughly five acres, where we grew rice and vegetables.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "My father went there the following day.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "ما اسمك من فضلك؟",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "extras": [
+  {
+   "after_x": 6,
+   "kind": "uninterpreted",
+   "turns": [
+    {
+     "by": "A",
+     "lang": "ar",
+     "text": "هل أقول اسم السائق؟"
+    },
+    {
+     "by": "I",
+     "lang": "ar",
+     "text": "لا داعي."
+    }
+   ],
+   "note": "The interpreter answers the applicant's question instead of interpreting it."
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that he himself was injured in the fire and gave a distance of fourteen kilometers. These details differ from his declaration.",
+  "cites_x": [
+   2,
+   5
+  ]
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "dialogue_id": "zh-S05",
+ "lang": "zh",
+ "scenario_id": "S05",
+ "slots": {
+  "NAME": "Chen Jianguo",
+  "CITY": "Edison",
+  "COMPANY": "Dongfang Logistics",
+  "COWORKER": "Lao Li"
+ },
+ "voices": {
+  "Q": "am_michael",
+  "A": "zh:m2",
+  "I": {
+   "zh": "zh:f1",
+   "en": "zf_xiaoxiao"
+  }
+ },
+ "lines": {
+  "1": {
+   "q": "请您说出您的全名，以便记录。",
+   "a": "我叫陈建国。"
+  },
+  "2": {
+   "q": "二〇二四年五月您在哪里工作？",
+   "a": "在爱迪生市的一个仓库，给东方物流公司工作。我负责装卡车。"
+  },
+  "3": {
+   "q": "您每周工作多少个小时？",
+   "a": "一般是五十个小时。五月的时候更多，大概六十个小时，因为过节。"
+  },
+  "4": {
+   "q": "请描述五月十四日发生的事情。",
+   "a": [
+    "我当时站在梯子上，大概八英尺高，在从架子上拿箱子。",
+    "梯子动了一下，我背朝下摔了下来。我的左胳膊撞到了地上。"
+   ]
+  },
+  "5": {
+   "q": "您有没有接受过使用那个梯子的培训？",
+   "a": "没有。没有人培训过我。我的主管只是告诉我梯子放在哪里。"
+  },
+  "6": {
+   "q": "您有没有告诉您的主管梯子坏了？",
+   "a": "告诉过，我在两天前跟他说了。他说他会订一个新的。"
+  },
+  "7": {
+   "q": "您受了什么伤？",
+   "a": "我的左手腕骨折了，下背部也受了伤。现在我提超过十磅的东西还会疼。"
+  },
+  "8": {
+   "q": "您有多长时间不能工作？",
+   "a": "四个月。我九月份回去上班了，但是只做兼职。"
+  },
+  "9": {
+   "q": "有没有人看到您摔下来？",
+   "a": "我的同事老李看到了。他叫了经理，经理叫了救护车。"
+  },
+  "10": {
+   "q": "您以前在工作中受过伤吗？",
+   "a": "有一次，二〇一九年，我割伤了手，但是不严重。我没有请假。"
+  }
+ },
+ "plants": [
+  {
+   "x": 4,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "I was on a ladder, about eighteen feet high, taking boxes from a shelf.",
+   "src_span": "八英尺",
+   "say_span": "eighteen feet",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "Usually fifteen hours. In May it was more, about sixty, because of the holidays.",
+   "src_span": "五十个小时",
+   "say_span": "fifteen hours",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "I think I told him two days before. He said that he would order a new one.",
+   "src_span": "",
+   "say_span": "I think",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "Four months. I returned in November, but only part-time.",
+   "src_span": "九月份",
+   "say_span": "November",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "您现在有什么伤？",
+   "src_span": "What injuries did you have?",
+   "say_span": "现在",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "distortion",
+   "say": "My coworker Lao Li saw it. He called the manager, and the manager called the police.",
+   "src_span": "救护车",
+   "say_span": "the police",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "addition",
+   "say": "Once, in 2019, I cut my hand, but it was minor, and the company paid for it. I did not miss any work.",
+   "src_span": "",
+   "say_span": "and the company paid for it",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "I worked at a warehouse in Edison for Dongfang Logistics, loading trucks.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "My left wrist was fractured, and I injured my lower back. Lifting anything over ten pounds still hurts.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "请说一下五月十四日那天发生了什么。",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ]
+}

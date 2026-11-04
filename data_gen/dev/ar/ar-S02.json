@@ -1,0 +1,186 @@
+{
+ "dialogue_id": "ar-S02",
+ "lang": "ar",
+ "scenario_id": "S02",
+ "slots": {
+  "NAME": "Mona Abdelrahman",
+  "COUNTRY": "Egypt",
+  "TOWN": "Shubra",
+  "GROUP": "Al-Asifa gang",
+  "CITY": "Alexandria"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "ar:f2",
+  "I": {
+   "ar": "ar:m1",
+   "en": "ar:m1"
+  }
+ },
+ "lines": {
+  "1": {
+   "q": "من فضلك، اذكري اسمك.",
+   "a": "اسمي منى عبد الرحمن."
+  },
+  "2": {
+   "q": "ماذا كنتِ تعملين في مصر؟",
+   "a": "كان لدي مخبز صغير في شبرا. عملت فيه مع ابني ثماني سنوات."
+  },
+  "3": {
+   "q": "من كان يطالبك بالمال؟",
+   "a": "أفراد من عصابة العاصفة. كانوا يأتون إلى المخبز كل يوم جمعة."
+  },
+  "4": {
+   "q": "كم كانوا يطلبون؟",
+   "a": [
+    "في البداية كانوا يطلبون خمسين دولارًا في الأسبوع.",
+    "بعد ستة أشهر رفعوا المبلغ إلى مئتي دولار في الأسبوع، ولم أستطع الدفع."
+   ]
+  },
+  "5": {
+   "q": "ماذا حدث عندما لم تستطيعي الدفع؟",
+   "a": "في سبتمبر ألفين وعشرين خطفوا ابني لمدة يومين. أطلقوا سراحه بعد أن دفعت ألفًا وخمسمئة دولار."
+  },
+  "6": {
+   "q": "هل ذهبتِ إلى الشرطة؟",
+   "a": "ذهبت مرة واحدة، إلى قسم الشرطة في شبرا. قال الضابط إنه لا يستطيع مساعدتي وطلب مني أن أدفع."
+  },
+  "7": {
+   "q": "هل آذاكِ أفراد العصابة جسديًا في أي وقت؟",
+   "a": "أنا لا. لقد كسروا نوافذ المخبز، وضربوا ابني."
+  },
+  "8": {
+   "q": "لماذا لم تنتقلي إلى مدينة أخرى؟",
+   "a": "انتقلنا إلى بيت أختي في الإسكندرية لمدة أربعة أشهر، لكنهم وجدونا هناك."
+  },
+  "9": {
+   "q": "كيف تعرفين أنها كانت نفس المجموعة؟",
+   "a": "أظن ذلك، لأن أحدهم كان نفس الرجل الذي كان يأتي إلى المخبز. كان لديه وشم على رقبته."
+  },
+  "10": {
+   "q": "هل هناك أي شيء آخر تريدين أن تعرفه المحكمة؟",
+   "a": "فقط أن ابني ما زال خائفًا. كان عمره سبعة عشر عامًا عندما أخذوه."
+  }
+ },
+ "plants": [
+  {
+   "x": 4,
+   "side": "a",
+   "part": 1,
+   "type": "referent_unit",
+   "say": "After six months they raised it to two hundred dollars a month, and I could not pay.",
+   "src_span": "في الأسبوع",
+   "say_span": "a month",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "In September 2020 they kidnapped my son for two weeks. They released him after I paid one thousand five hundred dollars.",
+   "src_span": "يومين",
+   "say_span": "two weeks",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "pronoun_shift",
+   "say": "Not me. They broke the windows of the bakery, and they hit me.",
+   "src_span": "ضربوا ابني",
+   "say_span": "they hit me",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "omission",
+   "say": "I went once, to the police station in Shubra.",
+   "src_span": "قال الضابط إنه لا يستطيع مساعدتي وطلب مني أن أدفع",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "Because one of them was the same man who came to the bakery. He had a tattoo on his neck.",
+   "src_span": "أظن ذلك",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "ماذا كان يعمل ابنك في مصر؟",
+   "src_span": "What did you do for work",
+   "say_span": "ابنك",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "addition",
+   "say": "Only that my son is still afraid and cannot sleep. He was seventeen years old when they took him.",
+   "src_span": "",
+   "say_span": "and cannot sleep",
+   "severity": "minor",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Al-Asifa gang members. Every Friday they came to the bakery.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "We moved in with my sister in Alexandria for four months, but they found us.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "اذكري اسمك من فضلك.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that the gang members hit her, while her declaration says they hit only her son. The court also notes that she described a monthly payment, not a weekly one.",
+  "cites_x": [
+   4,
+   7
+  ]
+ }
+}

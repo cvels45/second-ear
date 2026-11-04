@@ -1,0 +1,189 @@
+{
+ "dialogue_id": "es-S07",
+ "lang": "es",
+ "scenario_id": "S07",
+ "slots": {
+  "NAME": "José Manuel Ortiz",
+  "BORDER_TOWN": "Reynosa",
+  "US_CITY": "Dallas",
+  "COUNTRY": "Mexico"
+ },
+ "voices": {
+  "J": "am_michael",
+  "D": "am_fenrir",
+  "R": "af_bella",
+  "A": "em_santa",
+  "I": "ef_dora"
+ },
+ "lines": {
+  "1": {
+   "q": "Diga su nombre completo.",
+   "a": "Me llamo José Manuel Ortiz."
+  },
+  "2": {
+   "q": "¿Es la primera vez que está en los Estados Unidos?",
+   "a": "No. Esta es mi segunda vez. La primera vez vine en 2015."
+  },
+  "3": {
+   "q": "¿Cómo entró en 2015?",
+   "a": "Crucé el río cerca de Reynosa. Inmigración me agarró después de dos días."
+  },
+  "4": {
+   "q": "¿Lo deportaron en esa ocasión?",
+   "a": "Sí, me deportaron en agosto de 2015, como tres semanas después de que me agarraron."
+  },
+  "5": {
+   "q": "¿Cuándo volvió a entrar?",
+   "a": "En noviembre de 2022. Entré sin que me agarraran, y me fui a vivir con mi tío en Dallas."
+  },
+  "6": {
+   "q": "¿Alguna vez lo han arrestado en los Estados Unidos?",
+   "a": [
+    "Una vez, en 2023, por manejar sin licencia.",
+    "Pagué la multa, y el juez cerró el caso."
+   ]
+  },
+  "7": {
+   "q": "¿Usted trabaja?",
+   "a": "Sí, trabajo en construcción, cinco días a la semana. Gano como ochocientos dólares a la semana."
+  },
+  "8": {
+   "q": "¿Quién depende de usted?",
+   "a": "Mi esposa y mis tres hijos en México. Les mando dinero cada mes."
+  },
+  "9": {
+   "q": "Si lo liberan, ¿dónde va a vivir?",
+   "a": "En la casa de mi tío en Dallas. Él es residente permanente, y va a venir conmigo a todas las audiencias."
+  },
+  "10": {
+   "q": "¿Entiende que si falta a una audiencia, se le puede ordenar la deportación?",
+   "a": "Sí, entiendo. Voy a venir a todas las audiencias."
+  }
+ },
+ "plants": [
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "No. This is my third time. The first time I came in 2015.",
+   "src_span": "segunda vez",
+   "say_span": "third time",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 0,
+   "type": "legal_term",
+   "say": "Yes, I was allowed to return voluntarily in August 2015, about three weeks after they caught me.",
+   "src_span": "me deportaron",
+   "say_span": "allowed to return voluntarily",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "legal_term",
+   "say": "I was convicted once, in 2023, for driving without a license.",
+   "src_span": "Una vez, en 2023, por manejar sin licencia",
+   "say_span": "convicted",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "legal_term",
+   "say": "At my uncle's house in Dallas. He is a U.S. citizen, and he will come to every hearing with me.",
+   "src_span": "residente permanente",
+   "say_span": "U.S. citizen",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "Yes, I work in construction, five days a week. I earn about eighteen hundred dollars a week.",
+   "src_span": "ochocientos dólares",
+   "say_span": "eighteen hundred dollars",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "¿Entiende que si falta a una audiencia, lo pueden arrestar?",
+   "src_span": "ordered removed",
+   "say_span": "lo pueden arrestar",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "I crossed the river close to Reynosa. Two days later, immigration caught me.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "My wife and three kids in Mexico. I send them money monthly.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "¿Cuándo entró de nuevo?",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "extras": [
+  {
+   "after_x": 7,
+   "kind": "interpreter_meta",
+   "turns": [
+    {
+     "by": "I",
+     "lang": "en",
+     "text": "Your Honor, the interpreter would like to clarify a term with the respondent."
+    },
+    {
+     "by": "I",
+     "lang": "es",
+     "text": "Señor, cuando dice construcción, ¿trabaja usted en una obra o en una fábrica?"
+    }
+   ]
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that this is his third entry and that he was convicted in 2023. Given his prior removal and his criminal conviction, the court finds that he is a flight risk and denies bond.",
+  "cites_x": [
+   2,
+   6
+  ]
+ }
+}

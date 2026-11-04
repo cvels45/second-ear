@@ -1,0 +1,185 @@
+{
+ "dialogue_id": "ar-S07",
+ "lang": "ar",
+ "scenario_id": "S07",
+ "slots": {
+  "NAME": "Ahmed Salem",
+  "BORDER_TOWN": "Piedras Negras",
+  "US_CITY": "Paterson",
+  "COUNTRY": "Egypt"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "ar:m1",
+  "I": {
+   "ar": "ar:f2",
+   "en": "ar:f2"
+  }
+ },
+ "lines": {
+  "1": {
+   "q": "اذكر اسمك الكامل.",
+   "a": "اسمي أحمد سالم."
+  },
+  "2": {
+   "q": "هل هذه أول مرة تكون فيها في الولايات المتحدة؟",
+   "a": "لا. هذه هي المرة الثانية. المرة الأولى جئت في عام ألفين وخمسة عشر."
+  },
+  "3": {
+   "q": "كيف دخلت في عام ألفين وخمسة عشر؟",
+   "a": "عبرت النهر قرب بيدراس نيغراس. أمسكت بي سلطات الهجرة بعد يومين."
+  },
+  "4": {
+   "q": "هل رُحّلت في ذلك الوقت؟",
+   "a": "نعم، رُحّلت في أغسطس ألفين وخمسة عشر، بعد نحو ثلاثة أسابيع من القبض علي."
+  },
+  "5": {
+   "q": "متى دخلت مرة أخرى؟",
+   "a": "في نوفمبر ألفين واثنين وعشرين. دخلت دون أن يقبضوا علي، وذهبت لأعيش مع عمي في باترسون."
+  },
+  "6": {
+   "q": "هل قُبض عليك في الولايات المتحدة في أي وقت؟",
+   "a": [
+    "مرة واحدة، في عام ألفين وثلاثة وعشرين، بسبب القيادة دون رخصة.",
+    "دفعت الغرامة، وأغلق القاضي القضية."
+   ]
+  },
+  "7": {
+   "q": "هل تعمل؟",
+   "a": "نعم، أعمل في البناء، خمسة أيام في الأسبوع. أكسب نحو ثمانمئة دولار في الأسبوع."
+  },
+  "8": {
+   "q": "من يعتمد عليك؟",
+   "a": "زوجتي وأطفالي الثلاثة في مصر. أرسل لهم المال كل شهر."
+  },
+  "9": {
+   "q": "إذا أُطلق سراحك، أين ستعيش؟",
+   "a": "في بيت عمي في باترسون. إنه مقيم دائم، وسيأتي معي إلى كل جلسة."
+  },
+  "10": {
+   "q": "هل تفهم أنك إذا تغيبت عن جلسة، يمكن أن يصدر أمر بترحيلك؟",
+   "a": "نعم، أفهم. سآتي إلى كل جلسة."
+  }
+ },
+ "plants": [
+  {
+   "x": 6,
+   "side": "a",
+   "part": 1,
+   "type": "distortion",
+   "say": "I paid the fine, and the judge kept the case open.",
+   "src_span": "أغلق القاضي القضية",
+   "say_span": "kept the case open",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 0,
+   "type": "legal_term",
+   "say": "Yes, I left voluntarily in August 2015, about three weeks after they caught me.",
+   "src_span": "رُحّلت",
+   "say_span": "left voluntarily",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "Yes, I work in construction, five days a week. I earn eight hundred dollars a week.",
+   "src_span": "نحو",
+   "say_span": "",
+   "severity": "minor",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "I crossed the river near Piedras Negras. Immigration caught me after two weeks.",
+   "src_span": "يومين",
+   "say_span": "two weeks",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "pronoun_shift",
+   "say": "At my uncle's house in Paterson. I am a permanent resident, and he will come to every hearing with me.",
+   "src_span": "إنه مقيم دائم",
+   "say_span": "I am a permanent resident",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 2,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "هل هذه أول مرة تطلب فيها اللجوء؟",
+   "src_span": "first time in the United States",
+   "say_span": "تطلب فيها اللجوء",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "My wife and my four children in Egypt. I send them money every month.",
+   "src_span": "الثلاثة",
+   "say_span": "four",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "In November 2022. I got in without being caught and went to live with my uncle in Paterson.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Yes, I understand. I'll attend every hearing.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "ما اسمك الكامل؟",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that he departed voluntarily in 2015 and that he is himself a permanent resident. Neither statement matches the records, and bond is denied.",
+  "cites_x": [
+   4,
+   9
+  ]
+ }
+}

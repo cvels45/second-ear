@@ -1,0 +1,162 @@
+{
+ "dialogue_id": "pt-S05",
+ "lang": "pt",
+ "scenario_id": "S05",
+ "slots": {
+  "NAME": "Marcos Vinícius Souza",
+  "CITY": "Newark",
+  "COMPANY": "Atlantic Freight",
+  "COWORKER": "Rogério"
+ },
+ "voices": {
+  "Q": "am_michael",
+  "A": "pm_alex",
+  "I": "pf_dora"
+ },
+ "lines": {
+  "1": {
+   "q": "Pode dizer o seu nome completo para o registro, por favor?",
+   "a": "Meu nome é Marcos Vinícius Souza."
+  },
+  "2": {
+   "q": "Onde o senhor trabalhava em maio de 2024?",
+   "a": "Num armazém em Newark, para a empresa Atlantic Freight. Eu carregava caminhões."
+  },
+  "3": {
+   "q": "Quantas horas o senhor trabalhava por semana?",
+   "a": "Normalmente cinquenta horas. Em maio era mais, umas sessenta, por causa dos feriados."
+  },
+  "4": {
+   "q": "Descreva o que aconteceu no dia 14 de maio.",
+   "a": [
+    "Eu estava numa escada, a uns oito pés de altura, tirando caixas de uma prateleira.",
+    "A escada se mexeu e eu caí de costas. O meu braço esquerdo bateu no chão."
+   ]
+  },
+  "5": {
+   "q": "O senhor tinha recebido algum treinamento sobre aquela escada?",
+   "a": "Não. Ninguém me treinou. O meu supervisor só me mostrou onde ficavam as escadas."
+  },
+  "6": {
+   "q": "O senhor disse ao seu supervisor que a escada estava quebrada?",
+   "a": "Sim, eu disse a ele dois dias antes. Ele disse que ia pedir uma nova."
+  },
+  "7": {
+   "q": "Que lesões o senhor teve?",
+   "a": "Quebrei o pulso esquerdo e machuquei a parte de baixo das costas. Ainda sinto dor quando levanto mais de dez libras."
+  },
+  "8": {
+   "q": "Por quanto tempo o senhor ficou sem poder trabalhar?",
+   "a": "Quatro meses. Voltei em setembro, mas só meio período."
+  },
+  "9": {
+   "q": "Alguém viu o senhor cair?",
+   "a": "O meu colega Rogério viu. Ele chamou o gerente, e o gerente chamou uma ambulância."
+  },
+  "10": {
+   "q": "O senhor já tinha se machucado no trabalho antes?",
+   "a": "Uma vez, em 2019, cortei a mão, mas foi coisa leve. Não faltei ao trabalho."
+  }
+ },
+ "plants": [
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "referent_unit",
+   "say": "I broke my left wrist, and I hurt my lower back. I still have pain when I lift more than ten kilos.",
+   "src_span": "dez libras",
+   "say_span": "ten kilos",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "O senhor disse ao seu supervisor que a escada era velha?",
+   "src_span": "was broken",
+   "say_span": "era velha",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "name",
+   "say": "My coworker Rodrigo saw it. He called the manager, and the manager called an ambulance.",
+   "src_span": "Rogério",
+   "say_span": "Rodrigo",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 1,
+   "type": "distortion",
+   "say": "The ladder broke, and I fell on my back. My left arm hit the floor.",
+   "src_span": "se mexeu",
+   "say_span": "broke",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "Four months. I returned in December, but only part-time.",
+   "src_span": "setembro",
+   "say_span": "December",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "yes_no_reversal",
+   "say": "Once, in 2019, I cut my hand, but it was minor. I did miss some work.",
+   "src_span": "Não faltei",
+   "say_span": "I did miss some work",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Fifty hours, normally. In May it was more, around sixty, because of the holidays.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Onde o senhor trabalhava no mês de maio de 2024?",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "No. No one trained me. My supervisor just showed me where the ladders were kept.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ]
+}

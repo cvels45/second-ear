@@ -1,0 +1,186 @@
+{
+ "dialogue_id": "hi-S06",
+ "lang": "hi",
+ "scenario_id": "S06",
+ "slots": {
+  "NAME": "Arjun Verma",
+  "COUNTRY": "India",
+  "BRO1": "Rohit",
+  "BRO2": "Amit",
+  "CITY": "Patna"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "hm_psi",
+  "I": "hf_beta"
+ },
+ "lines": {
+  "1": {
+   "q": "कृपया अपना नाम बताइए।",
+   "a": "मेरा नाम अर्जुन वर्मा है।"
+  },
+  "2": {
+   "q": "भारत में आप किसके साथ रहते थे?",
+   "a": "अपने माता-पिता और अपने दो छोटे भाइयों के साथ। मैं सबसे बड़ा हूँ।"
+  },
+  "3": {
+   "q": "जब आप निकले, तब आपके भाइयों की उम्र क्या थी?",
+   "a": "रोहित पंद्रह साल का था, और अमित बारह साल का।"
+  },
+  "4": {
+   "q": "आपके पिता के साथ क्या हुआ?",
+   "a": [
+    "मेरे पिता पत्रकार थे। दो हज़ार अठारह में उन्होंने मेयर के बारे में लेख लिखे।",
+    "जनवरी दो हज़ार उन्नीस में कुछ लोग हमारे घर आए और उन्हें ले गए। तब से हमें उनकी कोई खबर नहीं मिली।"
+   ]
+  },
+  "5": {
+   "q": "जब वे उन्हें ले गए, तब घर पर कौन था?",
+   "a": "मेरी माँ, मेरे भाई, और मैं। उन्होंने हमसे कहा कि कुछ मत बोलना।"
+  },
+  "6": {
+   "q": "उसके बाद आपके परिवार ने क्या किया?",
+   "a": "हम साथ में पुलिस के पास गए, मेरी माँ और मैं। पुलिस ने हमसे कहा कि ढूँढना बंद करो।"
+  },
+  "7": {
+   "q": "क्या किसी ने आपको व्यक्तिगत रूप से धमकी दी?",
+   "a": "हाँ। मार्च दो हज़ार उन्नीस में एक आदमी ने मुझे सड़क पर रोका और कहा कि मेरा भी वही हाल होगा जो मेरे पिता का हुआ।"
+  },
+  "8": {
+   "q": "क्या आपने उस धमकी की रिपोर्ट की?",
+   "a": "नहीं, मैंने रिपोर्ट नहीं की। पुलिस ने हमसे जो कहा था, उसके बाद मुझे उन पर भरोसा नहीं था।"
+  },
+  "9": {
+   "q": "आपकी माँ अभी कहाँ हैं?",
+   "a": "वह अब भी पटना में मेरे भाइयों के साथ हैं। वे मेरी मौसी के घर चले गए हैं।"
+  },
+  "10": {
+   "q": "आप अकेले क्यों निकले?",
+   "a": [
+    "हमारे पास इतने पैसे नहीं थे कि सब लोग जा सकें।",
+    "मेरी माँ ने तय किया कि मुझे पहले जाना चाहिए, क्योंकि मैं सबसे बड़ा बेटा हूँ।"
+   ]
+  }
+ },
+ "plants": [
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "pronoun_shift",
+   "say": "I did not have money to travel.",
+   "src_span": "हमारे पास ... सब लोग",
+   "say_span": "I",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 1,
+   "type": "legal_term",
+   "say": "In January 2019 men came to our house and arrested him. We have not heard from him since then.",
+   "src_span": "उन्हें ले गए",
+   "say_span": "arrested him",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "Yes. In May 2019 a man stopped me on the street and said that I would end up like my father.",
+   "src_span": "मार्च",
+   "say_span": "May",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "Rohit was fifteen, and Amit was two.",
+   "src_span": "बारह",
+   "say_span": "two",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "name",
+   "say": "She is still in Patiala with my brothers. They moved to my aunt's house.",
+   "src_span": "पटना",
+   "say_span": "Patiala",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "क्या आपकी माँ ने उस धमकी की रिपोर्ट की?",
+   "src_span": "Did you report",
+   "say_span": "आपकी माँ ने",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "addition",
+   "say": "With my parents, my grandmother, and my two younger brothers. I am the oldest.",
+   "src_span": "",
+   "say_span": "my grandmother",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "My mother, my brothers, and me. They told us to keep quiet.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "My mother and I went to the police together. The police told us to stop searching.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "अपना नाम बताइए।",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that his father was arrested, which suggests a legal process rather than an abduction, and he placed the threat in May 2019. The court finds his account inconsistent with his declaration.",
+  "cites_x": [
+   4,
+   7
+  ]
+ }
+}

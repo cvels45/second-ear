@@ -1,0 +1,201 @@
+{
+ "dialogue_id": "pt-S04",
+ "lang": "pt",
+ "scenario_id": "S04",
+ "slots": {
+  "NAME": "Domingos Kiala",
+  "CHURCH": "Good Shepherd",
+  "PASTOR": "Mateus",
+  "GROUP": "state security service"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "pm_santa",
+  "I": "pf_dora"
+ },
+ "lines": {
+  "1": {
+   "q": "Diga o seu nome, por favor.",
+   "a": "Meu nome é Domingos Kiala."
+  },
+  "2": {
+   "q": "Qual é a sua religião?",
+   "a": "Sou cristão. Fui batizado em 2014 na igreja Bom Pastor."
+  },
+  "3": {
+   "q": "Qual era o seu papel na igreja?",
+   "a": "Eu ensinava a Bíblia às crianças aos domingos, e ajudava o Pastor Mateus com as reuniões nas casas das pessoas."
+  },
+  "4": {
+   "q": "O que aconteceu em outubro de 2019?",
+   "a": [
+    "Durante um culto de domingo, homens do serviço de segurança do Estado entraram na igreja.",
+    "Levaram o pastor e três rapazes. Nunca mais vimos o pastor."
+   ]
+  },
+  "5": {
+   "q": "O senhor estava lá naquele dia?",
+   "a": "Sim, eu estava lá. Eu me escondi na sala dos fundos com as crianças."
+  },
+  "6": {
+   "q": "O que aconteceu com o senhor depois disso?",
+   "a": "Duas semanas depois me detiveram no meu local de trabalho. Eles me mantiveram preso por nove dias e me pediram os nomes dos outros membros."
+  },
+  "7": {
+   "q": "O senhor alguma vez foi acusado de algum crime?",
+   "a": "Não, nunca me acusaram. Me soltaram quando eu assinei um papel que eu não conseguia ler."
+  },
+  "8": {
+   "q": "O que dizia o papel?",
+   "a": "Não sei exatamente. Acho que dizia que eu ia parar de ir à igreja."
+  },
+  "9": {
+   "q": "O senhor continuou praticando a sua religião depois de ser solto?",
+   "a": "Sim, mas só em segredo, na minha casa, com a minha esposa e a minha mãe."
+  },
+  "10": {
+   "q": "Quando o senhor chegou aos Estados Unidos?",
+   "a": "Cheguei no dia vinte de julho de 2020. Pedi asilo na fronteira."
+  }
+ },
+ "plants": [
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "Two weeks later they detained me at my workplace. They kept me for nineteen days and asked me for the names of the other members.",
+   "src_span": "nove dias",
+   "say_span": "nineteen days",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "legal_term",
+   "say": "No, they never convicted me. They released me when I signed a paper that I could not read.",
+   "src_span": "nunca me acusaram",
+   "say_span": "never convicted me",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 1,
+   "type": "count_ordinal",
+   "say": "They took the pastor and two young men. We never saw the pastor again.",
+   "src_span": "três rapazes",
+   "say_span": "two young men",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "I don't know exactly. It said that I would stop going to the church.",
+   "src_span": "Acho que",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "O senhor continuou indo à igreja depois de ser solto?",
+   "src_span": "practice your religion",
+   "say_span": "indo à igreja",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "name",
+   "say": "I taught the Bible to children on Sundays, and I helped Pastor Marcos with the meetings in people's homes.",
+   "src_span": "Pastor Mateus",
+   "say_span": "Pastor Marcos",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "addition",
+   "say": "Yes, I was there. I hid in the back room with the children and my wife.",
+   "src_span": "",
+   "say_span": "and my wife",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "I'm a Christian. I got baptized in 2014 at Good Shepherd church.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Yes, but secretly, at home, with my wife and my mother.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "O que houve em outubro de 2019?",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "extras": [
+  {
+   "after_x": 7,
+   "kind": "uninterpreted",
+   "turns": [
+    {
+     "by": "A",
+     "lang": "pt",
+     "text": "Eu preciso explicar que papel era?"
+    },
+    {
+     "by": "I",
+     "lang": "pt",
+     "text": "Espere a próxima pergunta."
+    }
+   ],
+   "note": "The interpreter answers the applicant directly instead of interpreting."
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that he was held for nineteen days and that two young men were taken with the pastor. These details differ from his declaration, and the court gives his account reduced weight.",
+  "cites_x": [
+   4,
+   6
+  ]
+ }
+}

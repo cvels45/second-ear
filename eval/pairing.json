@@ -1,0 +1,9 @@
+{
+ "max_group": 8,
+ "base": 0.4,
+ "skip_cost": 0.6,
+ "chosen_by": "scripts/tune_pairing.py grid on Nov 2 (LaBSE), picked by hand: exact pairs minus half the extra pairs",
+ "exact": {"dev": 636, "t4-calib": 207},
+ "pred": {"dev": 642, "t4-calib": 236},
+ "gold": {"dev": 645, "t4-calib": 208}
+}

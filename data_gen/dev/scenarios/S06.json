@@ -1,0 +1,80 @@
+{
+ "scenario_id": "S06",
+ "setting": "merits_hearing",
+ "title": "A journalist's family: the oldest son",
+ "speakers": {
+  "J": "judge",
+  "R": "respondent_attorney",
+  "D": "dhs_attorney",
+  "A": "applicant",
+  "I": "interpreter"
+ },
+ "exchanges": [
+  {
+   "x": 1,
+   "q_by": "J",
+   "q": "Please state your name.",
+   "a": "My name is {NAME}."
+  },
+  {
+   "x": 2,
+   "q_by": "R",
+   "q": "Who did you live with in {COUNTRY}?",
+   "a": "With my parents and my two younger brothers. I am the oldest."
+  },
+  {
+   "x": 3,
+   "q_by": "R",
+   "q": "How old were your brothers when you left?",
+   "a": "{BRO1} was fifteen, and {BRO2} was twelve."
+  },
+  {
+   "x": 4,
+   "q_by": "R",
+   "q": "What happened to your father?",
+   "a": [
+    "My father was a journalist. In 2018 he wrote articles about the mayor.",
+    "In January 2019 men came to our house and took him. We have not heard from him since then."
+   ]
+  },
+  {
+   "x": 5,
+   "q_by": "R",
+   "q": "Who was at home when they took him?",
+   "a": "My mother, my brothers, and I. They told us not to say anything."
+  },
+  {
+   "x": 6,
+   "q_by": "R",
+   "q": "What did your family do after that?",
+   "a": "We went to the police together, my mother and I. The police told us to stop looking."
+  },
+  {
+   "x": 7,
+   "q_by": "D",
+   "q": "Did anyone threaten you personally?",
+   "a": "Yes. In March 2019 a man stopped me on the street and said that I would end up like my father."
+  },
+  {
+   "x": 8,
+   "q_by": "D",
+   "q": "Did you report that threat?",
+   "a": "No, I did not report it. After what the police told us, I did not trust them."
+  },
+  {
+   "x": 9,
+   "q_by": "D",
+   "q": "Where is your mother now?",
+   "a": "She is still in {CITY} with my brothers. They moved to my aunt's house."
+  },
+  {
+   "x": 10,
+   "q_by": "J",
+   "q": "Why did you leave alone?",
+   "a": [
+    "We did not have money for everyone to travel.",
+    "My mother decided that I should go first, because I am the oldest son."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "scenario_id": "S07",
+ "setting": "bond_hearing",
+ "title": "Bond hearing: a prior removal",
+ "speakers": {
+  "J": "judge",
+  "R": "respondent_attorney",
+  "D": "dhs_attorney",
+  "A": "applicant",
+  "I": "interpreter"
+ },
+ "exchanges": [
+  {
+   "x": 1,
+   "q_by": "J",
+   "q": "State your full name.",
+   "a": "My name is {NAME}."
+  },
+  {
+   "x": 2,
+   "q_by": "J",
+   "q": "Is this your first time in the United States?",
+   "a": "No. This is my second time. The first time I came in 2015."
+  },
+  {
+   "x": 3,
+   "q_by": "D",
+   "q": "How did you enter in 2015?",
+   "a": "I crossed the river near {BORDER_TOWN}. Immigration caught me after two days."
+  },
+  {
+   "x": 4,
+   "q_by": "D",
+   "q": "Were you deported at that time?",
+   "a": "Yes, I was deported in August 2015, about three weeks after they caught me."
+  },
+  {
+   "x": 5,
+   "q_by": "D",
+   "q": "When did you enter again?",
+   "a": "In November 2022. I entered without being caught, and I went to live with my uncle in {US_CITY}."
+  },
+  {
+   "x": 6,
+   "q_by": "D",
+   "q": "Have you ever been arrested in the United States?",
+   "a": [
+    "Once, in 2023, for driving without a license.",
+    "I paid the fine, and the judge closed the case."
+   ]
+  },
+  {
+   "x": 7,
+   "q_by": "R",
+   "q": "Do you work?",
+   "a": "Yes, I work in construction, five days a week. I earn about eight hundred dollars a week."
+  },
+  {
+   "x": 8,
+   "q_by": "R",
+   "q": "Who depends on you?",
+   "a": "My wife and my three children in {COUNTRY}. I send them money every month."
+  },
+  {
+   "x": 9,
+   "q_by": "R",
+   "q": "If you are released, where will you live?",
+   "a": "At my uncle's house in {US_CITY}. He is a permanent resident, and he will come to every hearing with me."
+  },
+  {
+   "x": 10,
+   "q_by": "J",
+   "q": "Do you understand that if you miss a hearing, you can be ordered removed?",
+   "a": "Yes, I understand. I will come to every hearing."
+  }
+ ]
+}

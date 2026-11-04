@@ -1,0 +1,174 @@
+{
+ "dialogue_id": "hi-S05",
+ "lang": "hi",
+ "scenario_id": "S05",
+ "slots": {
+  "NAME": "Suresh Kumar",
+  "CITY": "Jersey City",
+  "COMPANY": "Garden State Freight",
+  "COWORKER": "Manoj"
+ },
+ "voices": {
+  "Q": "am_michael",
+  "A": "hm_omega",
+  "I": "hf_alpha"
+ },
+ "lines": {
+  "1": {
+   "q": "क्या आप रिकॉर्ड के लिए अपना पूरा नाम बता सकते हैं?",
+   "a": "मेरा नाम सुरेश कुमार है।"
+  },
+  "2": {
+   "q": "मई दो हज़ार चौबीस में आप कहाँ काम करते थे?",
+   "a": "जर्सी सिटी के एक गोदाम में, गार्डन स्टेट फ्रेट कंपनी के लिए। मैं ट्रकों में माल लादता था।"
+  },
+  "3": {
+   "q": "आप हफ़्ते में कितने घंटे काम करते थे?",
+   "a": "आम तौर पर पचास घंटे। मई में ज़्यादा था, करीब साठ, छुट्टियों की वजह से।"
+  },
+  "4": {
+   "q": "चौदह मई को क्या हुआ, बताइए।",
+   "a": [
+    "मैं एक सीढ़ी पर था, करीब आठ फ़ुट ऊँचाई पर, एक शेल्फ़ से डिब्बे उतार रहा था।",
+    "सीढ़ी हिल गई और मैं पीठ के बल गिर गया। मेरा बायाँ हाथ फ़र्श से टकराया।"
+   ]
+  },
+  "5": {
+   "q": "क्या आपको उस सीढ़ी के बारे में कोई ट्रेनिंग मिली थी?",
+   "a": "नहीं। किसी ने मुझे ट्रेनिंग नहीं दी। मेरे सुपरवाइज़र ने बस यह दिखाया था कि सीढ़ियाँ कहाँ रखी हैं।"
+  },
+  "6": {
+   "q": "क्या आपने अपने सुपरवाइज़र को बताया था कि सीढ़ी टूटी हुई है?",
+   "a": "हाँ, मैंने उसे दो दिन पहले बताया था। उसने कहा था कि वह नई मँगवा देगा।"
+  },
+  "7": {
+   "q": "आपको क्या चोटें आईं?",
+   "a": "मेरी बाईं कलाई टूट गई, और मेरी कमर के निचले हिस्से में चोट लगी। अब भी दस पाउंड से ज़्यादा वज़न उठाने पर दर्द होता है।"
+  },
+  "8": {
+   "q": "आप कितने समय तक काम नहीं कर पाए?",
+   "a": "चार महीने। मैं सितंबर में वापस गया, लेकिन सिर्फ़ पार्ट-टाइम।"
+  },
+  "9": {
+   "q": "क्या किसी ने आपको गिरते हुए देखा?",
+   "a": "मेरे साथी मनोज ने देखा। उसने मैनेजर को बुलाया, और मैनेजर ने एम्बुलेंस बुलाई।"
+  },
+  "10": {
+   "q": "क्या आपको पहले कभी काम पर चोट लगी थी?",
+   "a": "एक बार, दो हज़ार उन्नीस में, मेरा हाथ कट गया था, लेकिन मामूली था। मेरा कोई काम नहीं छूटा।"
+  }
+ },
+ "plants": [
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "referent_unit",
+   "say": "Usually fifty hours a month. In May it was more, about sixty, because of the holidays.",
+   "src_span": "पचास घंटे",
+   "say_span": "a month",
+   "severity": "major",
+   "dispositive": false,
+   "note": "per week becomes per month"
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 1,
+   "type": "omission",
+   "say": "The ladder moved, and I fell on my back.",
+   "src_span": "मेरा बायाँ हाथ फ़र्श से टकराया",
+   "say_span": "",
+   "severity": "minor",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "Maybe I told him two days before. He said that he would order a new one.",
+   "src_span": "",
+   "say_span": "Maybe",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "self_corrected",
+   "say": "My coworker Manoj saw it. He called an ambulance... correction, he called the manager, and the manager called an ambulance.",
+   "src_span": "उसने मैनेजर को बुलाया",
+   "say_span": "He called an ambulance",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "Fourteen months. I returned in September, but only part-time.",
+   "src_span": "चार महीने",
+   "say_span": "Fourteen months",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "मई दो हज़ार चौबीस में आप कहाँ रहते थे?",
+   "src_span": "Where were you working",
+   "say_span": "कहाँ रहते थे",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "Twice, in 2019. I cut my hand, but it was minor. I did not miss any work.",
+   "src_span": "एक बार",
+   "say_span": "Twice",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "At a warehouse in Jersey City for Garden State Freight, where I loaded trucks.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "My left wrist was broken, and my lower back was injured. Lifting more than ten pounds still causes pain.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "क्या किसी ने आपको गिरते देखा था?",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ]
+}

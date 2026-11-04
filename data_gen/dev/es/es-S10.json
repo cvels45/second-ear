@@ -1,0 +1,173 @@
+{
+ "dialogue_id": "es-S10",
+ "lang": "es",
+ "scenario_id": "S10",
+ "slots": {
+  "NAME": "Carlos Antonio Mejía",
+  "CITY": "San Salvador",
+  "GROUP": "MS-13"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "em_alex",
+  "I": "ef_dora"
+ },
+ "lines": {
+  "1": {
+   "q": "Por favor, diga su nombre para el acta.",
+   "a": "Me llamo Carlos Antonio Mejía."
+  },
+  "2": {
+   "q": "¿A qué se dedicaba?",
+   "a": "Era motorista de una empresa de buses en San Salvador durante seis años."
+  },
+  "3": {
+   "q": "¿Cuándo recibió la primera llamada?",
+   "a": "El tres de mayo de 2022, como a las once de la noche."
+  },
+  "4": {
+   "q": "¿Qué le dijo la persona que llamó?",
+   "a": [
+    "Me dijo que tenía que pagar un impuesto de guerra de mil dólares.",
+    "Me dijo que si no pagaba, iban a quemar mi bus conmigo adentro."
+   ]
+  },
+  "5": {
+   "q": "¿Cuántas llamadas recibió?",
+   "a": "Cinco llamadas en total, durante dos meses. La última llamada fue en julio."
+  },
+  "6": {
+   "q": "¿Qué pasó la noche del 9 de julio?",
+   "a": [
+    "Por segunda vez detuvieron mi bus. Se subieron dos hombres armados.",
+    "Les quitaron el dinero a los pasajeros y me pegaron en la cara con una pistola."
+   ]
+  },
+  "7": {
+   "q": "Hace un momento dijo que detuvieron su bus. ¿Esa fue la primera vez?",
+   "a": "No, fue la segunda vez. La primera vez fue en junio, pero esa vez solo me amenazaron."
+  },
+  "8": {
+   "q": "¿Reconoció a los hombres?",
+   "a": "No sabía sus nombres, pero creo que eran de la MS-13. Tenían los mismos tatuajes."
+  },
+  "9": {
+   "q": "¿Su empleador hizo algo?",
+   "a": "Mi jefe dijo que la empresa ya le pagaba a la pandilla, y que yo no hiciera problemas."
+  },
+  "10": {
+   "q": "¿Cuándo salió de su país?",
+   "a": "Tres semanas después del segundo ataque, a principios de agosto de 2022."
+  }
+ },
+ "plants": [
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "Two times they stopped my bus. Two men got on with guns.",
+   "src_span": "Por segunda vez",
+   "say_span": "Two times",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 1,
+   "type": "softening",
+   "say": "They took the money from the passengers and pushed me.",
+   "src_span": "me pegaron en la cara con una pistola",
+   "say_span": "pushed me",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "On the third of May 2022, at about eleven in the morning.",
+   "src_span": "de la noche",
+   "say_span": "in the morning",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "Three calls in total, over two months. The last call was in July.",
+   "src_span": "Cinco llamadas",
+   "say_span": "Three calls",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "I did not know their names, but they were from the MS-13. They had the same tattoos.",
+   "src_span": "creo que",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "self_corrected",
+   "say": "My boss said that the company did not pay the gang... correction, that the company already paid the gang, and that I should not make problems.",
+   "src_span": "ya le pagaba",
+   "say_span": "did not pay the gang",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "I drove for a bus company in San Salvador for six years.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Three weeks after the second attack, in early August 2022.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 1,
+   "type": "acceptable",
+   "say": "He said that if I didn't pay, they would set my bus on fire with me in it.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "decision": {
+  "text": "The court notes inconsistencies. The respondent testified that he received three calls, but his declaration says five. He also testified that the men pushed him, while his declaration describes a beating with a gun.",
+  "cites_x": [
+   5,
+   6
+  ]
+ }
+}

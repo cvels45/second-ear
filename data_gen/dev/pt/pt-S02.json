@@ -1,0 +1,202 @@
+{
+ "dialogue_id": "pt-S02",
+ "lang": "pt",
+ "scenario_id": "S02",
+ "slots": {
+  "NAME": "Ana Paula Ferreira",
+  "COUNTRY": "Brazil",
+  "TOWN": "Duque de Caxias",
+  "GROUP": "Liga da Baixada",
+  "CITY": "Nova Iguaçu"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "pf_dora",
+  "I": "pm_alex"
+ },
+ "lines": {
+  "1": {
+   "q": "Por favor, diga o seu nome.",
+   "a": "Meu nome é Ana Paula Ferreira."
+  },
+  "2": {
+   "q": "O que a senhora fazia como trabalho no Brasil?",
+   "a": "Eu tinha uma pequena padaria em Duque de Caxias. Trabalhei lá com o meu filho por oito anos."
+  },
+  "3": {
+   "q": "Quem exigia dinheiro da senhora?",
+   "a": "Membros da Liga da Baixada. Eles vinham à padaria toda sexta-feira."
+  },
+  "4": {
+   "q": "Quanto eles exigiam?",
+   "a": [
+    "No começo eles pediam cinquenta dólares por semana.",
+    "Depois de seis meses aumentaram para duzentos dólares por semana, e eu não conseguia pagar."
+   ]
+  },
+  "5": {
+   "q": "O que aconteceu quando a senhora não conseguiu pagar?",
+   "a": "Em setembro de 2020 eles sequestraram o meu filho por dois dias. Soltaram ele depois que eu paguei mil e quinhentos dólares."
+  },
+  "6": {
+   "q": "A senhora foi à polícia?",
+   "a": "Fui uma vez, à delegacia de Duque de Caxias. O policial disse que não podia me ajudar e me mandou pagar."
+  },
+  "7": {
+   "q": "Os membros da gangue alguma vez machucaram a senhora fisicamente?",
+   "a": "A mim, não. Eles quebraram as janelas da padaria e bateram no meu filho."
+  },
+  "8": {
+   "q": "Por que a senhora não se mudou para outra cidade?",
+   "a": "Nós nos mudamos para a casa da minha irmã em Nova Iguaçu por quatro meses, mas eles nos encontraram lá."
+  },
+  "9": {
+   "q": "Como a senhora sabe que era o mesmo grupo?",
+   "a": "Acho que sim, porque um deles era o mesmo homem que ia à padaria. Ele tinha uma tatuagem no pescoço."
+  },
+  "10": {
+   "q": "Há mais alguma coisa que a senhora queira que o tribunal saiba?",
+   "a": "Só que o meu filho ainda tem medo. Ele tinha dezessete anos quando o levaram."
+  }
+ },
+ "plants": [
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "In September 2020 they kidnapped my son for two days. They released him after I paid fifteen thousand dollars.",
+   "src_span": "mil e quinhentos dólares",
+   "say_span": "fifteen thousand dollars",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "name",
+   "say": "Members of the police. They came to the bakery every Friday.",
+   "src_span": "Liga da Baixada",
+   "say_span": "the police",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "omission",
+   "say": "Not me. They broke the windows of the bakery.",
+   "src_span": "e bateram no meu filho",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "addition",
+   "say": "We moved to my sister's house in Nova Iguaçu for four months, but they found us there and beat us.",
+   "src_span": "",
+   "say_span": "and beat us",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "Como a senhora sabe que eram os mesmos homens que sequestraram o seu filho?",
+   "src_span": "the same group",
+   "say_span": "os mesmos homens que sequestraram o seu filho",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "pronoun_shift",
+   "say": "Only that I am still afraid. I was seventeen years old when they took me.",
+   "src_span": "o meu filho ... Ele",
+   "say_span": "I ... I",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "softening",
+   "say": "I went once, to the station in Duque de Caxias. The officer said he could not help me and suggested that I pay.",
+   "src_span": "me mandou pagar",
+   "say_span": "suggested that I pay",
+   "severity": "minor",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "I owned a small bakery in Duque de Caxias, where my son and I worked for eight years.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "In the beginning they wanted fifty dollars every week.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Diga o seu nome, por favor.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "extras": [
+  {
+   "after_x": 4,
+   "kind": "interpreter_meta",
+   "turns": [
+    {
+     "by": "I",
+     "lang": "en",
+     "text": "Your Honor, may the interpreter ask the witness to speak in shorter segments?"
+    },
+    {
+     "by": "I",
+     "lang": "pt",
+     "text": "Senhora, pode falar em frases mais curtas, por favor?"
+    }
+   ],
+   "note": ""
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that she paid fifteen thousand dollars and that the police extorted her. Her declaration names a criminal group, not the police, and gives a much lower amount.",
+  "cites_x": [
+   3,
+   5
+  ]
+ }
+}

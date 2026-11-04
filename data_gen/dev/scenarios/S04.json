@@ -1,0 +1,77 @@
+{
+ "scenario_id": "S04",
+ "setting": "merits_hearing",
+ "title": "Religious persecution: a house church",
+ "speakers": {
+  "J": "judge",
+  "R": "respondent_attorney",
+  "D": "dhs_attorney",
+  "A": "applicant",
+  "I": "interpreter"
+ },
+ "exchanges": [
+  {
+   "x": 1,
+   "q_by": "J",
+   "q": "State your name, please.",
+   "a": "My name is {NAME}."
+  },
+  {
+   "x": 2,
+   "q_by": "R",
+   "q": "What is your religion?",
+   "a": "I am a Christian. I was baptized in 2014 at the {CHURCH} church."
+  },
+  {
+   "x": 3,
+   "q_by": "R",
+   "q": "What was your role in the church?",
+   "a": "I taught the Bible to children on Sundays, and I helped Pastor {PASTOR} with the meetings in people's homes."
+  },
+  {
+   "x": 4,
+   "q_by": "R",
+   "q": "What happened in October 2019?",
+   "a": [
+    "During a Sunday service, men from the {GROUP} came into the church.",
+    "They took the pastor and three young men. We never saw the pastor again."
+   ]
+  },
+  {
+   "x": 5,
+   "q_by": "R",
+   "q": "Were you there that day?",
+   "a": "Yes, I was there. I hid in the back room with the children."
+  },
+  {
+   "x": 6,
+   "q_by": "R",
+   "q": "What happened to you after that?",
+   "a": "Two weeks later they detained me at my workplace. They kept me for nine days and asked me for the names of the other members."
+  },
+  {
+   "x": 7,
+   "q_by": "D",
+   "q": "Were you ever charged with a crime?",
+   "a": "No, they never charged me. They released me when I signed a paper that I could not read."
+  },
+  {
+   "x": 8,
+   "q_by": "D",
+   "q": "What did the paper say?",
+   "a": "I don't know exactly. I think it said that I would stop going to the church."
+  },
+  {
+   "x": 9,
+   "q_by": "D",
+   "q": "Did you continue to practice your religion after your release?",
+   "a": "Yes, but only in secret, in my house, with my wife and my mother."
+  },
+  {
+   "x": 10,
+   "q_by": "J",
+   "q": "When did you arrive in the United States?",
+   "a": "I arrived on the twentieth of July 2020. I asked for asylum at the border."
+  }
+ ]
+}

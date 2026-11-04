@@ -1,0 +1,2186 @@
+{
+ "sources": {
+  "fleurs": "google/fleurs test split, CC BY 4.0",
+  "flores": "FLORES-200 text, CC BY-SA 4.0",
+  "rules": {
+   "seed": 2026,
+   "minutes_per_language": 20.0,
+   "langs": [
+    "es",
+    "pt",
+    "zh",
+    "hi",
+    "ar",
+    "ta"
+   ]
+  }
+ },
+ "sessions": [
+  {
+   "session_id": "t3-es",
+   "duration_s": 1210.72,
+   "pairs": 50,
+   "wav_sha256": "7a9625f3863bcc12d6f2e9d38d0479295c4aab013430fc34c20e327ea193fc89",
+   "fleurs_revision": "70bb2e84b976b7e960aa89f1c648e09c59f894dd"
+  },
+  {
+   "session_id": "t3-pt",
+   "duration_s": 1208.32,
+   "pairs": 50,
+   "wav_sha256": "81d3f9a52c7ac196ffe07846e6381436c9c70bc61fbd8a92dae69501b56e84cc",
+   "fleurs_revision": "70bb2e84b976b7e960aa89f1c648e09c59f894dd"
+  },
+  {
+   "session_id": "t3-zh",
+   "duration_s": 1209.6,
+   "pairs": 53,
+   "wav_sha256": "c3f2d11f570e7cb73203d2affcce434480e59f986a666c43935f1577b282b981",
+   "fleurs_revision": "70bb2e84b976b7e960aa89f1c648e09c59f894dd"
+  },
+  {
+   "session_id": "t3-hi",
+   "duration_s": 1206.76,
+   "pairs": 51,
+   "wav_sha256": "8e77725b3cc9342f66eb19533ff9fa1954e413efc3eb8758d17bac22095686f4",
+   "fleurs_revision": "70bb2e84b976b7e960aa89f1c648e09c59f894dd"
+  },
+  {
+   "session_id": "t3-ar",
+   "duration_s": 1218.14,
+   "pairs": 52,
+   "wav_sha256": "97563b3381ef662ee069713fc666c2c967e81d7f951468e934a16055f6fbcd28",
+   "fleurs_revision": "70bb2e84b976b7e960aa89f1c648e09c59f894dd"
+  },
+  {
+   "session_id": "t3-ta",
+   "duration_s": 1214.84,
+   "pairs": 47,
+   "wav_sha256": "392ef9e8c9cac5264246642836b659226603adb446a49b25286cf9171f3ce608",
+   "fleurs_revision": "70bb2e84b976b7e960aa89f1c648e09c59f894dd"
+  }
+ ],
+ "items_sha256": "d170a4b4bf3fddfa43fe62c13dc77dbcfdba3f293d514662dba77b1e665eeeff",
+ "items": [
+  {
+   "id": "t3-ar-000",
+   "fleurs_id": "1826",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "724338ef6e7a8d0ccec1194ed05275f1b31967f79a892b9a574c94d199623d41"
+  },
+  {
+   "id": "t3-ar-001",
+   "fleurs_id": "1940",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "01c1c260feaaa519ae976b0568e7ea6ea766014474cc57af5f63c29b270b6688"
+  },
+  {
+   "id": "t3-ar-002",
+   "fleurs_id": "1720",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "f35000eaf73c23305e7e296d0cb6a9d1f925cffd9647b45a7bbd053c7c467561"
+  },
+  {
+   "id": "t3-ar-003",
+   "fleurs_id": "1965",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "46947a6a77d51cba5e460c7187ae646e3bc699a5d2860734d00d98a70e71bf2c"
+  },
+  {
+   "id": "t3-ar-004",
+   "fleurs_id": "1842",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "fbe997e7a0bdc9dff7f3e648ecd16d7bc7bf5ce7fde0cc2774d21c19e19c9a3f"
+  },
+  {
+   "id": "t3-ar-005",
+   "fleurs_id": "1946",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "0475fc3c1307fbbbf6eeeb420b8a11d7d9ed6162c0be67f28bed6bd14b77ed68"
+  },
+  {
+   "id": "t3-ar-006",
+   "fleurs_id": "1695",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "e86d6a92b00a59ccd73f18f38a68a1f1b14034990c7b99cdcdddba2a5d4c5d65"
+  },
+  {
+   "id": "t3-ar-007",
+   "fleurs_id": "1683",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "446f43c3309a204448450a27835d0b430711a79bbe7fbf28364a174db6f5a78f"
+  },
+  {
+   "id": "t3-ar-008",
+   "fleurs_id": "1772",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "4d792b5487f163b5a37e2e8d01d87b11a0ee111ab035398b996e7fcd3697d336"
+  },
+  {
+   "id": "t3-ar-009",
+   "fleurs_id": "1756",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "7125b4322a7f7a4c7ae0ac14c1356ecac3a6dbc4e4a96089c0b7165628d72d40"
+  },
+  {
+   "id": "t3-ar-010",
+   "fleurs_id": "1751",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "0290eff07bf5c3891c55650ab62d8f6a180acc77687bd1af0950a6e52db97938"
+  },
+  {
+   "id": "t3-ar-011",
+   "fleurs_id": "1941",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "a64febfeac79730de5563fcddb5129652c00470c8e9c2ccdb13083bd8cf077c2"
+  },
+  {
+   "id": "t3-ar-012",
+   "fleurs_id": "1915",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "ec1f9ab123542fcb9d2064272ad1d7321fd9231a30560502f606fd52c71f555d"
+  },
+  {
+   "id": "t3-ar-013",
+   "fleurs_id": "1899",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "a87c358607dd8d3095721f9169da2b4dae2e7c2fbc7f08fe7932febe25858867"
+  },
+  {
+   "id": "t3-ar-014",
+   "fleurs_id": "1762",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "e4e1c39348f6147eb0a4f25fd609d8d56dadd15e8eeb2e6748aada4dc07ff470"
+  },
+  {
+   "id": "t3-ar-015",
+   "fleurs_id": "1773",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "648878c3dd790c0c78d5538ce3af0fdf5397e0499e6953456f1889ca605f71b6"
+  },
+  {
+   "id": "t3-ar-016",
+   "fleurs_id": "1908",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "b92dd8aae898e69f2413917356b5ca26348b464a9067b3d69636b2d239f77d22"
+  },
+  {
+   "id": "t3-ar-017",
+   "fleurs_id": "1973",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "753f616c0e4c29bf7fa19f3ba4e2002fe8d67f378872ebe8d972ed62c62d50ca"
+  },
+  {
+   "id": "t3-ar-018",
+   "fleurs_id": "1672",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "ba743861b002b78c46900a5e6d9cd5cc92e3e58e96aa7933032aead58aab6301"
+  },
+  {
+   "id": "t3-ar-019",
+   "fleurs_id": "1778",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "e7bd7ba3a54fc449c70779fa885686d120ac4884d44f593711dbec22086cfe5a"
+  },
+  {
+   "id": "t3-ar-020",
+   "fleurs_id": "1916",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "7bad552f52466c84ade776893c9b3a5356c1a629ce7a3699e21bb969ae64a9d1"
+  },
+  {
+   "id": "t3-ar-021",
+   "fleurs_id": "1822",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "d009ef259ee0430971d0024df49a9bfe712706802290fd1ba169fcedaae93ba0"
+  },
+  {
+   "id": "t3-ar-022",
+   "fleurs_id": "1994",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "0fd4f7c52e2b5cbac20dce1b9227af025d800233074229a3d9dc33d18b72834c"
+  },
+  {
+   "id": "t3-ar-023",
+   "fleurs_id": "1749",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "0cd160b44674de346b91474b9e42e8a0e083c9d88765d772a9ad18e7ecd8f215"
+  },
+  {
+   "id": "t3-ar-024",
+   "fleurs_id": "1851",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "d9acf96afd57abe0e7cc6cbcfd70612569684ca39759858290fb8faa7d5e91a9"
+  },
+  {
+   "id": "t3-ar-025",
+   "fleurs_id": "1709",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "677ebb0f16ea8edcf0ed7a89b3561bd9f6a4d989cff1f3055b17558a2ce2c015"
+  },
+  {
+   "id": "t3-ar-026",
+   "fleurs_id": "1968",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "c71ab9147a3fa90a62e1f0dc41ecdd5dc0c9feccb061d63ce848096843ab2853"
+  },
+  {
+   "id": "t3-ar-027",
+   "fleurs_id": "1711",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "a0fc94390e9c8d6f874711b2c731c7684116b71410522c25077e4d491c9a211f"
+  },
+  {
+   "id": "t3-ar-028",
+   "fleurs_id": "1833",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "e00ee7b7d169d76319f922a961cd79198f8b1fd58b171df36f6eda7a9eb9d76a"
+  },
+  {
+   "id": "t3-ar-029",
+   "fleurs_id": "1895",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "d44116375407513925744b758ff44a7b8d65ffb25680d6b06ae70cf8b89023b0"
+  },
+  {
+   "id": "t3-ar-030",
+   "fleurs_id": "1930",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "9b7eddac642d449c63e4e5c2e805fbf932b233c7057b974891f7adb7cca4b01b"
+  },
+  {
+   "id": "t3-ar-031",
+   "fleurs_id": "1959",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "42a5183a268832bc96e312195f99043dff46b0033b7a01b411cfd7d81444227d"
+  },
+  {
+   "id": "t3-ar-032",
+   "fleurs_id": "1677",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "c8113e76319551e090f49e96466b84b4929a9cd1b841162382ec7f992b4f17ac"
+  },
+  {
+   "id": "t3-ar-033",
+   "fleurs_id": "1949",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "7b58a375fab06e58f43dcd664911c66bc5cb55306a6e207991a03a8770e5d02d"
+  },
+  {
+   "id": "t3-ar-034",
+   "fleurs_id": "1936",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "5183d36ac40f67f3ef051f8a19bab7de10f8b3105b52e110b0ea62a637744292"
+  },
+  {
+   "id": "t3-ar-035",
+   "fleurs_id": "1896",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "33bf8feedd096882d1d0581cf47218d825bea9f1e8aa293fb5a4711aa450a6a6"
+  },
+  {
+   "id": "t3-ar-036",
+   "fleurs_id": "1971",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "be3fe30e0ff33a4195e1dd226da9339d47877979f91e631497799bbcc4199024"
+  },
+  {
+   "id": "t3-ar-037",
+   "fleurs_id": "1741",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "be808f74d61d0f39e96e60a5a2132e9c7d130a11ee13960ff1c48888887b88e3"
+  },
+  {
+   "id": "t3-ar-038",
+   "fleurs_id": "1913",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "d85b0827475aca87b9f603430a644c94977b272cbefa6d94d9a1a1c15d486739"
+  },
+  {
+   "id": "t3-ar-039",
+   "fleurs_id": "2000",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "9b1bdf325e94dca989b04c96680a8aaa331bcb6ed39aadc1ae4a23cb4b921416"
+  },
+  {
+   "id": "t3-ar-040",
+   "fleurs_id": "1970",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "40e8732084142acb975614f50ab0f1a9376c08b54050a09bc3b45bcaf3974901"
+  },
+  {
+   "id": "t3-ar-041",
+   "fleurs_id": "1914",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "f186ab7a7100550eeb55f2a554d850d691945c07991e4fbdfd29f89d53af89da"
+  },
+  {
+   "id": "t3-ar-042",
+   "fleurs_id": "1820",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "0261bda5f064daf581ec743e1a0f49f3a9b9680abb53a9398894abc3870db94e"
+  },
+  {
+   "id": "t3-ar-043",
+   "fleurs_id": "1768",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "9492309de0f8b8036e3f4eda592db0f36a75e54769900a9134db7bcf1fb2f718"
+  },
+  {
+   "id": "t3-ar-044",
+   "fleurs_id": "1697",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "7acb4a64d7a6d5773a5b844f57b1b30aecb822e22599504515d72da5381127ca"
+  },
+  {
+   "id": "t3-ar-045",
+   "fleurs_id": "1938",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "ef749f7920e5ae283d50b5cb829813964c16d293847de350aeadbea1f3f1a207"
+  },
+  {
+   "id": "t3-ar-046",
+   "fleurs_id": "1813",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "d3a41d063ec86c78d6a00095777a19a9940b7b4db95ff64dfcbe642c160b0b32"
+  },
+  {
+   "id": "t3-ar-047",
+   "fleurs_id": "1725",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "7deca83e0771e08a897aa2519189fa2863be208cabc067f26ee3db58049d8a10"
+  },
+  {
+   "id": "t3-ar-048",
+   "fleurs_id": "1865",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "aea8a45a9230648fee3213d352dafa47242a8b3545815e5a106c33193ae5ef4f"
+  },
+  {
+   "id": "t3-ar-049",
+   "fleurs_id": "1939",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "01f4ebf4e7a90ed7879eee55a272c65bd191eef05eca2b5c87a155474c7de725"
+  },
+  {
+   "id": "t3-ar-050",
+   "fleurs_id": "1824",
+   "direction": "ar->en",
+   "label": "clean",
+   "sha256": "b9982a15d8dd4d3517f5f206666e10dfd7e7eabe0dad5849db2c03df392d658d"
+  },
+  {
+   "id": "t3-ar-051",
+   "fleurs_id": "1846",
+   "direction": "en->ar",
+   "label": "clean",
+   "sha256": "763ee3f47f2558dabeb5af834e340b4ebc089699921876d38be7f36ba864d36f"
+  },
+  {
+   "id": "t3-es-000",
+   "fleurs_id": "1804",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "1c117885194af0bf8d348b7464af1cd32e1945bf2a058423e75e4f89be12e76d"
+  },
+  {
+   "id": "t3-es-001",
+   "fleurs_id": "1747",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "f3d1052ae7d8a48e2b79cc676f2390da44b09e3ca593d08bb73c5261a9d482b1"
+  },
+  {
+   "id": "t3-es-002",
+   "fleurs_id": "1725",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "c3662d9b9d4b6ffaed37a0c1085c5fa01317e8de5b73b26eb13dae5337448905"
+  },
+  {
+   "id": "t3-es-003",
+   "fleurs_id": "1889",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "a31e8b4090a96591292cb6d6e9d1d6d751fa53be1227e397e637314679edbd1b"
+  },
+  {
+   "id": "t3-es-004",
+   "fleurs_id": "1768",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "3b4892985d527723d7c9faab0b7bc5fdfc7776bab930b9099f8e46e166bfe8a6"
+  },
+  {
+   "id": "t3-es-005",
+   "fleurs_id": "1859",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "bc30bb0a1f256abe2e20820e9015bdb3f436682e2fef2c1acd4cfb7fc1e2c254"
+  },
+  {
+   "id": "t3-es-006",
+   "fleurs_id": "1952",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "35649c82d217a014425ca901ed57105bf25e8017eca47e3adc4e5ac4485f5aec"
+  },
+  {
+   "id": "t3-es-007",
+   "fleurs_id": "1947",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "4e6b6acab9379cc854982c6055f61eaaa8edb823554f8bb0f5f626f005dbcbc9"
+  },
+  {
+   "id": "t3-es-008",
+   "fleurs_id": "1920",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "3c6f5ea30c11dac589c388bbac4a91adb4e49392723ade028f31751739d8b2e9"
+  },
+  {
+   "id": "t3-es-009",
+   "fleurs_id": "1742",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "db5dc02687d6df6a9d7e0fdf2eefbfc4ab1c2d89d963ad63acfde991e0dd0974"
+  },
+  {
+   "id": "t3-es-010",
+   "fleurs_id": "1860",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "b4e6c55de6a1ffa763d3d9d25e2796bff6a557d2570ef3cbc13935e811a9d163"
+  },
+  {
+   "id": "t3-es-011",
+   "fleurs_id": "1844",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "403a406e0ec0e7114267794fa976a6f1cbeb515f3c1160eb541c52394b877150"
+  },
+  {
+   "id": "t3-es-012",
+   "fleurs_id": "1771",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "cdc3c97d1f3e4455cd194b25eb896916213317e65cf8981b33006852a88f7adc"
+  },
+  {
+   "id": "t3-es-013",
+   "fleurs_id": "1731",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "fc1fd67d64187d01a0db20d9e64de62a5afb8adcc8cc958b01d03385a72fa2a0"
+  },
+  {
+   "id": "t3-es-014",
+   "fleurs_id": "1842",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "1636e27d394f2d6de93ad033240dbadc5357de888c062d3eb54f4c7de16abd0b"
+  },
+  {
+   "id": "t3-es-015",
+   "fleurs_id": "1994",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "c9ae20f33bd632ad529b8196e37b5e154d4ce8f0e5916e9d4e3b8c0bd243455a"
+  },
+  {
+   "id": "t3-es-016",
+   "fleurs_id": "1982",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "a82708df6c8387399704c3fe40a3caea5719ec85ab9bf3b31e037a4d1e750716"
+  },
+  {
+   "id": "t3-es-017",
+   "fleurs_id": "1675",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "a13d949e9eb0797e6787c18d1a1efaf037d89ebec9772a7b49ee92c50d7edd2a"
+  },
+  {
+   "id": "t3-es-018",
+   "fleurs_id": "1991",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "b2363f860ab1590755434e50d2eacc58335f6746f4a30ef866f27019caa22859"
+  },
+  {
+   "id": "t3-es-019",
+   "fleurs_id": "1939",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "3778583926dea83c9821409b2f78d3082667e2dc532edc38b12235b0d4fd0629"
+  },
+  {
+   "id": "t3-es-020",
+   "fleurs_id": "1888",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "87ba1e7b13c984200a16d317e68f37d513a43a75ad4519a827d94c47378e421c"
+  },
+  {
+   "id": "t3-es-021",
+   "fleurs_id": "1749",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "720ab7f35c73b51bd86cb591cefc45ed8f97019411c54d6fb8a9a3aaeef3514f"
+  },
+  {
+   "id": "t3-es-022",
+   "fleurs_id": "1843",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "9ed6ca7a8247f90b5018ac38aa67aa2c439f6bbebf6d741611b3fa4cf012126a"
+  },
+  {
+   "id": "t3-es-023",
+   "fleurs_id": "1942",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "b128774d858dc1c3a3477aedb4d14b453b7d4d632ef9fcc73389c25ead24f310"
+  },
+  {
+   "id": "t3-es-024",
+   "fleurs_id": "1794",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "d7e397f85694b78ee0af0b9d1551561a2c4c11397d70ecd91748994423be54d3"
+  },
+  {
+   "id": "t3-es-025",
+   "fleurs_id": "1984",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "22b19a51b6e47bc72fd15aaadf163569a2aa6b9f40296751b1b0d22156bacf68"
+  },
+  {
+   "id": "t3-es-026",
+   "fleurs_id": "1937",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "ea9b4e249ad0ec1e5f1432670fcc3834c5aa1bc79b1caa798195b35d5261cdbf"
+  },
+  {
+   "id": "t3-es-027",
+   "fleurs_id": "1930",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "454c124df54259ad56638be69a0c59667deac5e1976d852781cebb64f79b8ddb"
+  },
+  {
+   "id": "t3-es-028",
+   "fleurs_id": "1909",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "22f7cf4c0b63f7ff9ebb819e6b60712ec05601167b02efab0357a8d0e795d0ae"
+  },
+  {
+   "id": "t3-es-029",
+   "fleurs_id": "1904",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "a4f516a3a674feb65bc9a352ef3d98ae5604f5dbbbd6347e0e7c8b965cb92e11"
+  },
+  {
+   "id": "t3-es-030",
+   "fleurs_id": "1693",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "4238fbe2511636da295181949cf014cd87f093d7963af87af97ae118c2ee3fbb"
+  },
+  {
+   "id": "t3-es-031",
+   "fleurs_id": "1671",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "6b371f920d351e1421fc5ba0f1dd43b19c499bf53004a472e8147b1cda90da6f"
+  },
+  {
+   "id": "t3-es-032",
+   "fleurs_id": "1853",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "41dae05adbeebfdc8f46b84708e01683dbbf9c793c5dc4b1fc0898837f0c7436"
+  },
+  {
+   "id": "t3-es-033",
+   "fleurs_id": "1766",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "b367e2cbfcbe760b76ea1ec51144a241dd6212e9fa34790a8c3c6ae3ad6f8a1f"
+  },
+  {
+   "id": "t3-es-034",
+   "fleurs_id": "1827",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "b8c54e67e578e07af3cef50547cd6fbcd54f36c394e4a1cdcc22ac582593a4d9"
+  },
+  {
+   "id": "t3-es-035",
+   "fleurs_id": "1830",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "8c73abd11e1ecc898e5073236efedbaa9f02c627b5b8d7e4b93ea53bd86b4c74"
+  },
+  {
+   "id": "t3-es-036",
+   "fleurs_id": "1996",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "1fab725a33c777f6e595468c8d8fd489ab86ebdebe5fd869aff4e51a7d247809"
+  },
+  {
+   "id": "t3-es-037",
+   "fleurs_id": "2007",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "c575aa8d2fda8187d4a0d1404d8d5e5a637c1c726f8f06594ac66d1e5a768b14"
+  },
+  {
+   "id": "t3-es-038",
+   "fleurs_id": "1980",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "bb4887d351489efc4b6c666b267615c2d149a0c8972785dfcaac92aa54f6af06"
+  },
+  {
+   "id": "t3-es-039",
+   "fleurs_id": "1868",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "f861c9aac10a8c8edc9c5aee561e1591dd2e72bc14f942be1a0e443d89f32b04"
+  },
+  {
+   "id": "t3-es-040",
+   "fleurs_id": "1900",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "7a1f54cfaaba77f3fba79587bcf4f52ec03b094ab35713a5cfa85d1c01eb6ad4"
+  },
+  {
+   "id": "t3-es-041",
+   "fleurs_id": "1824",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "085b7ab9a08d79ae53ab3210fb121c17fd198528b7f1f779228ede2379a6ef10"
+  },
+  {
+   "id": "t3-es-042",
+   "fleurs_id": "1707",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "7e2efb8ceef35b7df0f387f6ce883750992f4b904627d31af846899339473118"
+  },
+  {
+   "id": "t3-es-043",
+   "fleurs_id": "1810",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "7829ee5c530e98594b7f926a22fb09be829f59d1cb4bc68ef928d1a968189fe5"
+  },
+  {
+   "id": "t3-es-044",
+   "fleurs_id": "1894",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "ee2b18fac03763f6c1bb3c01dba5a1bd640fd4003b3eb711e3b50c76dbd9b1e3"
+  },
+  {
+   "id": "t3-es-045",
+   "fleurs_id": "1721",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "d436668a5a5ecfb5735783483b82451b462aa16f8e38ee43c8c4ce715af186ff"
+  },
+  {
+   "id": "t3-es-046",
+   "fleurs_id": "1756",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "3b005a62bfd038d6fa60736a449917bbc271698a91b11ea5e943be1bbbfabb79"
+  },
+  {
+   "id": "t3-es-047",
+   "fleurs_id": "1971",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "e3d7275e39f855bd55261f544a2593b52f96b448c7077764f12e787bde3e0312"
+  },
+  {
+   "id": "t3-es-048",
+   "fleurs_id": "1881",
+   "direction": "es->en",
+   "label": "clean",
+   "sha256": "22641a00cd89ece6b9c118f677027723026aa94ebd08ccef817cadd5279107a9"
+  },
+  {
+   "id": "t3-es-049",
+   "fleurs_id": "1954",
+   "direction": "en->es",
+   "label": "clean",
+   "sha256": "dea02d4c7e6dc1941f9be252d2890d3d99eedd79555e1f830c1a3746868399d8"
+  },
+  {
+   "id": "t3-hi-000",
+   "fleurs_id": "1996",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "720c5b82522d351468aca49a414eac1072c30f746bc0cd03610f12d2297d032f"
+  },
+  {
+   "id": "t3-hi-001",
+   "fleurs_id": "1939",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "d736c749c3640906eab58e1af0016790ffc867fa95494197d79f205d4d7af1e8"
+  },
+  {
+   "id": "t3-hi-002",
+   "fleurs_id": "1892",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "9ac8d170b065b0cc1120d6805d94452773d510a02d314f3a46388d7da874941e"
+  },
+  {
+   "id": "t3-hi-003",
+   "fleurs_id": "1790",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "c2f38de60805bd45a4412492dc3c4f15e1cd72eb2f1901c5c8741355ee433c55"
+  },
+  {
+   "id": "t3-hi-004",
+   "fleurs_id": "1998",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "af75b3e11de06590c935d46a8a56c60832ab0b48ae4f6b1e75f6d041436fdbb4"
+  },
+  {
+   "id": "t3-hi-005",
+   "fleurs_id": "1960",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "cb1c071e7a22e32f430e00041eb64c7d4c1ee8e8a29a6a9beca7d04f9ac50d73"
+  },
+  {
+   "id": "t3-hi-006",
+   "fleurs_id": "1890",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "eaf052fed2a6166712d8a4dd5f1c667c65e1afb738d73a6ee23b586a1c90f557"
+  },
+  {
+   "id": "t3-hi-007",
+   "fleurs_id": "1717",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "0cf8122c06a25bf6f86801732a5b9e4be03b56acc19ab26202ea59fb1d1f1393"
+  },
+  {
+   "id": "t3-hi-008",
+   "fleurs_id": "1788",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "6bf42d46c0d1a4d51bbf865e78ce8d193880a550a748970c41e017c61aa2c4c9"
+  },
+  {
+   "id": "t3-hi-009",
+   "fleurs_id": "1874",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "a259b9c8a5a7b8288ade2bf4b2dc5788eefb4bc2f07f8aea7cc5e042ced25cac"
+  },
+  {
+   "id": "t3-hi-010",
+   "fleurs_id": "1944",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "6c5a3a065e0d679236c5e2610b8a40b1710312cc4c71ce013066c3c23b80ad43"
+  },
+  {
+   "id": "t3-hi-011",
+   "fleurs_id": "1679",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "5f8be0923924b2e69e316503dfb39c058e021f563e657a89de224253c512f678"
+  },
+  {
+   "id": "t3-hi-012",
+   "fleurs_id": "1721",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "71559c8d9b95a58adac4410c429458f0ed0223e7efd663d11a4fa5e116bb5fbb"
+  },
+  {
+   "id": "t3-hi-013",
+   "fleurs_id": "2004",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "f4fa896dbf6cd623a9706174a562f979d5684ae3858adb972b33bfcc79757202"
+  },
+  {
+   "id": "t3-hi-014",
+   "fleurs_id": "1751",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "635f905851a8271a479ee722d5203bb96a6550ec5c8989d996a72c82d9a7b6c6"
+  },
+  {
+   "id": "t3-hi-015",
+   "fleurs_id": "1698",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "f2df9f58a4a63bc28a44e081e2abcfad71b4ca188103a0eb2f9b9ec7a176e96c"
+  },
+  {
+   "id": "t3-hi-016",
+   "fleurs_id": "1710",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "dab6bb36a3892582809426b603034ae5b37d5f53f602f8d6efe18fae98a08b1a"
+  },
+  {
+   "id": "t3-hi-017",
+   "fleurs_id": "1813",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "b4152eaa29ee011455f20e078a3d84ffc96b9d27bca5683a5102d6d9f508c390"
+  },
+  {
+   "id": "t3-hi-018",
+   "fleurs_id": "2008",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "1b3594d0996f90057ac16be6d6a753419231c5321ffcf6fa523f068887b4e647"
+  },
+  {
+   "id": "t3-hi-019",
+   "fleurs_id": "1797",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "c6421afac0471f5d6af17ef64375dd910d5d049bb172b290f9501b69cdaf4aa9"
+  },
+  {
+   "id": "t3-hi-020",
+   "fleurs_id": "1867",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "c65855837f5f27a902056a073ff9b6e044ef51d19d1e644279f2d580aa010b9c"
+  },
+  {
+   "id": "t3-hi-021",
+   "fleurs_id": "1740",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "c5e48bfeac0a456ef19dcc3b7cdcbaac14b02d7303e08533986dacbdb470e330"
+  },
+  {
+   "id": "t3-hi-022",
+   "fleurs_id": "1923",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "2caa74ff05f68530fb884792bfc096834bcd7179aee315ebec5e4d504da9df8e"
+  },
+  {
+   "id": "t3-hi-023",
+   "fleurs_id": "1687",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "5a02e7061c35f267baab8f7e9a5a180a8e1d1d151a1d4709730e29aa4f7ec74c"
+  },
+  {
+   "id": "t3-hi-024",
+   "fleurs_id": "1838",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "c39f66e4022a0d5e565e9d0bdd9c9f90f88709d495940e2710b0ac8157aa6de2"
+  },
+  {
+   "id": "t3-hi-025",
+   "fleurs_id": "1661",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "74c63e31d3e749e42c74f91c1c7d155a605f3ee69b916361772849a169f98ed9"
+  },
+  {
+   "id": "t3-hi-026",
+   "fleurs_id": "1741",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "3e5b142e930e844e680b30d5717520f167214f0fd7ce6b91d3d53f3a99a7bde4"
+  },
+  {
+   "id": "t3-hi-027",
+   "fleurs_id": "1846",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "2627557b4616ebd09965022061852f9d9b4bd9f4f90a9e77fb9ab8f958463468"
+  },
+  {
+   "id": "t3-hi-028",
+   "fleurs_id": "1881",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "f675960aa2b537835308f927fde805144f894f948b863e9480d6816206f154c2"
+  },
+  {
+   "id": "t3-hi-029",
+   "fleurs_id": "1904",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "58a48ced26fe9d1513784800d048e0eac0d121e9c091caee66bac8037e4600eb"
+  },
+  {
+   "id": "t3-hi-030",
+   "fleurs_id": "1966",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "cfc14dd051173e191f1bc3828fecb226acf056ef562f50887e5ed33f4aa00d80"
+  },
+  {
+   "id": "t3-hi-031",
+   "fleurs_id": "1801",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "3aec6048e08cc42b2643b1aa866350dc72b7ee22450fa9a08f52d288163904e3"
+  },
+  {
+   "id": "t3-hi-032",
+   "fleurs_id": "1940",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "722268c1397096a89de9bdb94d032501320dd79c97f21d0ad5ade69337b3037c"
+  },
+  {
+   "id": "t3-hi-033",
+   "fleurs_id": "1729",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "509a64eb1a69b6a09897e0dd4f0a8f90a66b2e3a81492dcc0f3b5da386be8da4"
+  },
+  {
+   "id": "t3-hi-034",
+   "fleurs_id": "1880",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "1d54e426afba92f9d9a942e195b08e144c85cf12dfdf52b4b13a416bc3204f6f"
+  },
+  {
+   "id": "t3-hi-035",
+   "fleurs_id": "1953",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "d6bd0c533867b7bd26489813d6f9b8e8d62254bf029c8326a585f956e56cadd8"
+  },
+  {
+   "id": "t3-hi-036",
+   "fleurs_id": "1984",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "f7d3daef1d7a5ba717ed34a6dcf3d3dcb14df455b145631217dfa526e03ffab9"
+  },
+  {
+   "id": "t3-hi-037",
+   "fleurs_id": "1971",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "e697d2bee4c32221f229aefd75b3705352058dbf25d7830c57af52580e3b7a6a"
+  },
+  {
+   "id": "t3-hi-038",
+   "fleurs_id": "1978",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "1a51545414e86d5f60f51c9850fdad7d27227acd30f710fa10cac30f3c4c055f"
+  },
+  {
+   "id": "t3-hi-039",
+   "fleurs_id": "1954",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "d26a73319cf9ac011da310bd53e5cba12e5df3a1191dfccd7a8af43bc45f9a56"
+  },
+  {
+   "id": "t3-hi-040",
+   "fleurs_id": "1983",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "4d83daf433007a37c4cbdd2348a863eee501f859f01afa10a76117dab2aef1bd"
+  },
+  {
+   "id": "t3-hi-041",
+   "fleurs_id": "1719",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "272fc41c1739874f4fde5056d1c1c418e87b74c30564cad1b0c565165c0b7bde"
+  },
+  {
+   "id": "t3-hi-042",
+   "fleurs_id": "1988",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "a5442eca28daf60c21693bb77984bb5c4e6829ca2bd6136a017f6bd10a2e9e33"
+  },
+  {
+   "id": "t3-hi-043",
+   "fleurs_id": "1736",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "84f738052655951a3b7973596bd13f699c3c130e1e82b1403829abce798f892d"
+  },
+  {
+   "id": "t3-hi-044",
+   "fleurs_id": "1835",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "04ca39283b08ca2a69d9b7d73135fd49df60c43c2820639a12b27e243dd7b464"
+  },
+  {
+   "id": "t3-hi-045",
+   "fleurs_id": "1772",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "adcb6b60c4cdbbfbd5dbfc2aff90133b85d55eee6c0607e6dc0002ac1424030f"
+  },
+  {
+   "id": "t3-hi-046",
+   "fleurs_id": "1803",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "821bc782129d47ee568b98d13398b511d0e9d3951fee5e7f6d70a7ea7f3d2b75"
+  },
+  {
+   "id": "t3-hi-047",
+   "fleurs_id": "1837",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "cfff2976ace36539d30f7f7706c7df59b9f7add638e1eeabcb9a05815611abc0"
+  },
+  {
+   "id": "t3-hi-048",
+   "fleurs_id": "1681",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "36b13b8713b9918319f86fc9cdb0d38d75aaa02c2329429367a7ef9d58ad89af"
+  },
+  {
+   "id": "t3-hi-049",
+   "fleurs_id": "1739",
+   "direction": "en->hi",
+   "label": "clean",
+   "sha256": "681fa8da3e093f9e1d129d9102e2ec1938963e311acb4b25aca7d8363f12f703"
+  },
+  {
+   "id": "t3-hi-050",
+   "fleurs_id": "1744",
+   "direction": "hi->en",
+   "label": "clean",
+   "sha256": "a75bed649c75103f73bc16443aa8388b25af2b4459a4e7fb6d5211b6c43d5035"
+  },
+  {
+   "id": "t3-pt-000",
+   "fleurs_id": "1829",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "a97272795aea9648e01e07d8b08e0e686548fd728f5a54b35a4823d4fee889cf"
+  },
+  {
+   "id": "t3-pt-001",
+   "fleurs_id": "1817",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "7713adee15539bd682eb554799618f1f78e5c3ada49f7b1d44568fa46a0e2db3"
+  },
+  {
+   "id": "t3-pt-002",
+   "fleurs_id": "1689",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "4635f5e9be9077fc8979c3973bab9ef058882b23c6010a0a1da018fc7b77ee88"
+  },
+  {
+   "id": "t3-pt-003",
+   "fleurs_id": "1837",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "49ac007a98bb13761bb461a714d526fd07daaed36bca03b3b4faddf75e7fe7b1"
+  },
+  {
+   "id": "t3-pt-004",
+   "fleurs_id": "1875",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "64a1aa8d0b853470d4283cd6f327887021326ef048d40b85f70fb572043eed09"
+  },
+  {
+   "id": "t3-pt-005",
+   "fleurs_id": "1803",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "fd4ab384800f8a9e1aef3890c254777b68d7be8efa00a43acae25459e5fe251f"
+  },
+  {
+   "id": "t3-pt-006",
+   "fleurs_id": "1756",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "9ef805d27ff4d24204766ce3f33201fa1b4cb520d1f5c041ff88b52ce4829d92"
+  },
+  {
+   "id": "t3-pt-007",
+   "fleurs_id": "1867",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "bc069c1665178dadb23162275cec2545fd8324b8f79fc43fc27915e26eab7bbb"
+  },
+  {
+   "id": "t3-pt-008",
+   "fleurs_id": "1939",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "4f37d7fc3f7f24a73d8dd7ce91196b5899c13645070db474a71f48314e13916b"
+  },
+  {
+   "id": "t3-pt-009",
+   "fleurs_id": "1832",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "5f14e726011667be7b6a4178314dd63d1bc1d34bb454b7bc0af26819cc62915f"
+  },
+  {
+   "id": "t3-pt-010",
+   "fleurs_id": "1833",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "b3cfdd99d955dbdfac35643da3e33242e3e68bc3b2178183cda1cfd2700148c3"
+  },
+  {
+   "id": "t3-pt-011",
+   "fleurs_id": "1855",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "a857190974b7d7c773cda8b6a6f49674fb70bf8c5fccb34319a9e755b3e5229b"
+  },
+  {
+   "id": "t3-pt-012",
+   "fleurs_id": "1898",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "f611bd3dd815036b5504fb39ba8569d2ecf319310d54663206115708a9902fd2"
+  },
+  {
+   "id": "t3-pt-013",
+   "fleurs_id": "1885",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "101d7145b27a7a425209841460a781d4c364ec1c38c7d8882690b847d5c48bab"
+  },
+  {
+   "id": "t3-pt-014",
+   "fleurs_id": "1673",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "55ba98681f23aef5eb1271eee6404739b9d6556a8ff73bf50b35ed779aad70a2"
+  },
+  {
+   "id": "t3-pt-015",
+   "fleurs_id": "2008",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "e5bffd3c81e33877f4e31dcc1512d9c0f57e63d31cad650d617f8a674f1fc555"
+  },
+  {
+   "id": "t3-pt-016",
+   "fleurs_id": "1928",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "ef5a25e09de5abd075e2e14f4c7d51a72547900fa1add8661e43161509aecc3d"
+  },
+  {
+   "id": "t3-pt-017",
+   "fleurs_id": "1738",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "0c214a004c46c925e65c2345230cf7d3829b3587fbcea0503a9b68782edfe59f"
+  },
+  {
+   "id": "t3-pt-018",
+   "fleurs_id": "1827",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "70d0bc87cc3a2bce8a07049ddbfee4c55118dc997ec95c5b2e8f3a0fc16a0b85"
+  },
+  {
+   "id": "t3-pt-019",
+   "fleurs_id": "1666",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "bc6363ba67c92e976345d1bf32b3926301c61da1bda2a70c7512803e6d4309f4"
+  },
+  {
+   "id": "t3-pt-020",
+   "fleurs_id": "1951",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "5d6b1101e0bec069366e4e5a3537fd84d19f53e007f2a4319d0412633d6a901d"
+  },
+  {
+   "id": "t3-pt-021",
+   "fleurs_id": "1995",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "d321021b0469b287ab1c6b8e92a88c5e202b4f6d413411d5fe3f50e2ad6aecc9"
+  },
+  {
+   "id": "t3-pt-022",
+   "fleurs_id": "1859",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "13124a62fb37bc0c1a18febd5356f81bc6797aceb89d688311c390c76c8e09bc"
+  },
+  {
+   "id": "t3-pt-023",
+   "fleurs_id": "1858",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "9766720cf5099d1da74f5c5c43c4c9ea3c8223c52bef5f7ca0560ba4ea5cdfb7"
+  },
+  {
+   "id": "t3-pt-024",
+   "fleurs_id": "1942",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "8bb5a71ea7779c1d88eeadc3b1adc06462b40528c3c8bdeff22ae8acf767af3d"
+  },
+  {
+   "id": "t3-pt-025",
+   "fleurs_id": "1806",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "57bb467775948e06561a4b397df9ed2aa29ff62f6127a8a4f9db0804e6c0e6eb"
+  },
+  {
+   "id": "t3-pt-026",
+   "fleurs_id": "2001",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "eaaeedfd27b413a87a00528fda49c5e82684554289d728e27b2fb588410103a2"
+  },
+  {
+   "id": "t3-pt-027",
+   "fleurs_id": "1964",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "2d0f8ecb798cffd5aed1eb64fc8df45aeaeb97d6136e199c2738076bbfa7ed6c"
+  },
+  {
+   "id": "t3-pt-028",
+   "fleurs_id": "1884",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "26ae2e2eef43c883b0167daba2694f4e9198f339a928cc7b0f26d65242af3920"
+  },
+  {
+   "id": "t3-pt-029",
+   "fleurs_id": "1882",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "2f1fe069d8195ecf1f628b01608ada9826c658e57d373b8ee38c40af95c61de8"
+  },
+  {
+   "id": "t3-pt-030",
+   "fleurs_id": "1967",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "d27a837feaf759d7ad1020acfd67f7309322b4c74c4b305fdd3d0a24f59f99cc"
+  },
+  {
+   "id": "t3-pt-031",
+   "fleurs_id": "1860",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "03f0f501fd488e679e75a59fe0e5b5251047b3a0ecb7dc01e8c978b913b5ad83"
+  },
+  {
+   "id": "t3-pt-032",
+   "fleurs_id": "1868",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "4706cbd0b5cbdede932bd93a2f621b8d2a5825a29d5b7f81b7b471a564861c0f"
+  },
+  {
+   "id": "t3-pt-033",
+   "fleurs_id": "1974",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "422b9d7a7d987a4ad793e62ea310bd2a62eafcfd03a84b8b1991f20da832ef8f"
+  },
+  {
+   "id": "t3-pt-034",
+   "fleurs_id": "1700",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "8d154958c559fc36a92501f9c388ff93442efa548182e658797c5580da08711a"
+  },
+  {
+   "id": "t3-pt-035",
+   "fleurs_id": "1703",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "c14e274b9ecc8c7de926c1dadd7e34b9d6c7bb1bf2bbafad837d71742d1c9dd2"
+  },
+  {
+   "id": "t3-pt-036",
+   "fleurs_id": "1774",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "8d02853d3b03951ff69332f8412aa7101d4696b8aedcead9b01d1fff028abfb2"
+  },
+  {
+   "id": "t3-pt-037",
+   "fleurs_id": "1687",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "4a3346a0c952f1ff7d224b1ab98a4bd9c5b3ac851cbbe116c1fe797fda8856ee"
+  },
+  {
+   "id": "t3-pt-038",
+   "fleurs_id": "1848",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "c19b20463ba78c0ed673dbac0093b3aa77d9b52226f09d78e8d437806a9790ce"
+  },
+  {
+   "id": "t3-pt-039",
+   "fleurs_id": "1764",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "3e5e90a8c82679a590a789c771d54f59d883310edb05fea1a2df3ac0b7362c42"
+  },
+  {
+   "id": "t3-pt-040",
+   "fleurs_id": "1811",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "a059ec6b532196885069aa4442dd838bb259981ce75cec9befb7ec8fdd57e857"
+  },
+  {
+   "id": "t3-pt-041",
+   "fleurs_id": "1691",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "a2d761b8768deac2b013df190fa937ccdbb7fc01948033db3c7f6a173f93c3a7"
+  },
+  {
+   "id": "t3-pt-042",
+   "fleurs_id": "1893",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "fe2a111502ecc76102a07fded99dc15be6e3c269d548ade0f9cde99ce570f8a3"
+  },
+  {
+   "id": "t3-pt-043",
+   "fleurs_id": "1715",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "a66ba4189b5f4440ccd282b58c794cf03ec14fd4ad291f309c184f84d9523686"
+  },
+  {
+   "id": "t3-pt-044",
+   "fleurs_id": "1897",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "e9b3ade1157514bb90e3f367e0cbe2a8c2b7a6528bd990f453d711ac9dbaf9d2"
+  },
+  {
+   "id": "t3-pt-045",
+   "fleurs_id": "1763",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "1a02f3f70031a704cdc0ecea0742a570976674d4d0f3d466ba98b61774e66612"
+  },
+  {
+   "id": "t3-pt-046",
+   "fleurs_id": "1866",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "da06e26a6e9e3b17680692e9b1b606ab76f9f98cc7aaa8abb09a48862697868a"
+  },
+  {
+   "id": "t3-pt-047",
+   "fleurs_id": "1664",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "46b9eb92b6bf1406d85116f2ca3102e14c6cdf0b5ca000b6afd0e4258150e9d4"
+  },
+  {
+   "id": "t3-pt-048",
+   "fleurs_id": "1786",
+   "direction": "pt->en",
+   "label": "clean",
+   "sha256": "f56ee9b9ca76eb605206bdf2a5d02bfc8a8a3a94bd35fc628695f50cec569575"
+  },
+  {
+   "id": "t3-pt-049",
+   "fleurs_id": "1869",
+   "direction": "en->pt",
+   "label": "clean",
+   "sha256": "816c595564bb76cf162cc1e9708849499d3e6f4a7f7a2ea1a4af3144ba135e13"
+  },
+  {
+   "id": "t3-ta-000",
+   "fleurs_id": "1954",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "9e642c1ca602d00e253a4cf67d21eb2a365360bf934f5f7a2c3965c4326ce23b"
+  },
+  {
+   "id": "t3-ta-001",
+   "fleurs_id": "1980",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "4d7e05ab4971ece117b1c7bbed0a3872bfea760b02e32ac3192f706f0a21b1eb"
+  },
+  {
+   "id": "t3-ta-002",
+   "fleurs_id": "1935",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "20eb60db3e1477b0420a87ffe9146917b99ef59078744e59e655287dee3821f6"
+  },
+  {
+   "id": "t3-ta-003",
+   "fleurs_id": "1951",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "d2a1db3c8c4fe5e458a6eca06353925f88aa35e4a55e231456b775f763469e91"
+  },
+  {
+   "id": "t3-ta-004",
+   "fleurs_id": "1973",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "65370099f470856438d71c41760e0ce571cfb0d876b3432569e852da8b35cdcd"
+  },
+  {
+   "id": "t3-ta-005",
+   "fleurs_id": "1929",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "9d089f2afbaef85bea49845adaab906cd1b2e36523b6f6d9fa4284f02dc1439f"
+  },
+  {
+   "id": "t3-ta-006",
+   "fleurs_id": "1874",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "022ca6ca52af7a7a16d0ede50fab0593c9072fbb0f2939e8a52a01b643a8ea38"
+  },
+  {
+   "id": "t3-ta-007",
+   "fleurs_id": "1725",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "32c7b39d4967e31248f811d605b503a363d5487cf4b28718beb02c5ea0231c2b"
+  },
+  {
+   "id": "t3-ta-008",
+   "fleurs_id": "1664",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "df8a50c23148187e02a85c7430845f3cd88bf18d049e39d8f162365161f16c9c"
+  },
+  {
+   "id": "t3-ta-009",
+   "fleurs_id": "1982",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "abc79cd0acffe6ce6eea40cf4f55d53b7f59a74781fa36e69c43ade7841afb12"
+  },
+  {
+   "id": "t3-ta-010",
+   "fleurs_id": "1770",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "fa1ee8983e91a2e6dd86978eb25793ae71c522282ce63a68bf215cf021bcd1b8"
+  },
+  {
+   "id": "t3-ta-011",
+   "fleurs_id": "1831",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "351dab0c9edfca93cab12b334e2557554d99997351944a02e7153b1ec273f009"
+  },
+  {
+   "id": "t3-ta-012",
+   "fleurs_id": "1667",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "c248b01b772855d65b8e5960b168249c71b67a67618341e7d228833dbee58fb7"
+  },
+  {
+   "id": "t3-ta-013",
+   "fleurs_id": "1956",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "598792a089d8523c817a25b2fa9951ac4ba4b439ca3baa40c136fab41f2f87dc"
+  },
+  {
+   "id": "t3-ta-014",
+   "fleurs_id": "1700",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "d64276bf284c9e577bce431e616986ff3e201219d279a7089d61fb821c64befe"
+  },
+  {
+   "id": "t3-ta-015",
+   "fleurs_id": "1918",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "ba9344cdbe417de4de231443ab101c4de071091e264c844a3997e53232c20f78"
+  },
+  {
+   "id": "t3-ta-016",
+   "fleurs_id": "1748",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "229a1420682847c4ce35057541910bc0d3b85c98670a2254f032e29c622602e2"
+  },
+  {
+   "id": "t3-ta-017",
+   "fleurs_id": "1779",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "4088573a88eb194d4a699bea5f587b7f09897d9aeda19672a99a7fb23413df83"
+  },
+  {
+   "id": "t3-ta-018",
+   "fleurs_id": "1916",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "637c872ce9f477d40bbf6e5c074b1d08eff138113ddfcabe1251e99aff71cc4b"
+  },
+  {
+   "id": "t3-ta-019",
+   "fleurs_id": "1884",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "014c6a7ba5b7e1cb126b4eb987c3fabd33dc2a2c5278b6aece4960a8880627b5"
+  },
+  {
+   "id": "t3-ta-020",
+   "fleurs_id": "1689",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "7eb4f8764e16dea07c456f42776aa53951ff0cdf9225ac0b619110639ff04b02"
+  },
+  {
+   "id": "t3-ta-021",
+   "fleurs_id": "1948",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "8e9ffc4c1f7e9044aec166fd5f82ec77c9b64b5fc883ab527284c131dac53dde"
+  },
+  {
+   "id": "t3-ta-022",
+   "fleurs_id": "1757",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "3f937b83267592c399bb854f02f5677f7e21ccbc0deed5fd9a9dfedda6bb6430"
+  },
+  {
+   "id": "t3-ta-023",
+   "fleurs_id": "1888",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "305844251d0c33786153db9ada6c0fbb82ff03041be3c103479053cd9759de90"
+  },
+  {
+   "id": "t3-ta-024",
+   "fleurs_id": "2003",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "f3bedb596b961b3f7ea3637295d637101b603841b4602c2ba45e39de37b63a01"
+  },
+  {
+   "id": "t3-ta-025",
+   "fleurs_id": "1851",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "73ad23816d7a461183233d878ac7c03a60f98c929bd112c8b5b85f46101e8f6e"
+  },
+  {
+   "id": "t3-ta-026",
+   "fleurs_id": "1963",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "7f71b72a97c3e898c2f594a64a82b09706def206d89abd44207d1fb7086d082d"
+  },
+  {
+   "id": "t3-ta-027",
+   "fleurs_id": "1722",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "89c43fdb88dd16ca8b690e2ff84f079d9a527610d2ed79c7f15c8123b9c6caeb"
+  },
+  {
+   "id": "t3-ta-028",
+   "fleurs_id": "1739",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "3b2368a401e956a4d9677fa1c08339f8ef50fabd7d4fda52ae762d365d4047b4"
+  },
+  {
+   "id": "t3-ta-029",
+   "fleurs_id": "1945",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "6c611144e87ec1afe2cdca5e52032e342cbd45c9b9beb88ba910f70dd61b471a"
+  },
+  {
+   "id": "t3-ta-030",
+   "fleurs_id": "1685",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "bab854284f1a92d116f6987b788e8d832b4bb22168098e4549d7c0051a9f6807"
+  },
+  {
+   "id": "t3-ta-031",
+   "fleurs_id": "1730",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "aecae3db5e6bbee64530f1080dabeb2acd68485d55f584e160746447cc8eafcc"
+  },
+  {
+   "id": "t3-ta-032",
+   "fleurs_id": "1686",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "2502c6d5a33b90859a9a1d9d060ecb35408c59e6abdfae4a16a739206fb56e53"
+  },
+  {
+   "id": "t3-ta-033",
+   "fleurs_id": "1991",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "3dd69889132401fc6291e30bd743bf444fe2940106d73c7fa86c48b9cd772ef3"
+  },
+  {
+   "id": "t3-ta-034",
+   "fleurs_id": "1972",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "4a55c873053114c4ef27e7296030ebf1e66deed783b6a3ad2d7f42c99d2eb565"
+  },
+  {
+   "id": "t3-ta-035",
+   "fleurs_id": "1834",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "b8f10dbe71c5262f5570df288302aa2a87537a02b3014b00ab78e7526b7f4ef0"
+  },
+  {
+   "id": "t3-ta-036",
+   "fleurs_id": "1690",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "a41040ec8b7a1d2155a686788e0ff1fa54489ae3fa6c49591e4ea3e3e594974d"
+  },
+  {
+   "id": "t3-ta-037",
+   "fleurs_id": "1873",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "7e28bd7e1781620947a0244b3062feb5696138df2f110035e40119d3707b160c"
+  },
+  {
+   "id": "t3-ta-038",
+   "fleurs_id": "1863",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "5cb4f5923e16f6a203b0e7403d1e98985f4c8fc753fab2488f33228a818be994"
+  },
+  {
+   "id": "t3-ta-039",
+   "fleurs_id": "1825",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "e8da7374522e095afacbd279a8fbf4615048232b289484d2e64e0c71106e1442"
+  },
+  {
+   "id": "t3-ta-040",
+   "fleurs_id": "1832",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "f6402acb6358eeaff8aeb59afd303fb44d350715995727863be231ae63a6d4e3"
+  },
+  {
+   "id": "t3-ta-041",
+   "fleurs_id": "1662",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "55aa76743ab4e70208e0b0ab367ee866227a0c0620dde6ddc2b7f3f21685c228"
+  },
+  {
+   "id": "t3-ta-042",
+   "fleurs_id": "1801",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "ef01bd3ddc6a1b0433fb2dfeb0688f7fc98ce155919c15dbfae977da3d47a1aa"
+  },
+  {
+   "id": "t3-ta-043",
+   "fleurs_id": "1693",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "80c409b0128077bafba01a8344871102be2621d201200b79fc626f8f1b183dbb"
+  },
+  {
+   "id": "t3-ta-044",
+   "fleurs_id": "1975",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "dee87f61dbe7e18af729a3d4426d881cdef9c6f5f4801e3d55b229161dc45c63"
+  },
+  {
+   "id": "t3-ta-045",
+   "fleurs_id": "1913",
+   "direction": "en->ta",
+   "label": "clean",
+   "sha256": "c0a74aee1084384c0adc8e4b7ef39322baca20dba384147e65941e4664b032b4"
+  },
+  {
+   "id": "t3-ta-046",
+   "fleurs_id": "1774",
+   "direction": "ta->en",
+   "label": "clean",
+   "sha256": "4ed657e4f57ee82ad3e4d4684025c452d4ee90d78bf02248cf63a3e4633507f0"
+  },
+  {
+   "id": "t3-zh-000",
+   "fleurs_id": "1922",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "100448c6bac8d1f3bc5e08749d9176a321305ce6746e3ba908975e4fb77c9ec8"
+  },
+  {
+   "id": "t3-zh-001",
+   "fleurs_id": "1938",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "ebb6b6ad859b77950126323209f3de6e7d6dc4bf01cdcbbbcb5cf053f536a843"
+  },
+  {
+   "id": "t3-zh-002",
+   "fleurs_id": "1820",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "83ed674f23858de953fc59cb614ae1e2e6bbaaf90b2d22ec7da3ebe10a18c075"
+  },
+  {
+   "id": "t3-zh-003",
+   "fleurs_id": "1940",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "ee3938e1f5115bb12898038ff4b0dfb43e0442b665a2bfd3d0f76e587c28d90e"
+  },
+  {
+   "id": "t3-zh-004",
+   "fleurs_id": "1865",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "5ed80eb53b1b09cb345c1bde8deeeeea338c792d114854f121457dfc69358e36"
+  },
+  {
+   "id": "t3-zh-005",
+   "fleurs_id": "1871",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "58f0c2f35537b357f1ca37a38bdcafdc4abb6272c28412f136d4f21c862412a4"
+  },
+  {
+   "id": "t3-zh-006",
+   "fleurs_id": "1824",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "570627afd0cbc9a700d224fa85c7da1b344d366a20a5897b351f078597e570ac"
+  },
+  {
+   "id": "t3-zh-007",
+   "fleurs_id": "1776",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "8c798c68d1480c70c09168a4dbc2091dea9f2e031138df6a7fbb72c55149d620"
+  },
+  {
+   "id": "t3-zh-008",
+   "fleurs_id": "1815",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "5403de9846dd784536ad6a1fa8c34f525462cbb706e45d21a62431001850c560"
+  },
+  {
+   "id": "t3-zh-009",
+   "fleurs_id": "1966",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "41128cc4083e0c680c2d67abbc9048ef3f3544238476bb7b8ba9eb9ad0a35c30"
+  },
+  {
+   "id": "t3-zh-010",
+   "fleurs_id": "1894",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "f0551b54c6ebacd94fc1627c42b950c9ba62995041f5794c066661b8231b4fea"
+  },
+  {
+   "id": "t3-zh-011",
+   "fleurs_id": "1787",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "ca8a67dd20e00ec370d43fffbd3adf6af7a693bb207b83cbaa35a3e3b02fffe4"
+  },
+  {
+   "id": "t3-zh-012",
+   "fleurs_id": "1875",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "e989f1e227e36f2515830cccd1ccc4483fa81234b7a159b3ffcabbd77fc131b8"
+  },
+  {
+   "id": "t3-zh-013",
+   "fleurs_id": "1811",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "c8902c6fbbaaba9cdde267911f7cf8c7f36760086329f90d7f643d6be329e60f"
+  },
+  {
+   "id": "t3-zh-014",
+   "fleurs_id": "1680",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "9deac3f380dd5704311753a28260c8960df126f7ac887ce6dffa561d3640ce5e"
+  },
+  {
+   "id": "t3-zh-015",
+   "fleurs_id": "1822",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "bf7fcef59ab08a63be96788e16ea62612e5b73bc65fe3aefe3658e3bd7ff9a8b"
+  },
+  {
+   "id": "t3-zh-016",
+   "fleurs_id": "1970",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "8d0924701eab02e7e914317b0592452178109f37b57893a7516cf556145c6871"
+  },
+  {
+   "id": "t3-zh-017",
+   "fleurs_id": "1864",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "39608b41c3228408f2d80ad61f94d74ab974292c606983897f9e76ed5c78790e"
+  },
+  {
+   "id": "t3-zh-018",
+   "fleurs_id": "1924",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "793118b232c0d3939648f5a94a5475f08fae86855d5a87af7512ca8b7e7c02b0"
+  },
+  {
+   "id": "t3-zh-019",
+   "fleurs_id": "1773",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "f77abf4ed8ae09ecd7a21c538806bc51029f77e32349735736a1f4622a17bf4c"
+  },
+  {
+   "id": "t3-zh-020",
+   "fleurs_id": "1731",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "113798633406eb5e99d22ff6ead0e402575fa6a34a9e3501f1ae1c76d46b0510"
+  },
+  {
+   "id": "t3-zh-021",
+   "fleurs_id": "1908",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "2bcaa594d104a9f27bf1410972cc3790bfbfd3eaa279fbee2502120cf18e8308"
+  },
+  {
+   "id": "t3-zh-022",
+   "fleurs_id": "1687",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "c6eedece7f7a18b2f8ace56921ba6b1d4f48f4b6fe680be461451dade0d10fcc"
+  },
+  {
+   "id": "t3-zh-023",
+   "fleurs_id": "1969",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "0fe5818f2078a0108c4aa168491153899bc6929b29e589f67b2ad77e3ed5ce0f"
+  },
+  {
+   "id": "t3-zh-024",
+   "fleurs_id": "1878",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "0cd7a788cc8c934fa724b0c679aeb69c401b568a6e88c866ef2f1ae77f7cf76f"
+  },
+  {
+   "id": "t3-zh-025",
+   "fleurs_id": "1669",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "c92d3a5ab5b8227504d81afc541a8f5b9d27f79ae23461f16bd68df163a53747"
+  },
+  {
+   "id": "t3-zh-026",
+   "fleurs_id": "1917",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "9cb3e288a3200f26fa1c55ae72ca7b12a3b86b2b0ad1a5064ebd6450c6575850"
+  },
+  {
+   "id": "t3-zh-027",
+   "fleurs_id": "1726",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "f15bfbdaa9d2e5f3a14d3648864ca53c0f31fea807bf2ad76a44e8a55d91ac17"
+  },
+  {
+   "id": "t3-zh-028",
+   "fleurs_id": "1697",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "b04cf67fb720513703fd2c6c75948c0772243ef84532702308bec56e06724798"
+  },
+  {
+   "id": "t3-zh-029",
+   "fleurs_id": "1883",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "6c9a8f033224aa64955e915d3ca8fb9ff78c15db88897233967bc0c7a0519b85"
+  },
+  {
+   "id": "t3-zh-030",
+   "fleurs_id": "1870",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "051bc096f770b5b6e28df494eed47d886ecf08c3985a9c6b4a14390f22d41152"
+  },
+  {
+   "id": "t3-zh-031",
+   "fleurs_id": "1832",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "c977b3771e9cf724446f588e49a751b97ba39327c582568fe3019ca37074f781"
+  },
+  {
+   "id": "t3-zh-032",
+   "fleurs_id": "1704",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "d96fb27e9e7376ee7f575fb8aec320989986ed9813335d992f7d2e5958fc649f"
+  },
+  {
+   "id": "t3-zh-033",
+   "fleurs_id": "1949",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "dbd2f285d426db0f3cd529267bc2b104549e73c8e4f3f644388a59000d03aafe"
+  },
+  {
+   "id": "t3-zh-034",
+   "fleurs_id": "1805",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "0f9f3a7627aa6020567d7eebfb81932dde77aee0398d54d92b60ce26d91ff949"
+  },
+  {
+   "id": "t3-zh-035",
+   "fleurs_id": "1826",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "fe8793c3e9bc67da90ce22cefde7395f4b42865ff172d335e16332a9be314337"
+  },
+  {
+   "id": "t3-zh-036",
+   "fleurs_id": "1836",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "ec66a3085051c923657ddc33b5365ad95f7d358f487fa44b3516422160e89112"
+  },
+  {
+   "id": "t3-zh-037",
+   "fleurs_id": "1763",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "df8332b66951b927e98a237800a6bf17ac9655296cbd2aa6aeb9932d2b2a67ff"
+  },
+  {
+   "id": "t3-zh-038",
+   "fleurs_id": "1679",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "56e283c3783c50845e73fba7ec7d1382f4d7b5e20d363a385bfd2b39fb673950"
+  },
+  {
+   "id": "t3-zh-039",
+   "fleurs_id": "1803",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "d5e127a0b103bdfb8d6d2df51353941ed00cc8d5a17040fa779b950c76212442"
+  },
+  {
+   "id": "t3-zh-040",
+   "fleurs_id": "1906",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "ff40e1011789b8d994e9ba8aea41a2b1fd3332473baa88455c04f96aedd1f2c3"
+  },
+  {
+   "id": "t3-zh-041",
+   "fleurs_id": "1801",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "ca00f29dfebfdc9412493c899efe612fdc5d43ae65f22f96dda51fa2ada21690"
+  },
+  {
+   "id": "t3-zh-042",
+   "fleurs_id": "1677",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "3bc8e8698f5478a809cc4fe44474bdd4a79e483e59de5537fbd1361bd7a56506"
+  },
+  {
+   "id": "t3-zh-043",
+   "fleurs_id": "1701",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "674457d64b803130613d1220753c8fac44d4861682dd086d02e47bf6c5f6ac73"
+  },
+  {
+   "id": "t3-zh-044",
+   "fleurs_id": "1984",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "d5ec5291367670b9f2bf97b7b2a988b708ea21fdd366eef9fed63b1d3495eae8"
+  },
+  {
+   "id": "t3-zh-045",
+   "fleurs_id": "1930",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "c2f08ae94d18482bb7e4a6e89cc3808a6f69957b47821c8c7dbb8d1167ca1bbf"
+  },
+  {
+   "id": "t3-zh-046",
+   "fleurs_id": "1980",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "ffa4c3ae5a1c32a62fd757271b44f57684c58819dbf8c5fcae9112ac22b081b5"
+  },
+  {
+   "id": "t3-zh-047",
+   "fleurs_id": "1898",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "80e562c99f084353ac7ddc5498b02bc7cac1098acb9d1c51ecf3dbdfeecce920"
+  },
+  {
+   "id": "t3-zh-048",
+   "fleurs_id": "1998",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "21faf5dd45ccd96671a66edf93e79e6acdb87f1c93526d7b2e51f7e1bddf0c52"
+  },
+  {
+   "id": "t3-zh-049",
+   "fleurs_id": "1683",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "ce2e287532133158c91beec3cb32ccce3dfeec9339569bdccf5483c67912d198"
+  },
+  {
+   "id": "t3-zh-050",
+   "fleurs_id": "1893",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "c75222cd7ede08aa9496af88952d9e9ed1b1955ab2bd56cb153861231b36d28d"
+  },
+  {
+   "id": "t3-zh-051",
+   "fleurs_id": "1853",
+   "direction": "en->zh",
+   "label": "clean",
+   "sha256": "1233b469d2fd300c07f535080d04ae29ec581d32544bb0876b1760aa6e4c4022"
+  },
+  {
+   "id": "t3-zh-052",
+   "fleurs_id": "2009",
+   "direction": "zh->en",
+   "label": "clean",
+   "sha256": "804f323dceade2a8e83ef34ae373ca3b25a8dcac45e8247ec5ca05690435c06d"
+  }
+ ]
+}

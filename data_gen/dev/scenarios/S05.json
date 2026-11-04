@@ -1,0 +1,75 @@
+{
+ "scenario_id": "S05",
+ "setting": "deposition",
+ "title": "Deposition: fall from a warehouse ladder",
+ "speakers": {
+  "Q": "examining_attorney",
+  "A": "witness",
+  "I": "interpreter"
+ },
+ "exchanges": [
+  {
+   "x": 1,
+   "q_by": "Q",
+   "q": "Can you please state your full name for the record?",
+   "a": "My name is {NAME}."
+  },
+  {
+   "x": 2,
+   "q_by": "Q",
+   "q": "Where were you working in May 2024?",
+   "a": "At a warehouse in {CITY}, for the company {COMPANY}. I loaded trucks."
+  },
+  {
+   "x": 3,
+   "q_by": "Q",
+   "q": "How many hours did you work per week?",
+   "a": "Usually fifty hours. In May it was more, about sixty, because of the holidays."
+  },
+  {
+   "x": 4,
+   "q_by": "Q",
+   "q": "Describe what happened on May 14th.",
+   "a": [
+    "I was on a ladder, about eight feet high, taking boxes from a shelf.",
+    "The ladder moved, and I fell on my back. My left arm hit the floor."
+   ]
+  },
+  {
+   "x": 5,
+   "q_by": "Q",
+   "q": "Had you received any training on that ladder?",
+   "a": "No. Nobody trained me. My supervisor only showed me where the ladders were."
+  },
+  {
+   "x": 6,
+   "q_by": "Q",
+   "q": "Did you tell your supervisor that the ladder was broken?",
+   "a": "Yes, I told him two days before. He said that he would order a new one."
+  },
+  {
+   "x": 7,
+   "q_by": "Q",
+   "q": "What injuries did you have?",
+   "a": "I broke my left wrist, and I hurt my lower back. I still have pain when I lift more than ten pounds."
+  },
+  {
+   "x": 8,
+   "q_by": "Q",
+   "q": "How long were you unable to work?",
+   "a": "Four months. I returned in September, but only part-time."
+  },
+  {
+   "x": 9,
+   "q_by": "Q",
+   "q": "Did anyone see you fall?",
+   "a": "My coworker {COWORKER} saw it. He called the manager, and the manager called an ambulance."
+  },
+  {
+   "x": 10,
+   "q_by": "Q",
+   "q": "Have you ever been injured at work before?",
+   "a": "Once, in 2019, I cut my hand, but it was minor. I did not miss any work."
+  }
+ ]
+}

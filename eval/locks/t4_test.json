@@ -1,0 +1,31 @@
+{
+ "set": "t4-test",
+ "built_from": "eval/locks/human_test.json",
+ "sessions": [
+  {
+   "session_id": "t4test-es",
+   "duration_s": 12082.87,
+   "wav_sha256": "0e7470f787dc9a06bb3a704f7dfbd7d9bc9a4e44ff68b14d7e4959312e49a4ff",
+   "labels_sha256": "6c7604045606f7d74aa53e8be3d099aa6d7b67a380f27d86596a5d4bd564f4e3"
+  },
+  {
+   "session_id": "t4test-hi",
+   "duration_s": 3196.97,
+   "wav_sha256": "ac7545f608dfe0993378f26c406730fc6aa58d8671f5c942082d06dae3384e59",
+   "labels_sha256": "5227032ea4404f058e0ed7e1d284b583597cb57138c45ae13d0525ae46dcc3ce"
+  },
+  {
+   "session_id": "t4test-ta",
+   "duration_s": 3125.42,
+   "wav_sha256": "6dac551863f6f2ad851483642c47b2784e38db969454eb6f02be432b5c9d500f",
+   "labels_sha256": "7c043740050b7ee5ddc116d3ca99ea9886dec52062cb9dd11ea72717caada41d"
+  },
+  {
+   "session_id": "t4test-zh",
+   "duration_s": 5872.63,
+   "wav_sha256": "ad1bc956a1fbac28f18595216a3dabfc29ab7a85e0526c4923f8e9a693370b13",
+   "labels_sha256": "cd1fb33b2f21183c6cf6872b9d9ed26f6a274216e4bd74047be49205aca4b656"
+  }
+ ],
+ "items_sha256": "f2f1ccf6b20f1779f55651b7f3bd517ccac219095a1aaf9faec720f83d1a9a89"
+}

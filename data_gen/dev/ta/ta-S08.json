@@ -1,0 +1,202 @@
+{
+ "dialogue_id": "ta-S08",
+ "lang": "ta",
+ "scenario_id": "S08",
+ "slots": {
+  "NAME": "Thambirasa Ravindran",
+  "VILLAGE": "Kokkuthoduvai",
+  "CITY": "Mullaitivu",
+  "LEADER": "Colonel Perera"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "ta:m1",
+  "I": {
+   "ta": "ta:f2",
+   "en": "ta:f2"
+  }
+ },
+ "lines": {
+  "1": {
+   "q": "உங்கள் பெயர், தயவுசெய்து.",
+   "a": "என் பெயர் தம்பிராசா ரவீந்திரன்."
+  },
+  "2": {
+   "q": "உங்கள் கிராமம் எங்கே இருக்கிறது?",
+   "a": "என் கிராமம் கொக்குத்தொடுவாய். அது முல்லைத்தீவிலிருந்து சுமார் நாற்பது கிலோமீட்டர் தூரத்தில் இருக்கிறது."
+  },
+  "3": {
+   "q": "உங்கள் குடும்பத்துக்கு என்ன சொந்தமாக இருந்தது?",
+   "a": "எங்களுக்கு விவசாய நிலம் இருந்தது, சுமார் ஐந்து ஏக்கர், அங்கே நெல்லும் காய்கறிகளும் பயிரிட்டோம்."
+  },
+  "4": {
+   "q": "உங்கள் நிலத்தை யார் எடுக்க முயன்றார்கள்?",
+   "a": [
+    "உள்ளூர்த் தலைவர் கர்னல் பெரேராவுக்காக வேலை செய்யும் ஆட்கள்.",
+    "அந்த நிலத்தில் ஒரு தொழிற்சாலை கட்ட விரும்பினார்கள். மிகக் குறைந்த விலை கொடுத்தார்கள், என் அப்பா மறுத்துவிட்டார்."
+   ]
+  },
+  "5": {
+   "q": "உங்கள் அப்பா மறுத்த பிறகு என்ன நடந்தது?",
+   "a": "இரண்டாயிரத்து இருபத்தொன்று ஏப்ரலில் இரவில் எங்கள் வீட்டை எரித்தார்கள். நானும் அப்பாவும் வெளியே வந்துவிட்டோம், ஆனால் என் மாமா காயமடைந்தார்."
+  },
+  "6": {
+   "q": "வீட்டை யார் எரித்தார்கள் என்று பார்த்தீர்களா?",
+   "a": "மூன்று ஆட்கள் சாலையை நோக்கி ஓடுவதைப் பார்த்தேன். அவர்களில் ஒருவரை அடையாளம் கண்டேன்; அவர் கர்னல் பெரேராவின் ஓட்டுநர்."
+  },
+  "7": {
+   "q": "தீக்குப் பிறகு கிராமத்தில் எவ்வளவு காலம் இருந்தீர்கள்?",
+   "a": "ஒரே ஒரு வாரம். பிறகு வேறு ஒரு மாவட்டத்தில் இருக்கும் என் சித்தி வீட்டுக்கு ஆறு மாதங்களுக்குப் போனோம்."
+  },
+  "8": {
+   "q": "உங்கள் சித்தி வீட்டில் ஏன் தங்கவில்லை?",
+   "a": "ஏனென்றால் அதே ஆட்கள் அங்கே வந்து பக்கத்து வீட்டுக்காரர்களிடம் எங்களைப் பற்றி விசாரித்தார்கள். என் சித்தி பயந்துவிட்டார்."
+  },
+  "9": {
+   "q": "தீ பற்றி நீங்கள் போலீஸிடம் போனீர்களா?",
+   "a": [
+    "என் அப்பா மறுநாள் போனார்.",
+    "அது ஒரு விபத்து என்று போலீஸ் சொல்லி, விசாரிக்காமலே வழக்கை மூடிவிட்டது."
+   ]
+  },
+  "10": {
+   "q": "நீங்கள் திரும்பிப் போனால் என்ன நடக்கும் என்று நினைக்கிறீர்கள்?",
+   "a": "அவர்கள் என்னைக் காயப்படுத்துவார்கள், ஒருவேளை கொன்றுவிடுவார்கள் என்று நினைக்கிறேன், ஏனென்றால் ஓட்டுநரைப் பார்த்தது நான்தான்."
+  }
+ },
+ "plants": [
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "We had farmland, about fifty acres, where we grew rice and vegetables.",
+   "src_span": "ஐந்து ஏக்கர்",
+   "say_span": "fifty acres",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "distortion",
+   "say": "In April 2021 they set fire to our field at night. My father and I got out, but my uncle was injured.",
+   "src_span": "எங்கள் வீட்டை",
+   "say_span": "our field",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "I saw three men running toward the road. I think I recognized one of them; he was the driver of Colonel Perera.",
+   "src_span": "",
+   "say_span": "I think",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "Only one week. Then we went to my aunt's house in another district for one month.",
+   "src_span": "ஆறு மாதங்களுக்கு",
+   "say_span": "one month",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "My father went a week later.",
+   "src_span": "மறுநாள்",
+   "say_span": "a week later",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "உங்கள் நிலத்தை யார் வாங்க விரும்பினார்கள்?",
+   "src_span": "take",
+   "say_span": "வாங்க விரும்பினார்கள்",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "addition",
+   "say": "Because the same men came there and asked the neighbors about us. My aunt was afraid and asked us to leave.",
+   "src_span": "",
+   "say_span": "and asked us to leave",
+   "severity": "minor",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "My village is Kokkuthoduvai, roughly forty kilometers from Mullaitivu.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "I think they would hurt me, perhaps kill me, since I'm the one who saw the driver.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "உங்கள் பெயரைச் சொல்லுங்கள்.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "extras": [
+  {
+   "after_x": 2,
+   "kind": "interpreter_meta",
+   "turns": [
+    {
+     "by": "I",
+     "lang": "en",
+     "text": "Your Honor, the interpreter will spell the village name for the record: K, O, K, K, U, T, H, O, D, U, V, A, I."
+    }
+   ],
+   "note": ""
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that the men burned a field, not the family home, and that he only thinks he recognized one of them. The court gives his identification little weight.",
+  "cites_x": [
+   5,
+   6
+  ]
+ }
+}

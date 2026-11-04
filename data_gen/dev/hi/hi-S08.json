@@ -1,0 +1,198 @@
+{
+ "dialogue_id": "hi-S08",
+ "lang": "hi",
+ "scenario_id": "S08",
+ "slots": {
+  "NAME": "Ramesh Yadav",
+  "VILLAGE": "Sonpur",
+  "CITY": "Gorakhpur",
+  "LEADER": "Thakur Balram Singh"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "hm_omega",
+  "I": "hf_alpha"
+ },
+ "lines": {
+  "1": {
+   "q": "आपका नाम, कृपया।",
+   "a": "मेरा नाम रमेश यादव है।"
+  },
+  "2": {
+   "q": "आपका गाँव कहाँ है?",
+   "a": "मेरा गाँव सोनपुर है। यह गोरखपुर से करीब चालीस किलोमीटर दूर है।"
+  },
+  "3": {
+   "q": "आपके परिवार के पास क्या था?",
+   "a": "हमारे पास खेती की ज़मीन थी, करीब पाँच एकड़, जहाँ हम धान और सब्ज़ियाँ उगाते थे।"
+  },
+  "4": {
+   "q": "आपकी ज़मीन किसने लेने की कोशिश की?",
+   "a": [
+    "एक स्थानीय नेता, ठाकुर बलराम सिंह, के लिए काम करने वाले लोगों ने।",
+    "वे ज़मीन पर एक फ़ैक्टरी बनाना चाहते थे। उन्होंने बहुत कम कीमत दी, और मेरे पिता ने मना कर दिया।"
+   ]
+  },
+  "5": {
+   "q": "आपके पिता के मना करने के बाद क्या हुआ?",
+   "a": "अप्रैल दो हज़ार इक्कीस में उन्होंने रात को हमारा घर जला दिया। मेरे पिता और मैं बाहर निकल आए, लेकिन मेरे चाचा घायल हो गए।"
+  },
+  "6": {
+   "q": "क्या आपने देखा कि घर किसने जलाया?",
+   "a": "मैंने तीन आदमियों को सड़क की तरफ़ भागते देखा। मैंने उनमें से एक को पहचाना; वह ठाकुर बलराम सिंह का ड्राइवर था।"
+  },
+  "7": {
+   "q": "आग के बाद आप गाँव में कितने समय तक रहे?",
+   "a": "सिर्फ़ एक हफ़्ता। फिर हम दूसरे ज़िले में अपनी मौसी के घर छह महीने के लिए चले गए।"
+  },
+  "8": {
+   "q": "आप अपनी मौसी के घर पर क्यों नहीं रुके?",
+   "a": "क्योंकि वही लोग वहाँ आए और पड़ोसियों से हमारे बारे में पूछा। मेरी मौसी डर गईं।"
+  },
+  "9": {
+   "q": "क्या आप आग के बारे में पुलिस के पास गए?",
+   "a": [
+    "मेरे पिता अगले दिन गए थे।",
+    "पुलिस ने कहा कि यह एक हादसा था और बिना जाँच किए मामला बंद कर दिया।"
+   ]
+  },
+  "10": {
+   "q": "आपको क्या लगता है, अगर आप लौटें तो क्या होगा?",
+   "a": "मुझे लगता है कि वे मुझे चोट पहुँचाएँगे, शायद मार भी देंगे, क्योंकि मैंने ही ड्राइवर को देखा था।"
+  }
+ },
+ "plants": [
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "referent_unit",
+   "say": "We had farmland, about five hectares, where we grew rice and vegetables.",
+   "src_span": "पाँच एकड़",
+   "say_span": "five hectares",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "distortion",
+   "say": "I saw three men running toward the road. I recognized one of them; it was Thakur Balram Singh.",
+   "src_span": "का ड्राइवर",
+   "say_span": "it was Thakur Balram Singh",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "In August 2021 they burned our house at night. My father and I got out, but my uncle was injured.",
+   "src_span": "अप्रैल",
+   "say_span": "August",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "pronoun_shift",
+   "say": "I went the next day.",
+   "src_span": "मेरे पिता",
+   "say_span": "I",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "softening",
+   "say": "I think they would bother me, maybe hurt me, because I am the one who saw the driver.",
+   "src_span": "चोट पहुँचाएँगे, शायद मार भी देंगे",
+   "say_span": "bother me, maybe hurt me",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "आपका घर कहाँ है?",
+   "src_span": "Where is your village?",
+   "say_span": "आपका घर",
+   "severity": "minor",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 1,
+   "type": "omission",
+   "say": "They wanted the land for a factory, and my father refused.",
+   "src_span": "उन्होंने बहुत कम कीमत दी",
+   "say_span": "",
+   "severity": "minor",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Just one week. After that we went to my aunt's house in another district and stayed six months.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 1,
+   "type": "acceptable",
+   "say": "The police called it an accident and closed the case without any investigation.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "आपका नाम बताइए।",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "extras": [
+  {
+   "after_x": 6,
+   "kind": "interpreter_meta",
+   "turns": [
+    {
+     "by": "I",
+     "lang": "en",
+     "text": "Your Honor, the interpreter notes that Thakur is a title, not a first name."
+    }
+   ],
+   "note": ""
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that he recognized Thakur Balram Singh himself at the fire. His declaration says only that he recognized a driver, and the court finds the discrepancy significant.",
+  "cites_x": [
+   6
+  ]
+ }
+}

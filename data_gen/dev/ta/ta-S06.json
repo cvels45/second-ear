@@ -1,0 +1,189 @@
+{
+ "dialogue_id": "ta-S06",
+ "lang": "ta",
+ "scenario_id": "S06",
+ "slots": {
+  "NAME": "Senthil Nadarajah",
+  "COUNTRY": "Sri Lanka",
+  "BRO1": "Kannan",
+  "BRO2": "Vasanth",
+  "CITY": "Vavuniya"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "ta:m2",
+  "I": {
+   "ta": "ta:f1",
+   "en": "ta:f1"
+  }
+ },
+ "lines": {
+  "1": {
+   "q": "தயவுசெய்து உங்கள் பெயரைச் சொல்லுங்கள்.",
+   "a": "என் பெயர் செந்தில் நடராஜா."
+  },
+  "2": {
+   "q": "இலங்கையில் நீங்கள் யாருடன் வசித்தீர்கள்?",
+   "a": "என் பெற்றோருடனும் என் இரண்டு தம்பிகளுடனும். நான்தான் மூத்தவன்."
+  },
+  "3": {
+   "q": "நீங்கள் வெளியேறியபோது உங்கள் தம்பிகளுக்கு என்ன வயது?",
+   "a": "கண்ணனுக்குப் பதினைந்து வயது, வசந்துக்குப் பன்னிரண்டு வயது."
+  },
+  "4": {
+   "q": "உங்கள் அப்பாவுக்கு என்ன நடந்தது?",
+   "a": [
+    "என் அப்பா ஒரு பத்திரிகையாளர். இரண்டாயிரத்துப் பதினெட்டில் மேயரைப் பற்றிக் கட்டுரைகள் எழுதினார்.",
+    "இரண்டாயிரத்துப் பத்தொன்பது ஜனவரியில் சில ஆட்கள் எங்கள் வீட்டுக்கு வந்து அவரைக் கொண்டு சென்றார்கள். அதன் பிறகு அவரைப் பற்றி எந்தத் தகவலும் இல்லை."
+   ]
+  },
+  "5": {
+   "q": "அவரைக் கொண்டு சென்றபோது வீட்டில் யார் இருந்தார்கள்?",
+   "a": "என் அம்மா, என் தம்பிகள், நான். எதுவும் சொல்லக்கூடாது என்று எங்களிடம் சொன்னார்கள்."
+  },
+  "6": {
+   "q": "அதன் பிறகு உங்கள் குடும்பம் என்ன செய்தது?",
+   "a": "நாங்கள் சேர்ந்து போலீஸிடம் போனோம், என் அம்மாவும் நானும். தேடுவதை நிறுத்தும்படி போலீஸ் எங்களிடம் சொன்னது."
+  },
+  "7": {
+   "q": "யாராவது உங்களைத் தனிப்பட்ட முறையில் மிரட்டினார்களா?",
+   "a": "ஆம். இரண்டாயிரத்துப் பத்தொன்பது மார்ச்சில் ஒரு ஆள் தெருவில் என்னை நிறுத்தி, என் அப்பாவுக்கு நடந்ததுதான் எனக்கும் நடக்கும் என்றார்."
+  },
+  "8": {
+   "q": "அந்த மிரட்டலைப் பற்றிப் புகார் செய்தீர்களா?",
+   "a": "இல்லை, நான் புகார் செய்யவில்லை. போலீஸ் எங்களிடம் சொன்னதற்குப் பிறகு, எனக்கு அவர்கள் மீது நம்பிக்கை இல்லை."
+  },
+  "9": {
+   "q": "உங்கள் அம்மா இப்போது எங்கே இருக்கிறார்?",
+   "a": "அவர் இன்னும் வவுனியாவில் என் தம்பிகளுடன் இருக்கிறார். அவர்கள் என் சித்தி வீட்டுக்குப் போய்விட்டார்கள்."
+  },
+  "10": {
+   "q": "நீங்கள் ஏன் தனியாக வெளியேறினீர்கள்?",
+   "a": [
+    "எல்லோரும் பயணம் செய்ய எங்களிடம் பணம் இல்லை.",
+    "நான் மூத்த மகன் என்பதால், நான் முதலில் போக வேண்டும் என்று என் அம்மா முடிவு செய்தார்."
+   ]
+  }
+ },
+ "plants": [
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "Kannan was five, and Vasanth was twelve.",
+   "src_span": "பதினைந்து",
+   "say_span": "five",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "pronoun_shift",
+   "say": "My mother went to the police alone. The police told her to stop looking.",
+   "src_span": "நாங்கள் சேர்ந்து ... என் அம்மாவும் நானும்",
+   "say_span": "My mother went ... alone",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 1,
+   "type": "softening",
+   "say": "In January 2019 men came to our house and talked to him. We have not heard from him since then.",
+   "src_span": "அவரைக் கொண்டு சென்றார்கள்",
+   "say_span": "talked to him",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "அந்த மிரட்டலைப் பற்றி உங்கள் அம்மாவிடம் சொன்னீர்களா?",
+   "src_span": "report that threat",
+   "say_span": "அம்மாவிடம் சொன்னீர்களா",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "omission",
+   "say": "Yes. In March 2019 a man stopped me on the street.",
+   "src_span": "என் அப்பாவுக்கு நடந்ததுதான் எனக்கும் நடக்கும் என்றார்",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "name",
+   "say": "She is still in Valvettithurai with my brothers. They moved to my aunt's house.",
+   "src_span": "வவுனியாவில்",
+   "say_span": "Valvettithurai",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 1,
+   "type": "self_corrected",
+   "say": "My mother decided that my brother should go... correction, that I should go first, because I am the oldest son.",
+   "src_span": "நான் முதலில் போக வேண்டும்",
+   "say_span": "my brother should go",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "With my parents and my two younger brothers. I'm the eldest.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "My mother, my brothers, and me. They told us not to say anything.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "உங்கள் பெயரைச் சொல்லுங்கள்.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified only that a man stopped him on the street, which does not describe a threat, and that his mother went to the police alone.",
+  "cites_x": [
+   6,
+   7
+  ]
+ }
+}

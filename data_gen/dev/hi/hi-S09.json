@@ -1,0 +1,173 @@
+{
+ "dialogue_id": "hi-S09",
+ "lang": "hi",
+ "scenario_id": "S09",
+ "slots": {
+  "BROTHER": "Vikas",
+  "TRANSIT_COUNTRY": "Panama",
+  "DOCTOR": "Sharma",
+  "CITY": "Lucknow"
+ },
+ "voices": {
+  "R": "af_bella",
+  "A": "hf_beta",
+  "I": "hm_psi"
+ },
+ "lines": {
+  "1": {
+   "q": "आज हम आपके बयान को लाइन-दर-लाइन देखेंगे। ठीक है?",
+   "a": "हाँ, ठीक है।"
+  },
+  "2": {
+   "q": "पैराग्राफ़ तीन में लिखा है कि आपको दो दिन हिरासत में रखा गया। क्या यह सही है?",
+   "a": "नहीं, चार दिन थे। दो दिन थाने में और दो दिन किसी दूसरी जगह पर।"
+  },
+  "3": {
+   "q": "पैराग्राफ़ पाँच में लिखा है कि आपका भाई गवाह था। क्या यह सही है?",
+   "a": "हाँ। मेरे भाई विकास ने खिड़की से सब कुछ देखा था।"
+  },
+  "4": {
+   "q": "आपने लिखा है कि आपने दो हज़ार उन्नीस में वीज़ा के लिए आवेदन किया था। कौन-सा वीज़ा?",
+   "a": "टूरिस्ट वीज़ा। इंटरव्यू में मना कर दिया गया।"
+  },
+  "5": {
+   "q": "क्या आपने कभी किसी दूसरे देश में शरण के लिए आवेदन किया है?",
+   "a": "नहीं, कभी नहीं। मैं बस तीन दिन के लिए पनामा से होकर गुज़री थी।"
+  },
+  "6": {
+   "q": "बयान में लिखा है कि धमकियाँ दो हज़ार बीस में शुरू हुईं। ठीक-ठीक कब शुरू हुईं?",
+   "a": [
+    "पहली धमकी दिसंबर दो हज़ार उन्नीस में फ़ोन पर आई थी।",
+    "आमने-सामने की धमकियाँ फ़रवरी दो हज़ार बीस में शुरू हुईं।"
+   ]
+  },
+  "7": {
+   "q": "डॉक्टर का पत्र किसने लिखा?",
+   "a": "लखनऊ के क्लिनिक के डॉक्टर शर्मा ने। हमले के बाद उन्होंने मेरी पसलियों का इलाज किया था।"
+  },
+  "8": {
+   "q": "क्या आपको यकीन है कि हमला जून में हुआ था?",
+   "a": "मुझे लगता है जून था, लेकिन जुलाई की शुरुआत भी हो सकती है। मेरे जन्मदिन के ठीक बाद था।"
+  },
+  "9": {
+   "q": "क्या आपने थाने में किसी चीज़ पर दस्तख़त किए थे?",
+   "a": "हाँ, उन्होंने मुझसे ज़बरदस्ती एक बयान पर दस्तख़त करवाए, लेकिन मुझे पढ़ने नहीं दिया।"
+  },
+  "10": {
+   "q": "क्या बयान में कुछ है जो आप बदलना चाहती हैं?",
+   "a": "बस हिरासत के दिनों की संख्या, और यह कि धमकियाँ दिसंबर में शुरू हुईं।"
+  }
+ },
+ "plants": [
+  {
+   "x": 5,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "क्या आपने कभी किसी दूसरे देश में नौकरी के लिए आवेदन किया है?",
+   "src_span": "applied for asylum",
+   "say_span": "नौकरी के लिए",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "legal_term",
+   "say": "Yes, they forced me to sign a confession, but they did not let me read it.",
+   "src_span": "एक बयान",
+   "say_span": "a confession",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "name",
+   "say": "Doctor Verma, at the clinic in Lucknow. He treated my ribs after the attack.",
+   "src_span": "डॉक्टर शर्मा",
+   "say_span": "Doctor Verma",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "It was June. It was right after my birthday.",
+   "src_span": "मुझे लगता है ... जुलाई की शुरुआत भी हो सकती है",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "The first threat was in December 2018, by phone.",
+   "src_span": "दो हज़ार उन्नीस",
+   "say_span": "2018",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 0,
+   "type": "addition",
+   "say": "A tourist visa. It was denied twice at the interview.",
+   "src_span": "",
+   "say_span": "twice",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "referent_unit",
+   "say": "Only the number of weeks I was detained, and that the threats started in December.",
+   "src_span": "दिनों की संख्या",
+   "say_span": "number of weeks",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Yes. My brother Vikas watched everything from the window.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 1,
+   "type": "acceptable",
+   "say": "The threats face to face began in February 2020.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "आज हम आपका बयान लाइन-दर-लाइन पढ़ेंगे। ठीक है?",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ]
+}

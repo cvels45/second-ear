@@ -1,0 +1,219 @@
+{
+ "dialogue_id": "zh-S01",
+ "lang": "zh",
+ "scenario_id": "S01",
+ "slots": {
+  "NAME": "Lin Wei",
+  "CITY": "Fuzhou",
+  "COUNTRY": "China",
+  "PARTY": "Citizens' Alliance",
+  "BROTHER": "Lin Tao"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "zh:m1",
+  "I": {
+   "zh": "zh:f1",
+   "en": "zf_xiaoxiao"
+  }
+ },
+ "lines": {
+  "1": {
+   "q": "请说出您的全名，以便记录在案。",
+   "a": "我叫林伟。"
+  },
+  "2": {
+   "q": "您来美国之前住在哪里？",
+   "a": "我住在福州，和我的妻子还有我们的两个女儿一起。"
+  },
+  "3": {
+   "q": "您属于哪个组织？",
+   "a": "我是公民联盟的成员。我是二〇一六年加入的，在我们社区组织聚会。"
+  },
+  "4": {
+   "q": "游行那天发生了什么？",
+   "a": [
+    "二〇二一年三月十二日，我们游行到市政府。警察大概中午的时候到了。",
+    "他们逮捕了我和我弟弟林涛。他们关了我们三天，不给饭吃。"
+   ]
+  },
+  "5": {
+   "q": "您一共被逮捕过几次？",
+   "a": "三次。第二次是二〇二一年六月，第三次是二〇二二年一月。"
+  },
+  "6": {
+   "q": "第三次被逮捕的时候发生了什么？",
+   "a": [
+    "两个警察晚上把我带到派出所。他们用棍子打我，还说如果我继续组织活动，就杀了我。",
+    "我觉得那里还有五六个其他犯人，但是我不确定。"
+   ]
+  },
+  "7": {
+   "q": "您有没有向任何人报告过这些逮捕？",
+   "a": "没有。我没有报告，因为抓我的人就是警察。"
+  },
+  "8": {
+   "q": "您离开以后，您家里有没有人收到威胁？",
+   "a": "有。我妻子在家里收到了两封信。其中一封说他们在找我。"
+  },
+  "9": {
+   "q": "您是什么时候离开中国的？",
+   "a": "我是二〇二二年二月五日离开的，大概是第三次被逮捕之后两个星期。"
+  },
+  "10": {
+   "q": "您为什么认为如果您回去，他们会伤害您？",
+   "a": "因为他们知道我的名字，也认得我的脸。我弟弟现在还在躲藏，去年他们还去了我母亲家。"
+  }
+ },
+ "plants": [
+  {
+   "x": 4,
+   "side": "a",
+   "part": 1,
+   "type": "date_duration_age",
+   "say": "They arrested me and my brother Lin Tao. They held us for three weeks without food.",
+   "src_span": "三天",
+   "say_span": "three weeks",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "Three times. The second time was in July 2021, and the third time was in January 2022.",
+   "src_span": "六月",
+   "say_span": "July",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "softening",
+   "say": "Two officers took me to the station at night. They hit me and told me they would hurt me if I kept organizing.",
+   "src_span": "用棍子打我 ... 就杀了我",
+   "say_span": "hit me ... hurt me",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "yes_no_reversal",
+   "say": "Yes. I reported them, because the people who arrested me were the police.",
+   "src_span": "没有。我没有报告",
+   "say_span": "Yes. I reported them",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "pronoun_shift",
+   "say": "Yes. I received two letters at our house. One said that they were looking for me.",
+   "src_span": "我妻子",
+   "say_span": "I",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "您参加过哪些游行？",
+   "src_span": "What organization did you belong to?",
+   "say_span": "哪些游行",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "omission",
+   "say": "Because they know my name and my face.",
+   "src_span": "我弟弟现在还在躲藏，去年他们还去了我母亲家",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "I left on the fifth of February 2022, two weeks after the third arrest.",
+   "src_span": "大概",
+   "say_span": "",
+   "severity": "minor",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "In Fuzhou. I lived there with my wife and our two daughters.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 1,
+   "type": "acceptable",
+   "say": "There were maybe five or six other prisoners there, I think, but I'm not sure.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "请说您的全名，记录在案。",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "extras": [
+  {
+   "after_x": 4,
+   "kind": "interpreter_meta",
+   "turns": [
+    {
+     "by": "I",
+     "lang": "en",
+     "text": "Your Honor, the interpreter needs to clarify a word with the respondent."
+    },
+    {
+     "by": "I",
+     "lang": "zh",
+     "text": "您刚才说的“所里”，是指派出所吗？"
+    }
+   ],
+   "note": ""
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that he was held for three weeks after the march and that he reported the arrests. His declaration says three days and says he never reported them.",
+  "cites_x": [
+   4,
+   7
+  ]
+ }
+}

@@ -1,0 +1,187 @@
+{
+ "dialogue_id": "pt-S06",
+ "lang": "pt",
+ "scenario_id": "S06",
+ "slots": {
+  "NAME": "Gabriel Lima Santos",
+  "COUNTRY": "Brazil",
+  "BRO1": "Davi",
+  "BRO2": "Lucas",
+  "CITY": "Altamira"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "pm_santa",
+  "I": "pf_dora"
+ },
+ "lines": {
+  "1": {
+   "q": "Por favor, diga o seu nome.",
+   "a": "Meu nome é Gabriel Lima Santos."
+  },
+  "2": {
+   "q": "Com quem o senhor morava no Brasil?",
+   "a": "Com os meus pais e os meus dois irmãos mais novos. Eu sou o mais velho."
+  },
+  "3": {
+   "q": "Quantos anos os seus irmãos tinham quando o senhor saiu?",
+   "a": "O Davi tinha quinze, e o Lucas tinha doze."
+  },
+  "4": {
+   "q": "O que aconteceu com o seu pai?",
+   "a": [
+    "O meu pai era jornalista. Em 2018 ele escreveu artigos sobre o prefeito.",
+    "Em janeiro de 2019 uns homens vieram à nossa casa e o levaram. Não temos notícias dele desde então."
+   ]
+  },
+  "5": {
+   "q": "Quem estava em casa quando o levaram?",
+   "a": "A minha mãe, os meus irmãos e eu. Eles nos disseram para não falar nada."
+  },
+  "6": {
+   "q": "O que a sua família fez depois disso?",
+   "a": "Nós fomos juntos à polícia, a minha mãe e eu. A polícia nos disse para parar de procurar."
+  },
+  "7": {
+   "q": "Alguém ameaçou o senhor pessoalmente?",
+   "a": "Sim. Em março de 2019 um homem me parou na rua e disse que eu ia acabar como o meu pai."
+  },
+  "8": {
+   "q": "O senhor denunciou essa ameaça?",
+   "a": "Não, não denunciei. Depois do que a polícia nos disse, eu não confiava neles."
+  },
+  "9": {
+   "q": "Onde está a sua mãe agora?",
+   "a": "Ela ainda está em Altamira com os meus irmãos. Eles se mudaram para a casa da minha tia."
+  },
+  "10": {
+   "q": "Por que o senhor saiu sozinho?",
+   "a": [
+    "Nós não tínhamos dinheiro para todos viajarem.",
+    "A minha mãe decidiu que eu devia ir primeiro, porque eu sou o filho mais velho."
+   ]
+  }
+ },
+ "plants": [
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "Davi was fifty, and Lucas was twelve.",
+   "src_span": "quinze",
+   "say_span": "fifty",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "pronoun_shift",
+   "say": "I went to the police. The police told me to stop looking.",
+   "src_span": "Nós fomos juntos ... a minha mãe e eu ... nos",
+   "say_span": "I went ... me",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "pronoun_shift",
+   "say": "My mother, my brothers, and I. They told me not to say anything.",
+   "src_span": "nos disseram",
+   "say_span": "told me",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "yes_no_reversal",
+   "say": "Yes, I reported it. After what the police told us, I did not trust them.",
+   "src_span": "Não, não denunciei",
+   "say_span": "Yes, I reported it",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 7,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "Alguém ameaçou a sua família?",
+   "src_span": "you personally",
+   "say_span": "a sua família",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 1,
+   "type": "date_duration_age",
+   "say": "In June 2019 men came to our house and took him. We have not heard from him since then.",
+   "src_span": "janeiro",
+   "say_span": "June",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "I think she is still in Altamira with my brothers. They moved to my aunt's house.",
+   "src_span": "",
+   "say_span": "I think",
+   "severity": "major",
+   "dispositive": false,
+   "note": "adds uncertainty the speaker did not express"
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "With my parents and two younger brothers. I'm the eldest.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "We didn't have enough money for all of us to travel.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Onde a sua mãe está agora?",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that he reported the threat, yet he also said he did not trust the police. He also gave a different month for his father's disappearance than his declaration does.",
+  "cites_x": [
+   4,
+   8
+  ]
+ }
+}

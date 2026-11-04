@@ -1,0 +1,165 @@
+{
+ "dialogue_id": "ar-S09",
+ "lang": "ar",
+ "scenario_id": "S09",
+ "slots": {
+  "BROTHER": "Yousef",
+  "TRANSIT_COUNTRY": "Turkey",
+  "DOCTOR": "Nasser",
+  "CITY": "Damascus"
+ },
+ "voices": {
+  "R": "af_bella",
+  "A": "ar:f2",
+  "I": {
+   "ar": "ar:m2",
+   "en": "ar:m2"
+  }
+ },
+ "lines": {
+  "1": {
+   "q": "اليوم سنراجع إفادتك سطرًا سطرًا. هل هذا مناسب؟",
+   "a": "نعم، لا بأس."
+  },
+  "2": {
+   "q": "تقول الفقرة الثالثة إنك احتُجزتِ يومين. هل هذا صحيح؟",
+   "a": "لا، كانت أربعة أيام. يومان في مركز الشرطة ويومان في مكان آخر."
+  },
+  "3": {
+   "q": "تقول الفقرة الخامسة إن أخاكِ كان شاهدًا. هل هذا صحيح؟",
+   "a": "نعم. رأى أخي يوسف كل شيء من النافذة."
+  },
+  "4": {
+   "q": "كتبتِ أنكِ تقدمتِ بطلب تأشيرة في عام ألفين وتسعة عشر. أي نوع من التأشيرات؟",
+   "a": "تأشيرة سياحية. رفضوها في المقابلة."
+  },
+  "5": {
+   "q": "هل سبق أن تقدمتِ بطلب لجوء في بلد آخر؟",
+   "a": "لا، أبدًا. مررت فقط بتركيا لمدة ثلاثة أيام."
+  },
+  "6": {
+   "q": "تقول الإفادة إن التهديدات بدأت في عام ألفين وعشرين. متى بدأت بالضبط؟",
+   "a": [
+    "أول تهديد كان في ديسمبر ألفين وتسعة عشر، عبر الهاتف.",
+    "التهديدات وجهًا لوجه بدأت في فبراير ألفين وعشرين."
+   ]
+  },
+  "7": {
+   "q": "من كتب رسالة الطبيب؟",
+   "a": "الدكتور ناصر، في العيادة في دمشق. عالج أضلاعي بعد الاعتداء."
+  },
+  "8": {
+   "q": "هل أنتِ متأكدة أن الاعتداء كان في يونيو؟",
+   "a": "أظن أنه كان في يونيو، لكن قد يكون في بداية يوليو. كان بعد عيد ميلادي مباشرة."
+  },
+  "9": {
+   "q": "هل وقعتِ على أي شيء في مركز الشرطة؟",
+   "a": "نعم، أجبروني على التوقيع على إفادة، لكنهم لم يسمحوا لي بقراءتها."
+  },
+  "10": {
+   "q": "هل هناك أي شيء في الإفادة تريدين تغييره؟",
+   "a": "فقط عدد الأيام التي احتُجزت فيها، وأن التهديدات بدأت في ديسمبر."
+  }
+ },
+ "plants": [
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "No, never. I only passed through Turkey for thirty days.",
+   "src_span": "ثلاثة أيام",
+   "say_span": "thirty days",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "self_corrected",
+   "say": "Doctor Nasser, at the hospital... sorry, at the clinic in Damascus. He treated my ribs after the attack.",
+   "src_span": "العيادة",
+   "say_span": "the hospital",
+   "severity": "minor",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "omission",
+   "say": "No, it was four days.",
+   "src_span": "يومان في مركز الشرطة ويومان في مكان آخر",
+   "say_span": "",
+   "severity": "minor",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "yes_no_reversal",
+   "say": "No, I did not sign anything at the police station.",
+   "src_span": "نعم، أجبروني على التوقيع",
+   "say_span": "No, I did not sign anything",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 1,
+   "type": "date_duration_age",
+   "say": "The threats in person started in February 2022.",
+   "src_span": "فبراير ألفين وعشرين",
+   "say_span": "February 2022",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "q",
+   "part": 0,
+   "type": "legal_term",
+   "say": "تقول الفقرة الخامسة إن أخاكِ كان متهمًا. هل هذا صحيح؟",
+   "src_span": "a witness",
+   "say_span": "متهمًا",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Yes, that's fine.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Just the number of days I was detained, and the fact that the threats started in December.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "The first threat came by phone, in December 2019.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ]
+}

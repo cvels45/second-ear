@@ -1,0 +1,173 @@
+{
+ "dialogue_id": "pt-S09",
+ "lang": "pt",
+ "scenario_id": "S09",
+ "slots": {
+  "BROTHER": "Fábio",
+  "TRANSIT_COUNTRY": "Mexico",
+  "DOCTOR": "Rezende",
+  "CITY": "Belo Horizonte"
+ },
+ "voices": {
+  "R": "af_bella",
+  "A": "pf_dora",
+  "I": "pm_alex"
+ },
+ "lines": {
+  "1": {
+   "q": "Hoje vamos revisar a sua declaração linha por linha. Tudo bem?",
+   "a": "Sim, tudo bem."
+  },
+  "2": {
+   "q": "O parágrafo três diz que a senhora ficou detida por dois dias. Está certo?",
+   "a": "Não, foram quatro dias. Dois dias na delegacia e dois dias em outro lugar."
+  },
+  "3": {
+   "q": "O parágrafo cinco diz que o seu irmão foi testemunha. Está correto?",
+   "a": "Sim. O meu irmão Fábio viu tudo pela janela."
+  },
+  "4": {
+   "q": "A senhora escreveu que pediu um visto em 2019. Que tipo de visto?",
+   "a": "Um visto de turista. Foi negado na entrevista."
+  },
+  "5": {
+   "q": "A senhora já pediu asilo em outro país?",
+   "a": "Não, nunca. Eu só passei pelo México por três dias."
+  },
+  "6": {
+   "q": "A declaração diz que as ameaças começaram em 2020. Quando começaram exatamente?",
+   "a": [
+    "A primeira ameaça foi em dezembro de 2019, por telefone.",
+    "As ameaças pessoalmente começaram em fevereiro de 2020."
+   ]
+  },
+  "7": {
+   "q": "Quem escreveu a carta do médico?",
+   "a": "O doutor Rezende, da clínica em Belo Horizonte. Ele tratou as minhas costelas depois do ataque."
+  },
+  "8": {
+   "q": "A senhora tem certeza de que o ataque foi em junho?",
+   "a": "Acho que foi em junho, mas pode ter sido no começo de julho. Foi logo depois do meu aniversário."
+  },
+  "9": {
+   "q": "A senhora assinou alguma coisa na delegacia?",
+   "a": "Sim, me obrigaram a assinar um depoimento, mas não me deixaram ler."
+  },
+  "10": {
+   "q": "Tem alguma coisa na declaração que a senhora queira mudar?",
+   "a": "Só o número de dias que eu fiquei detida, e que as ameaças começaram em dezembro."
+  }
+ },
+ "plants": [
+  {
+   "x": 2,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "O parágrafo três diz que a senhora ficou detida por quatro dias. Está certo?",
+   "src_span": "two days",
+   "say_span": "quatro dias",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "q",
+   "part": 0,
+   "type": "legal_term",
+   "say": "A senhora já pediu residência em outro país?",
+   "src_span": "asylum",
+   "say_span": "residência",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "The first threat was in December 2020, by phone.",
+   "src_span": "dezembro de 2019",
+   "say_span": "December 2020",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "It was in June. It was right after my birthday.",
+   "src_span": "Acho que ... mas pode ter sido no começo de julho",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "softening",
+   "say": "Yes, they asked me to sign a statement, but they did not let me read it.",
+   "src_span": "me obrigaram",
+   "say_span": "asked me",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "name",
+   "say": "Yes. My brother Flávio saw everything from the window.",
+   "src_span": "Fábio",
+   "say_span": "Flávio",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "omission",
+   "say": "Only the number of days I was detained.",
+   "src_span": "e que as ameaças começaram em dezembro",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "A tourist visa, which was denied at the interview.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 1,
+   "type": "acceptable",
+   "say": "The in-person threats began in February 2020.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Yes, that's okay.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "dialogue_id": "ta-S01",
+ "lang": "ta",
+ "scenario_id": "S01",
+ "slots": {
+  "NAME": "Murugan Selvaraj",
+  "CITY": "Jaffna",
+  "COUNTRY": "Sri Lanka",
+  "PARTY": "Tamil Rights Forum",
+  "BROTHER": "Kumaran"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "ta:m1",
+  "I": {
+   "ta": "ta:f1",
+   "en": "ta:f1"
+  }
+ },
+ "lines": {
+  "1": {
+   "q": "பதிவுக்காக உங்கள் முழுப் பெயரைச் சொல்லுங்கள்.",
+   "a": "என் பெயர் முருகன் செல்வராஜ்."
+  },
+  "2": {
+   "q": "அமெரிக்காவுக்கு வருவதற்கு முன் நீங்கள் எங்கே வசித்தீர்கள்?",
+   "a": "நான் யாழ்ப்பாணத்தில், என் மனைவியுடனும் எங்கள் இரண்டு மகள்களுடனும் வசித்தேன்."
+  },
+  "3": {
+   "q": "நீங்கள் எந்த அமைப்பில் இருந்தீர்கள்?",
+   "a": "நான் தமிழ் உரிமைகள் மன்றத்தின் உறுப்பினராக இருந்தேன். இரண்டாயிரத்துப் பதினாறில் சேர்ந்தேன், என் பகுதியில் கூட்டங்களை ஏற்பாடு செய்தேன்."
+  },
+  "4": {
+   "q": "ஊர்வலம் நடந்த அன்று என்ன நடந்தது?",
+   "a": [
+    "இரண்டாயிரத்து இருபத்தொன்று மார்ச் பன்னிரண்டாம் தேதி, நாங்கள் நகர மண்டபத்தை நோக்கி ஊர்வலமாகச் சென்றோம். மதியம் சுமார் பன்னிரண்டு மணிக்கு போலீஸ் வந்தது.",
+    "அவர்கள் என்னையும் என் தம்பி குமரனையும் கைது செய்தார்கள். மூன்று நாட்கள் சாப்பாடு இல்லாமல் எங்களை வைத்திருந்தார்கள்."
+   ]
+  },
+  "5": {
+   "q": "மொத்தம் எத்தனை முறை நீங்கள் கைது செய்யப்பட்டீர்கள்?",
+   "a": "மூன்று முறை. இரண்டாவது முறை இரண்டாயிரத்து இருபத்தொன்று ஜூனில், மூன்றாவது முறை இரண்டாயிரத்து இருபத்திரண்டு ஜனவரியில்."
+  },
+  "6": {
+   "q": "மூன்றாவது கைதின்போது என்ன நடந்தது?",
+   "a": [
+    "இரண்டு போலீஸ்காரர்கள் இரவில் என்னை நிலையத்துக்குக் கொண்டு சென்றார்கள். தடிகளால் அடித்தார்கள், நான் தொடர்ந்து ஏற்பாடு செய்தால் கொன்றுவிடுவோம் என்று சொன்னார்கள்.",
+    "அங்கே வேறு ஐந்து அல்லது ஆறு கைதிகள் இருந்தார்கள் என்று நினைக்கிறேன், ஆனால் உறுதியாகத் தெரியாது."
+   ]
+  },
+  "7": {
+   "q": "இந்தக் கைதுகளில் எதையாவது யாரிடமாவது புகார் செய்தீர்களா?",
+   "a": "இல்லை. நான் புகார் செய்யவில்லை, ஏனென்றால் என்னைக் கைது செய்தவர்களே போலீஸ்தான்."
+  },
+  "8": {
+   "q": "நீங்கள் வெளியேறிய பிறகு உங்கள் குடும்பத்தில் யாருக்காவது மிரட்டல்கள் வந்தனவா?",
+   "a": "ஆம். என் மனைவிக்கு எங்கள் வீட்டுக்கு இரண்டு கடிதங்கள் வந்தன. அவற்றில் ஒன்று அவர்கள் என்னைத் தேடுகிறார்கள் என்று சொன்னது."
+  },
+  "9": {
+   "q": "நீங்கள் இலங்கையை விட்டு எப்போது வெளியேறினீர்கள்?",
+   "a": "இரண்டாயிரத்து இருபத்திரண்டு பிப்ரவரி ஐந்தாம் தேதி வெளியேறினேன், மூன்றாவது கைதுக்குப் பிறகு சுமார் இரண்டு வாரங்களில்."
+  },
+  "10": {
+   "q": "நீங்கள் திரும்பிச் சென்றால் அவர்கள் உங்களுக்குத் தீங்கு செய்வார்கள் என்று ஏன் நம்புகிறீர்கள்?",
+   "a": "ஏனென்றால் அவர்களுக்கு என் பெயரும் முகமும் தெரியும். என் தம்பி இன்னும் ஒளிந்திருக்கிறான், கடந்த ஆண்டு அவர்கள் என் அம்மா வீட்டுக்குப் போனார்கள்."
+  }
+ },
+ "plants": [
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "Four times. The second time was in June 2021, and the third time was in January 2022.",
+   "src_span": "மூன்று முறை",
+   "say_span": "Four times",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "softening",
+   "say": "Two officers took me to the station at night. They slapped me and told me they would kill me if I kept organizing.",
+   "src_span": "தடிகளால் அடித்தார்கள்",
+   "say_span": "They slapped me",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "Yes. My wife received twelve letters at our house. One said that they were looking for me.",
+   "src_span": "இரண்டு கடிதங்கள்",
+   "say_span": "twelve letters",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "இந்தக் கைதுகளைப் பற்றி யாருக்காவது சொன்னீர்களா?",
+   "src_span": "report",
+   "say_span": "சொன்னீர்களா",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "I left on the fifth of February 2022, two weeks after the third arrest.",
+   "src_span": "சுமார்",
+   "say_span": "",
+   "severity": "minor",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "omission",
+   "say": "Because they know my name and my face. My brother is still in hiding.",
+   "src_span": "கடந்த ஆண்டு அவர்கள் என் அம்மா வீட்டுக்குப் போனார்கள்",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "On the twelfth of May 2021, we marched to the city hall. The police arrived around noon.",
+   "src_span": "மார்ச்",
+   "say_span": "May",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "In Jaffna, with my wife and our two daughters.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "I was a Tamil Rights Forum member. I joined in 2016 and organized meetings in my area.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "உங்கள் முழுப் பெயரைப் பதிவுக்காகச் சொல்லுங்கள்.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that he was arrested four times, but his declaration describes three arrests. He also placed the march in May 2021.",
+  "cites_x": [
+   4,
+   5
+  ]
+ }
+}

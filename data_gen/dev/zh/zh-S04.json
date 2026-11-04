@@ -1,0 +1,185 @@
+{
+ "dialogue_id": "zh-S04",
+ "lang": "zh",
+ "scenario_id": "S04",
+ "slots": {
+  "NAME": "Zhang Ming",
+  "CHURCH": "Grace",
+  "PASTOR": "Wang",
+  "GROUP": "Public Security Bureau"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "zh:m1",
+  "I": {
+   "zh": "zh:f1",
+   "en": "zf_xiaoxiao"
+  }
+ },
+ "lines": {
+  "1": {
+   "q": "请说您的名字。",
+   "a": "我叫张明。"
+  },
+  "2": {
+   "q": "您信什么宗教？",
+   "a": "我是基督徒。我是二〇一四年在恩典教会受洗的。"
+  },
+  "3": {
+   "q": "您在教会里负责什么？",
+   "a": "我每个星期天给孩子们教圣经，还帮王牧师在信徒家里组织聚会。"
+  },
+  "4": {
+   "q": "二〇一九年十月发生了什么？",
+   "a": [
+    "在一次星期天的礼拜中，公安局的人进了教会。",
+    "他们带走了牧师和三个年轻人。我们再也没有见过牧师。"
+   ]
+  },
+  "5": {
+   "q": "那天您在场吗？",
+   "a": "在，我在场。我和孩子们一起躲在后面的房间里。"
+  },
+  "6": {
+   "q": "那之后您发生了什么事？",
+   "a": "两个星期以后，他们在我工作的地方把我拘留了。他们关了我九天，问我其他成员的名字。"
+  },
+  "7": {
+   "q": "您有没有被指控过犯罪？",
+   "a": "没有，他们从来没有起诉过我。我签了一张我看不懂的纸以后，他们就放了我。"
+  },
+  "8": {
+   "q": "那张纸上写的是什么？",
+   "a": "我不太清楚。我觉得是说我以后不再去教会了。"
+  },
+  "9": {
+   "q": "被释放以后，您还继续信仰您的宗教吗？",
+   "a": "是的，但是只能偷偷地在我家里，和我妻子还有我母亲一起。"
+  },
+  "10": {
+   "q": "您是什么时候到美国的？",
+   "a": "我是二〇二〇年七月二十日到的。我在边境申请了庇护。"
+  }
+ },
+ "plants": [
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "legal_term",
+   "say": "Two weeks later they arrested me at my workplace. They sentenced me to nine days and asked me for the names of the other members.",
+   "src_span": "拘留 ... 关了我九天",
+   "say_span": "sentenced me to nine days",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 1,
+   "type": "count_ordinal",
+   "say": "They took the pastor and thirty young men. We never saw the pastor again.",
+   "src_span": "三个年轻人",
+   "say_span": "thirty young men",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "I am a Christian. I was baptized in 2004 at the Grace church.",
+   "src_span": "二〇一四年",
+   "say_span": "2004",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "omission",
+   "say": "Yes, but only in secret, in my house.",
+   "src_span": "和我妻子还有我母亲一起",
+   "say_span": "",
+   "severity": "minor",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "legal_term",
+   "say": "I arrived on the twentieth of July 2020. I asked for refugee status at the border.",
+   "src_span": "申请了庇护",
+   "say_span": "refugee status",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "那天您的家人在场吗？",
+   "src_span": "Were you there",
+   "say_span": "您的家人",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "I don't know exactly. It said that I would stop going to the church.",
+   "src_span": "我觉得",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Every Sunday I taught the Bible to the children, and I helped Pastor Wang organize meetings in believers' homes.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "请问您叫什么名字？",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "您被放出来以后，还继续信教吗？",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that he was sentenced to nine days and that thirty young men were taken from the church. The record supports neither statement.",
+  "cites_x": [
+   4,
+   6
+  ]
+ }
+}

@@ -1,0 +1,197 @@
+{
+ "dialogue_id": "zh-S06",
+ "lang": "zh",
+ "scenario_id": "S06",
+ "slots": {
+  "NAME": "Zhou Hao",
+  "COUNTRY": "China",
+  "BRO1": "Zhou Kai",
+  "BRO2": "Zhou Lei",
+  "CITY": "Kunming"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "zh:m2",
+  "I": {
+   "zh": "zh:f1",
+   "en": "zf_xiaoxiao"
+  }
+ },
+ "lines": {
+  "1": {
+   "q": "请说您的名字。",
+   "a": "我叫周浩。"
+  },
+  "2": {
+   "q": "您在中国和谁住在一起？",
+   "a": "和我父母，还有我的两个弟弟。我是老大。"
+  },
+  "3": {
+   "q": "您离开的时候，您的弟弟们多大？",
+   "a": "周凯十五岁，周磊十二岁。"
+  },
+  "4": {
+   "q": "您父亲发生了什么事？",
+   "a": [
+    "我父亲是记者。二〇一八年他写了一些关于市长的文章。",
+    "二〇一九年一月，有人来到我们家把他带走了。从那以后我们就没有他的消息了。"
+   ]
+  },
+  "5": {
+   "q": "他们带走他的时候，谁在家？",
+   "a": "我母亲、我的弟弟们和我。他们让我们什么都不要说。"
+  },
+  "6": {
+   "q": "那之后您家里人做了什么？",
+   "a": "我们一起去了警察局，我母亲和我。警察让我们不要再找了。"
+  },
+  "7": {
+   "q": "有没有人亲自威胁过您？",
+   "a": "有。二〇一九年三月，一个男人在街上拦住我，说我会跟我父亲一样的下场。"
+  },
+  "8": {
+   "q": "您报告了那次威胁吗？",
+   "a": "没有，我没有报告。警察跟我们说了那些话以后，我就不相信他们了。"
+  },
+  "9": {
+   "q": "您母亲现在在哪里？",
+   "a": "她还在昆明，和我的弟弟们在一起。他们搬到了我阿姨家。"
+  },
+  "10": {
+   "q": "您为什么一个人离开？",
+   "a": [
+    "我们没有钱让所有人都走。",
+    "我母亲决定让我先走，因为我是大儿子。"
+   ]
+  }
+ },
+ "plants": [
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "Zhou Kai was fifty, and Zhou Lei was twelve.",
+   "src_span": "十五岁",
+   "say_span": "fifty",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "pronoun_shift",
+   "say": "My mother, my brothers, and I. They told my mother not to say anything.",
+   "src_span": "让我们",
+   "say_span": "told my mother",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 0,
+   "type": "distortion",
+   "say": "My father was a journalist. In 2018 he wrote articles about the police chief.",
+   "src_span": "市长",
+   "say_span": "the police chief",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "softening",
+   "say": "Yes. In March 2019 a man stopped me on the street and told me to be careful.",
+   "src_span": "说我会跟我父亲一样的下场",
+   "say_span": "told me to be careful",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 9,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "您母亲现在在做什么？",
+   "src_span": "Where is your mother now?",
+   "say_span": "在做什么",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 1,
+   "type": "addition",
+   "say": "My mother decided that I should go first, because I am the oldest son and the police were looking for me.",
+   "src_span": "",
+   "say_span": "and the police were looking for me",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "With my parents and my two younger brothers. I'm the oldest child.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "No, I didn't report it. After what the police had told us, I didn't trust them anymore.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "请问您叫什么名字？",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "extras": [
+  {
+   "after_x": 7,
+   "kind": "uninterpreted",
+   "turns": [
+    {
+     "by": "I",
+     "lang": "zh",
+     "text": "您说的“下场”是什么意思？"
+    },
+    {
+     "by": "A",
+     "lang": "zh",
+     "text": "就是会被抓走。"
+    }
+   ],
+   "note": "The interpreter asks her own clarifying question and never interprets the exchange."
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that the man only told him to be careful, which is not a threat of harm. His brother, who he says is fifty years old, remains in Kunming without incident.",
+  "cites_x": [
+   3,
+   7
+  ]
+ }
+}

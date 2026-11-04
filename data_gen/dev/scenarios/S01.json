@@ -1,0 +1,80 @@
+{
+ "scenario_id": "S01",
+ "setting": "merits_hearing",
+ "title": "Political opinion: arrests after a march",
+ "speakers": {
+  "J": "judge",
+  "R": "respondent_attorney",
+  "D": "dhs_attorney",
+  "A": "applicant",
+  "I": "interpreter"
+ },
+ "exchanges": [
+  {
+   "x": 1,
+   "q_by": "J",
+   "q": "Please state your full name for the record.",
+   "a": "My name is {NAME}."
+  },
+  {
+   "x": 2,
+   "q_by": "R",
+   "q": "Where were you living before you came to the United States?",
+   "a": "I lived in {CITY}, with my wife and our two daughters."
+  },
+  {
+   "x": 3,
+   "q_by": "R",
+   "q": "What organization did you belong to?",
+   "a": "I was a member of the {PARTY}. I joined in 2016, and I organized meetings in my neighborhood."
+  },
+  {
+   "x": 4,
+   "q_by": "R",
+   "q": "What happened on the day of the march?",
+   "a": [
+    "On the twelfth of March 2021, we marched to the city hall. The police arrived around noon.",
+    "They arrested me and my brother {BROTHER}. They held us for three days without food."
+   ]
+  },
+  {
+   "x": 5,
+   "q_by": "R",
+   "q": "How many times were you arrested in total?",
+   "a": "Three times. The second time was in June 2021, and the third time was in January 2022."
+  },
+  {
+   "x": 6,
+   "q_by": "R",
+   "q": "What happened during the third arrest?",
+   "a": [
+    "Two officers took me to the station at night. They beat me with sticks and told me they would kill me if I kept organizing.",
+    "I think there were five or six other prisoners there, but I am not sure."
+   ]
+  },
+  {
+   "x": 7,
+   "q_by": "D",
+   "q": "Did you report any of these arrests to anyone?",
+   "a": "No. I did not report them, because the people who arrested me were the police."
+  },
+  {
+   "x": 8,
+   "q_by": "D",
+   "q": "Did anyone in your family receive threats after you left?",
+   "a": "Yes. My wife received two letters at our house. One said that they were looking for me."
+  },
+  {
+   "x": 9,
+   "q_by": "D",
+   "q": "When did you leave {COUNTRY}?",
+   "a": "I left on the fifth of February 2022, about two weeks after the third arrest."
+  },
+  {
+   "x": 10,
+   "q_by": "J",
+   "q": "Why do you believe they would harm you if you return?",
+   "a": "Because they know my name and my face. My brother is still in hiding, and they came to my mother's house last year."
+  }
+ ]
+}

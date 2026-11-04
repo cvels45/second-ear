@@ -1,0 +1,189 @@
+{
+ "dialogue_id": "ar-S01",
+ "lang": "ar",
+ "scenario_id": "S01",
+ "slots": {
+  "NAME": "Omar Haddad",
+  "CITY": "Homs",
+  "COUNTRY": "Syria",
+  "PARTY": "Free Youth Movement",
+  "BROTHER": "Karim"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "ar:m1",
+  "I": {
+   "ar": "ar:f1",
+   "en": "ar:f1"
+  }
+ },
+ "lines": {
+  "1": {
+   "q": "من فضلك، اذكر اسمك الكامل للمحضر.",
+   "a": "اسمي عمر حداد."
+  },
+  "2": {
+   "q": "أين كنت تعيش قبل أن تأتي إلى الولايات المتحدة؟",
+   "a": "كنت أعيش في حمص، مع زوجتي وابنتينا."
+  },
+  "3": {
+   "q": "إلى أي منظمة كنت تنتمي؟",
+   "a": "كنت عضوًا في حركة الشباب الحر. انضممت إليها في عام ألفين وستة عشر، وكنت أنظم اجتماعات في حيّي."
+  },
+  "4": {
+   "q": "ماذا حدث يوم المسيرة؟",
+   "a": [
+    "في الثاني عشر من مارس عام ألفين وواحد وعشرين، سرنا نحو مبنى البلدية. وصلت الشرطة نحو الظهر.",
+    "اعتقلوني أنا وأخي كريم. احتجزونا ثلاثة أيام دون طعام."
+   ]
+  },
+  "5": {
+   "q": "كم مرة اعتُقلت في المجموع؟",
+   "a": "ثلاث مرات. المرة الثانية كانت في يونيو ألفين وواحد وعشرين، والمرة الثالثة في يناير ألفين واثنين وعشرين."
+  },
+  "6": {
+   "q": "ماذا حدث خلال الاعتقال الثالث؟",
+   "a": [
+    "أخذني شرطيان إلى المركز في الليل. ضربوني بالعصي وقالوا إنهم سيقتلونني إذا واصلت التنظيم.",
+    "أظن أنه كان هناك خمسة أو ستة سجناء آخرين، لكنني لست متأكدًا."
+   ]
+  },
+  "7": {
+   "q": "هل أبلغت أي أحد عن أي من هذه الاعتقالات؟",
+   "a": "لا. لم أبلغ عنها، لأن الذين اعتقلوني كانوا هم الشرطة."
+  },
+  "8": {
+   "q": "هل تلقى أحد من عائلتك تهديدات بعد رحيلك؟",
+   "a": "نعم. تلقت زوجتي رسالتين في بيتنا. إحداهما كانت تقول إنهم يبحثون عني."
+  },
+  "9": {
+   "q": "متى غادرت سوريا؟",
+   "a": "غادرت في الخامس من فبراير ألفين واثنين وعشرين، بعد نحو أسبوعين من الاعتقال الثالث."
+  },
+  "10": {
+   "q": "لماذا تعتقد أنهم سيؤذونك إذا عدت؟",
+   "a": "لأنهم يعرفون اسمي ووجهي. أخي ما زال مختبئًا، وقد ذهبوا إلى بيت أمي في العام الماضي."
+  }
+ },
+ "plants": [
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "softening",
+   "say": "Two officers took me to the station at night. They insulted me and told me they would kill me if I kept organizing.",
+   "src_span": "ضربوني بالعصي",
+   "say_span": "They insulted me",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 1,
+   "type": "pronoun_shift",
+   "say": "They arrested my brother Karim. They held him for three days without food.",
+   "src_span": "اعتقلوني أنا وأخي ... احتجزونا",
+   "say_span": "my brother ... him",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "name",
+   "say": "No. I did not report them, because the people who arrested me were the army.",
+   "src_span": "الشرطة",
+   "say_span": "the army",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "I left on the fifth of February 2022, about two months after the third arrest.",
+   "src_span": "أسبوعين",
+   "say_span": "two months",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "هل تلقيت أنت تهديدات بعد رحيلك؟",
+   "src_span": "anyone in your family",
+   "say_span": "أنت",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "omission",
+   "say": "I was a member of the Free Youth Movement. I joined in 2016.",
+   "src_span": "وكنت أنظم اجتماعات في حيّي",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 1,
+   "type": "self_corrected",
+   "say": "I think there were fifteen... sorry, five or six other prisoners there, but I am not sure.",
+   "src_span": "خمسة أو ستة",
+   "say_span": "fifteen",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "In Homs, with my wife and our two daughters.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Because they know my name and face. My brother is still hiding, and last year they went to my mother's house.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "اذكر اسمك الكامل للمحضر من فضلك.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that the army arrested him and that only his brother was detained after the march. His declaration says the police arrested both of them.",
+  "cites_x": [
+   4,
+   7
+  ]
+ }
+}

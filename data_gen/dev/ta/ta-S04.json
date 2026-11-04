@@ -1,0 +1,185 @@
+{
+ "dialogue_id": "ta-S04",
+ "lang": "ta",
+ "scenario_id": "S04",
+ "slots": {
+  "NAME": "Joseph Antony",
+  "CHURCH": "St. Anne's",
+  "PASTOR": "Daniel",
+  "GROUP": "army intelligence unit"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "ta:m1",
+  "I": {
+   "ta": "ta:f2",
+   "en": "ta:f2"
+  }
+ },
+ "lines": {
+  "1": {
+   "q": "உங்கள் பெயரைச் சொல்லுங்கள்.",
+   "a": "என் பெயர் ஜோசப் அந்தோனி."
+  },
+  "2": {
+   "q": "உங்கள் மதம் என்ன?",
+   "a": "நான் கிறிஸ்தவன். இரண்டாயிரத்துப் பதினான்கில் புனித அன்னாள் தேவாலயத்தில் ஞானஸ்நானம் பெற்றேன்."
+  },
+  "3": {
+   "q": "தேவாலயத்தில் உங்கள் பங்கு என்னவாக இருந்தது?",
+   "a": "ஞாயிற்றுக்கிழமைகளில் குழந்தைகளுக்கு பைபிள் கற்பித்தேன், மக்களின் வீடுகளில் நடக்கும் கூட்டங்களில் போதகர் டேனியலுக்கு உதவினேன்."
+  },
+  "4": {
+   "q": "இரண்டாயிரத்துப் பத்தொன்பது அக்டோபரில் என்ன நடந்தது?",
+   "a": [
+    "ஞாயிறு ஆராதனையின்போது, இராணுவ உளவுப் பிரிவைச் சேர்ந்த ஆட்கள் தேவாலயத்துக்குள் வந்தார்கள்.",
+    "போதகரையும் மூன்று இளைஞர்களையும் கொண்டு சென்றார்கள். அதன் பிறகு போதகரை நாங்கள் பார்க்கவே இல்லை."
+   ]
+  },
+  "5": {
+   "q": "அன்று நீங்கள் அங்கே இருந்தீர்களா?",
+   "a": "ஆம், நான் அங்கே இருந்தேன். குழந்தைகளுடன் பின் அறையில் ஒளிந்துகொண்டேன்."
+  },
+  "6": {
+   "q": "அதன் பிறகு உங்களுக்கு என்ன நடந்தது?",
+   "a": "இரண்டு வாரங்கள் கழித்து என் வேலை இடத்தில் என்னைத் தடுத்து வைத்தார்கள். ஒன்பது நாட்கள் வைத்திருந்து, மற்ற உறுப்பினர்களின் பெயர்களைக் கேட்டார்கள்."
+  },
+  "7": {
+   "q": "உங்கள் மீது எப்போதாவது குற்றம் சாட்டப்பட்டதா?",
+   "a": "இல்லை, ஒருபோதும் குற்றம் சாட்டவில்லை. என்னால் படிக்க முடியாத ஒரு காகிதத்தில் கையெழுத்துப் போட்டதும் விடுவித்தார்கள்."
+  },
+  "8": {
+   "q": "அந்தக் காகிதத்தில் என்ன இருந்தது?",
+   "a": "சரியாகத் தெரியாது. நான் தேவாலயத்துக்குப் போவதை நிறுத்துவேன் என்று இருந்தது என்று நினைக்கிறேன்."
+  },
+  "9": {
+   "q": "விடுதலைக்குப் பிறகு உங்கள் மதத்தைத் தொடர்ந்து கடைப்பிடித்தீர்களா?",
+   "a": "ஆம், ஆனால் இரகசியமாக மட்டும், என் வீட்டில், என் மனைவியுடனும் அம்மாவுடனும்."
+  },
+  "10": {
+   "q": "நீங்கள் அமெரிக்காவுக்கு எப்போது வந்தீர்கள்?",
+   "a": "இரண்டாயிரத்து இருபது ஜூலை இருபதாம் தேதி வந்தேன். எல்லையில் புகலிடம் கேட்டேன்."
+  }
+ },
+ "plants": [
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "Two weeks later they detained me at my workplace. They kept me for nine weeks and asked me for the names of the other members.",
+   "src_span": "ஒன்பது நாட்கள்",
+   "say_span": "nine weeks",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 0,
+   "type": "name",
+   "say": "During a Sunday service, men from the police came into the church.",
+   "src_span": "இராணுவ உளவுப் பிரிவைச் சேர்ந்த",
+   "say_span": "the police",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 1,
+   "type": "distortion",
+   "say": "They took the pastor and three young women. We never saw the pastor again.",
+   "src_span": "மூன்று இளைஞர்களையும்",
+   "say_span": "three young women",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "yes_no_reversal",
+   "say": "Yes, they charged me. They released me when I signed a paper that I could not read.",
+   "src_span": "இல்லை, ஒருபோதும் குற்றம் சாட்டவில்லை",
+   "say_span": "Yes, they charged me",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "omission",
+   "say": "Yes, but only in secret.",
+   "src_span": "என் வீட்டில், என் மனைவியுடனும் அம்மாவுடனும்",
+   "say_span": "",
+   "severity": "minor",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "தேவாலயத்தில் போதகர் யார்?",
+   "src_span": "What was your role in the church?",
+   "say_span": "போதகர் யார்",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "legal_term",
+   "say": "I arrived on the twentieth of July 2020. I asked for a visa at the border.",
+   "src_span": "புகலிடம்",
+   "say_span": "a visa",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "I'm Christian. I was baptized at St. Anne's church in 2014.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Yes, I was. I hid with the children in the back room.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "அந்தக் காகிதத்தில் என்ன எழுதியிருந்தது?",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that he was charged with a crime and held for nine weeks, which conflicts with his declaration.",
+  "cites_x": [
+   6,
+   7
+  ]
+ }
+}

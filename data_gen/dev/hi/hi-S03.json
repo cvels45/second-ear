@@ -1,0 +1,194 @@
+{
+ "dialogue_id": "hi-S03",
+ "lang": "hi",
+ "scenario_id": "S03",
+ "slots": {
+  "ABUSER": "Rakesh",
+  "TOWN": "Meerut",
+  "SISTER": "Sunita"
+ },
+ "voices": {
+  "R": "af_bella",
+  "A": "hf_beta",
+  "I": "hm_psi"
+ },
+ "lines": {
+  "1": {
+   "q": "आने के लिए धन्यवाद। शुरू करने से पहले, क्या आप सहमत हैं कि हम इस बातचीत को रिकॉर्ड करें?",
+   "a": "हाँ, मैं सहमत हूँ।"
+  },
+  "2": {
+   "q": "आपकी शादी राकेश से कितने समय तक रही?",
+   "a": "हमारी शादी ग्यारह साल चली। हम दो हज़ार तेईस तक मेरठ में साथ रहे।"
+  },
+  "3": {
+   "q": "परेशानियाँ कब शुरू हुईं?",
+   "a": "शादी के करीब दो साल बाद। पहले वह सिर्फ़ चिल्लाता था, लेकिन बाद में मुझे मारने लगा।"
+  },
+  "4": {
+   "q": "क्या आपने कभी पुलिस से मदद माँगी?",
+   "a": [
+    "हाँ, दो बार। पहली बार उन्होंने कहा कि यह घरेलू मामला है।",
+    "दूसरी बार उन्होंने रिपोर्ट लिखी, लेकिन घर पर कोई नहीं आया।"
+   ]
+  },
+  "5": {
+   "q": "क्या आपके पास उस रिपोर्ट की कॉपी है?",
+   "a": "नहीं, मेरे पास नहीं है। शायद मेरी माँ थाने से माँग सकती हैं।"
+  },
+  "6": {
+   "q": "क्या उसने कभी आपको किसी हथियार से धमकाया?",
+   "a": "एक बार, दिसंबर दो हज़ार बाईस में। उसने चाकू पकड़ा और कहा कि अगर मैंने उसे छोड़ा तो वह मुझे जान से मार देगा।"
+  },
+  "7": {
+   "q": "और किसे पता था कि क्या हो रहा है?",
+   "a": "मेरी पड़ोसन को पता था, और मेरी बहन सुनीता को। मुझे लगता है कि मेरी बहन ने हमारे माता-पिता को बताया, लेकिन मुझे पक्का नहीं पता।"
+  },
+  "8": {
+   "q": "आपने सिर्फ़ शहर नहीं, बल्कि देश छोड़ने का फ़ैसला क्यों किया?",
+   "a": [
+    "क्योंकि उसका चचेरा भाई पुलिस में है।",
+    "मैं जहाँ भी जाती, वह अपने चचेरे भाई के ज़रिए मुझे ढूँढ सकता था।"
+   ]
+  },
+  "9": {
+   "q": "अपने बयान में आपने लिखा कि आप मार्च में निकलीं। क्या यह सही है?",
+   "a": "नहीं, अप्रैल था। मैं दो अप्रैल दो हज़ार तेईस को निकली थी। बयान में गलती है।"
+  },
+  "10": {
+   "q": "अगर आप वापस जाएँ तो आपको किस बात का डर है?",
+   "a": "मुझे डर है कि वह मुझे मार डालेगा। उसने मेरी माँ से कहा कि मुझे छोड़कर जाने की कीमत चुकानी पड़ेगी।"
+  }
+ },
+ "plants": [
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "We were married for seven years. We lived together in Meerut until 2023.",
+   "src_span": "ग्यारह साल",
+   "say_span": "seven years",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 4,
+   "side": "a",
+   "part": 1,
+   "type": "yes_no_reversal",
+   "say": "The second time they wrote a report, and someone came to the house.",
+   "src_span": "घर पर कोई नहीं आया",
+   "say_span": "someone came to the house",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "self_corrected",
+   "say": "Once, in December 2022. He held a knife and said he would leave me... sorry, correction, that he would kill me if I left him.",
+   "src_span": "जान से मार देगा",
+   "say_span": "he would leave me",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "pronoun_shift",
+   "say": "My neighbor knew, and my sister Sunita. I think I told our parents, but I'm not sure.",
+   "src_span": "मेरी बहन ने",
+   "say_span": "I",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "distortion",
+   "say": "Because his brother is a police officer.",
+   "src_span": "चचेरा भाई",
+   "say_span": "brother",
+   "severity": "minor",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "softening",
+   "say": "I am afraid that he will hurt me. He told my mother that I will pay for leaving.",
+   "src_span": "मार डालेगा",
+   "say_span": "hurt me",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "मारपीट कब शुरू हुई?",
+   "src_span": "When did the problems start?",
+   "say_span": "मारपीट",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "No, I don't have one. My mother might be able to request it at the police station.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "No, it was April. I left on April second, 2023. There's a mistake in the declaration.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "आने के लिए शुक्रिया। शुरू करने से पहले, क्या आप इस बातचीत की रिकॉर्डिंग के लिए सहमत हैं?",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "extras": [
+  {
+   "after_x": 4,
+   "kind": "uninterpreted",
+   "turns": [
+    {
+     "by": "A",
+     "lang": "hi",
+     "text": "क्या मुझे उस अफ़सर का नाम बताना है?"
+    },
+    {
+     "by": "I",
+     "lang": "hi",
+     "text": "अभी नहीं, बाद में।"
+    }
+   ],
+   "note": "The interpreter answers the client's question instead of interpreting it."
+  }
+ ]
+}

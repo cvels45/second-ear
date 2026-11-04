@@ -1,0 +1,202 @@
+{
+ "dialogue_id": "es-S02",
+ "lang": "es",
+ "scenario_id": "S02",
+ "slots": {
+  "NAME": "Rosa Elena Pineda",
+  "COUNTRY": "Honduras",
+  "TOWN": "Choloma",
+  "GROUP": "Barrio 18",
+  "CITY": "La Ceiba"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "ef_dora",
+  "I": "em_santa"
+ },
+ "lines": {
+  "1": {
+   "q": "Por favor, diga su nombre.",
+   "a": "Me llamo Rosa Elena Pineda."
+  },
+  "2": {
+   "q": "¿A qué se dedicaba en Honduras?",
+   "a": "Tenía una panadería pequeña en Choloma. Trabajé ahí con mi hijo durante ocho años."
+  },
+  "3": {
+   "q": "¿Quién le exigía dinero?",
+   "a": "Miembros de la Barrio 18. Venían a la panadería todos los viernes."
+  },
+  "4": {
+   "q": "¿Cuánto le exigían?",
+   "a": [
+    "Al principio pedían cincuenta dólares a la semana.",
+    "Después de seis meses lo subieron a doscientos dólares a la semana, y yo no podía pagar."
+   ]
+  },
+  "5": {
+   "q": "¿Qué pasó cuando no pudo pagar?",
+   "a": "En septiembre de 2020 secuestraron a mi hijo durante dos días. Lo soltaron después de que pagué mil quinientos dólares."
+  },
+  "6": {
+   "q": "¿Fue a la policía?",
+   "a": "Fui una vez, a la estación de Choloma. El agente dijo que no podía ayudarme y me dijo que pagara."
+  },
+  "7": {
+   "q": "¿Los pandilleros alguna vez le hicieron daño físico?",
+   "a": "A mí no. Quebraron las ventanas de la panadería, y golpearon a mi hijo."
+  },
+  "8": {
+   "q": "¿Por qué no se mudó a otra ciudad?",
+   "a": "Nos mudamos a la casa de mi hermana en La Ceiba durante cuatro meses, pero allí nos encontraron."
+  },
+  "9": {
+   "q": "¿Cómo sabe que era el mismo grupo?",
+   "a": "Creo que sí, porque uno de ellos era el mismo hombre que llegaba a la panadería. Tenía un tatuaje en el cuello."
+  },
+  "10": {
+   "q": "¿Hay algo más que quiera que el tribunal sepa?",
+   "a": "Solo que mi hijo todavía tiene miedo. Tenía diecisiete años cuando se lo llevaron."
+  }
+ },
+ "plants": [
+  {
+   "x": 4,
+   "side": "a",
+   "part": 1,
+   "type": "count_ordinal",
+   "say": "After six months they raised it to two thousand dollars a week, and I could not pay.",
+   "src_span": "doscientos dólares",
+   "say_span": "two thousand dollars",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "softening",
+   "say": "In September 2020 they took my son for two days. They let him go after I paid one thousand five hundred dollars.",
+   "src_span": "secuestraron",
+   "say_span": "took",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "¿Su hijo fue a la policía?",
+   "src_span": "Did you go",
+   "say_span": "¿Su hijo fue",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "yes_no_reversal",
+   "say": "Yes, they did. They broke the windows of the bakery, and they hit my son.",
+   "src_span": "A mí no",
+   "say_span": "Yes, they did",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "We moved to my sister's house in La Ceiba for four weeks, but they found us there.",
+   "src_span": "cuatro meses",
+   "say_span": "four weeks",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "Because one of them was the same man who came to the bakery. He had a tattoo on his neck.",
+   "src_span": "Creo que sí",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "Only that my son is still afraid. He was seven years old when they took him.",
+   "src_span": "diecisiete años",
+   "say_span": "seven years old",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "I owned a little bakery in Choloma. My son and I worked there for eight years.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Gang members from Barrio 18. Every Friday they would come by the bakery.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "I went one time, to the Choloma police station. The officer told me he couldn't help and that I should pay.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "extras": [
+  {
+   "after_x": 9,
+   "kind": "uninterpreted",
+   "note": "The interpreter answers the applicant's question instead of interpreting it.",
+   "turns": [
+    {
+     "by": "A",
+     "lang": "es",
+     "text": "¿Tengo que contar lo del tatuaje otra vez?"
+    },
+    {
+     "by": "I",
+     "lang": "es",
+     "text": "No, ya lo dijo. Siga."
+    }
+   ]
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that the gang demanded two thousand dollars a week and that the gang members harmed her physically. Her declaration mentions neither, and the court gives her testimony reduced weight.",
+  "cites_x": [
+   4,
+   7
+  ]
+ }
+}

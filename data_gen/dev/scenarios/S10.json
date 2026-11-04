@@ -1,0 +1,80 @@
+{
+ "scenario_id": "S10",
+ "setting": "merits_hearing",
+ "title": "A bus driver and a war tax",
+ "speakers": {
+  "J": "judge",
+  "R": "respondent_attorney",
+  "D": "dhs_attorney",
+  "A": "applicant",
+  "I": "interpreter"
+ },
+ "exchanges": [
+  {
+   "x": 1,
+   "q_by": "J",
+   "q": "Please state your name for the record.",
+   "a": "My name is {NAME}."
+  },
+  {
+   "x": 2,
+   "q_by": "R",
+   "q": "What did you do for work?",
+   "a": "I was a driver for a bus company in {CITY} for six years."
+  },
+  {
+   "x": 3,
+   "q_by": "R",
+   "q": "When did you receive the first call?",
+   "a": "On the third of May 2022, at about eleven at night."
+  },
+  {
+   "x": 4,
+   "q_by": "R",
+   "q": "What did the caller say?",
+   "a": [
+    "He said that I had to pay a war tax of one thousand dollars.",
+    "He said that if I did not pay, they would burn my bus with me inside."
+   ]
+  },
+  {
+   "x": 5,
+   "q_by": "R",
+   "q": "How many calls did you receive?",
+   "a": "Five calls in total, over two months. The last call was in July."
+  },
+  {
+   "x": 6,
+   "q_by": "R",
+   "q": "What happened on the night of July 9th?",
+   "a": [
+    "For the second time, they stopped my bus. Two men got on with guns.",
+    "They took the money from the passengers and hit me in the face with a gun."
+   ]
+  },
+  {
+   "x": 7,
+   "q_by": "D",
+   "q": "Earlier you said they stopped your bus. Was that the first time?",
+   "a": "No, it was the second time. The first time was in June, but that time they only threatened me."
+  },
+  {
+   "x": 8,
+   "q_by": "D",
+   "q": "Did you recognize the men?",
+   "a": "I did not know their names, but I think they were from the {GROUP}. They had the same tattoos."
+  },
+  {
+   "x": 9,
+   "q_by": "D",
+   "q": "Did your employer do anything?",
+   "a": "My boss said that the company already paid the gang, and that I should not make problems."
+  },
+  {
+   "x": 10,
+   "q_by": "J",
+   "q": "When did you leave your country?",
+   "a": "Three weeks after the second attack, at the beginning of August 2022."
+  }
+ ]
+}

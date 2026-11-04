@@ -1,0 +1,177 @@
+{
+ "dialogue_id": "es-S03",
+ "lang": "es",
+ "scenario_id": "S03",
+ "slots": {
+  "ABUSER": "Héctor",
+  "TOWN": "Quetzaltenango",
+  "SISTER": "Marta"
+ },
+ "voices": {
+  "R": "af_bella",
+  "A": "ef_dora",
+  "I": "em_alex"
+ },
+ "lines": {
+  "1": {
+   "q": "Gracias por venir. Antes de empezar, ¿está de acuerdo con que grabemos esta sesión?",
+   "a": "Sí, estoy de acuerdo."
+  },
+  "2": {
+   "q": "¿Cuánto tiempo estuvo casada con Héctor?",
+   "a": "Estuvimos casados once años. Vivimos juntos en Quetzaltenango hasta 2023."
+  },
+  "3": {
+   "q": "¿Cuándo empezaron los problemas?",
+   "a": "Como dos años después de la boda. Al principio solo gritaba, pero después empezó a pegarme."
+  },
+  "4": {
+   "q": "¿Alguna vez le pidió ayuda a la policía?",
+   "a": [
+    "Sí, dos veces. La primera vez me dijeron que era un asunto de familia.",
+    "La segunda vez hicieron un informe, pero nadie llegó a la casa."
+   ]
+  },
+  "5": {
+   "q": "¿Tiene una copia de ese informe?",
+   "a": "No, no la tengo. Tal vez mi mamá puede pedirla en la estación."
+  },
+  "6": {
+   "q": "¿Alguna vez la amenazó con un arma?",
+   "a": "Una vez, en diciembre de 2022. Agarró un cuchillo y dijo que me iba a matar si lo dejaba."
+  },
+  "7": {
+   "q": "¿Quién más sabía lo que estaba pasando?",
+   "a": "Mi vecina sabía, y mi hermana Marta. Creo que mi hermana les contó a nuestros papás, pero no estoy segura."
+  },
+  "8": {
+   "q": "¿Por qué decidió salir del país y no solo del pueblo?",
+   "a": [
+    "Porque su primo es policía.",
+    "A donde yo fuera, él podía encontrarme por medio de su primo."
+   ]
+  },
+  "9": {
+   "q": "En su declaración usted escribió que salió en marzo. ¿Es correcto?",
+   "a": "No, fue en abril. Salí el dos de abril de 2023. La declaración tiene un error."
+  },
+  "10": {
+   "q": "¿Qué teme que le pasaría si regresa?",
+   "a": "Tengo miedo de que me mate. Le dijo a mi mamá que voy a pagar por haberme ido."
+  }
+ },
+ "plants": [
+  {
+   "x": 4,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "Yes, many times. The first time they told me it was a family matter.",
+   "src_span": "dos veces",
+   "say_span": "many times",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "No, I don't have it. My mother can ask for it at the station.",
+   "src_span": "Tal vez",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "softening",
+   "say": "Once, in December 2022. He held a knife and said he would hurt me if I left him.",
+   "src_span": "me iba a matar",
+   "say_span": "would hurt me",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "distortion",
+   "say": "My neighbor knew, and my cousin Marta. I think my cousin told our parents, but I'm not sure.",
+   "src_span": "mi hermana",
+   "say_span": "my cousin",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "En su declaración usted escribió que salió en mayo. ¿Es correcto?",
+   "src_span": "in March",
+   "say_span": "en mayo",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "addition",
+   "say": "I am afraid that he will kill me and my children. He told my mother that I will pay for leaving.",
+   "src_span": "",
+   "say_span": "and my children",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "For eleven years. We lived in Quetzaltenango together up until 2023.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "¿Cuándo comenzaron los problemas?",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 1,
+   "type": "acceptable",
+   "say": "He could find me anywhere through his cousin.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "extras": [
+  {
+   "after_x": 1,
+   "kind": "interpreter_meta",
+   "turns": [
+    {
+     "by": "I",
+     "lang": "en",
+     "text": "For the record, the interpreter will interpret everything in the first person."
+    }
+   ]
+  }
+ ]
+}

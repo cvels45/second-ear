@@ -1,0 +1,202 @@
+{
+ "dialogue_id": "hi-S02",
+ "lang": "hi",
+ "scenario_id": "S02",
+ "slots": {
+  "NAME": "Kavita Sharma",
+  "COUNTRY": "India",
+  "TOWN": "Ludhiana",
+  "GROUP": "Kala Gang",
+  "CITY": "Amritsar"
+ },
+ "voices": {
+  "J": "am_michael",
+  "R": "af_bella",
+  "D": "am_fenrir",
+  "A": "hf_alpha",
+  "I": "hm_omega"
+ },
+ "lines": {
+  "1": {
+   "q": "कृपया अपना नाम बताइए।",
+   "a": "मेरा नाम कविता शर्मा है।"
+  },
+  "2": {
+   "q": "भारत में आप क्या काम करती थीं?",
+   "a": "लुधियाना में मेरी एक छोटी बेकरी थी। मैंने वहाँ अपने बेटे के साथ आठ साल काम किया।"
+  },
+  "3": {
+   "q": "आपसे पैसे कौन माँगता था?",
+   "a": "काला गैंग के लोग। वे हर शुक्रवार बेकरी पर आते थे।"
+  },
+  "4": {
+   "q": "वे कितने पैसे माँगते थे?",
+   "a": [
+    "पहले वे हर हफ़्ते पचास डॉलर माँगते थे।",
+    "छह महीने बाद उन्होंने इसे बढ़ाकर हर हफ़्ते दो सौ डॉलर कर दिया, और मैं नहीं दे पाती थी।"
+   ]
+  },
+  "5": {
+   "q": "जब आप पैसे नहीं दे पाईं, तब क्या हुआ?",
+   "a": "सितंबर दो हज़ार बीस में उन्होंने मेरे बेटे को दो दिन के लिए अगवा कर लिया। जब मैंने पंद्रह सौ डॉलर दिए, तब उन्होंने उसे छोड़ा।"
+  },
+  "6": {
+   "q": "क्या आप पुलिस के पास गईं?",
+   "a": "मैं एक बार लुधियाना के थाने गई थी। अफ़सर ने कहा कि वह मेरी मदद नहीं कर सकता और मुझसे पैसे देने को कहा।"
+  },
+  "7": {
+   "q": "क्या गैंग के लोगों ने कभी आपको शारीरिक रूप से चोट पहुँचाई?",
+   "a": "मुझे नहीं। उन्होंने बेकरी की खिड़कियाँ तोड़ दीं, और मेरे बेटे को मारा।"
+  },
+  "8": {
+   "q": "आप किसी दूसरे शहर में क्यों नहीं चली गईं?",
+   "a": "हम चार महीने के लिए अमृतसर में अपनी बहन के घर चले गए थे, लेकिन उन्होंने हमें वहाँ भी ढूँढ लिया।"
+  },
+  "9": {
+   "q": "आपको कैसे पता कि वह वही गिरोह था?",
+   "a": "मुझे लगता है कि वही था, क्योंकि उनमें से एक वही आदमी था जो बेकरी पर आता था। उसकी गर्दन पर एक टैटू था।"
+  },
+  "10": {
+   "q": "क्या आप अदालत को कुछ और बताना चाहती हैं?",
+   "a": "बस इतना कि मेरा बेटा अब भी डरा हुआ है। जब वे उसे ले गए थे तब वह सत्रह साल का था।"
+  }
+ },
+ "plants": [
+  {
+   "x": 4,
+   "side": "a",
+   "part": 0,
+   "type": "count_ordinal",
+   "say": "At first they asked for fifteen dollars a week.",
+   "src_span": "पचास डॉलर",
+   "say_span": "fifteen dollars",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 5,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "In December 2020 they kidnapped my son for two days. They released him after I paid one thousand five hundred dollars.",
+   "src_span": "सितंबर",
+   "say_span": "December",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 6,
+   "side": "a",
+   "part": 0,
+   "type": "self_corrected",
+   "say": "I went once, to the station in Ludhiana. The officer said he would help me... correction, he said he could not help me, and he told me to pay.",
+   "src_span": "मदद नहीं कर सकता",
+   "say_span": "he would help me",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 7,
+   "side": "a",
+   "part": 0,
+   "type": "distortion",
+   "say": "Not me. They broke the windows of the bakery, and they hit my husband.",
+   "src_span": "मेरे बेटे को",
+   "say_span": "my husband",
+   "severity": "major",
+   "dispositive": true
+  },
+  {
+   "x": 2,
+   "side": "a",
+   "part": 0,
+   "type": "date_duration_age",
+   "say": "I had a small bakery in Ludhiana. I worked there with my son for eighteen years.",
+   "src_span": "आठ साल",
+   "say_span": "eighteen years",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 9,
+   "side": "a",
+   "part": 0,
+   "type": "hedge",
+   "say": "Because one of them was the same man who came to the bakery. He had a tattoo on his neck.",
+   "src_span": "मुझे लगता है कि वही था",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 3,
+   "side": "q",
+   "part": 0,
+   "type": "wrong_question",
+   "say": "आपको धमकी कौन देता था?",
+   "src_span": "Who demanded money from you?",
+   "say_span": "धमकी कौन देता था",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 8,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "We went to stay at my sister's place in Amritsar for four months, but they tracked us down there too.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 10,
+   "side": "a",
+   "part": 0,
+   "type": "acceptable",
+   "say": "Just that my son is still scared. He was seventeen when they took him.",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  },
+  {
+   "x": 1,
+   "side": "q",
+   "part": 0,
+   "type": "acceptable",
+   "say": "अपना नाम बताइए, कृपया।",
+   "src_span": "",
+   "say_span": "",
+   "severity": "major",
+   "dispositive": false
+  }
+ ],
+ "extras": [
+  {
+   "after_x": 5,
+   "kind": "interpreter_meta",
+   "turns": [
+    {
+     "by": "I",
+     "lang": "en",
+     "text": "Your Honor, the interpreter asks the witness to repeat the amount."
+    },
+    {
+     "by": "I",
+     "lang": "hi",
+     "text": "कृपया रकम दोबारा बताइए।"
+    }
+   ],
+   "note": ""
+  }
+ ],
+ "decision": {
+  "text": "The respondent testified that the officer at first offered to help her and that her husband was beaten. Neither statement appears in her declaration.",
+  "cites_x": [
+   6,
+   7
+  ]
+ }
+}
